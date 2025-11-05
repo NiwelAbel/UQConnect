@@ -18,6 +18,12 @@
 </head>
 
 <body>
+        <!-- Full-page background layer (no content, purely decorative) -->
+        <div class="page-bg" aria-hidden="true"></div>
+        
+        <!-- OPTIONAL: a subtle overlay to keep text readable -->
+        <div class="page-bg-overlay" aria-hidden="true"></div>
+
     <header class="header">
         <div class="container">
             <div class="logo">UQ Connect</div>
@@ -81,7 +87,7 @@
             </div>
         </div>
     </main>
-
+    <script src="js/bg.js"></script>
     <script src="js/app.js"></script>
     <script>
         // Handle after page load completion
