@@ -1,0 +1,3353 @@
+[
+  {
+    "userId": "demo-user-1",
+    "events": [
+      {
+        "start": "2025-07-28T17:00:00",
+        "end": "2025-07-28T19:00:00",
+        "title": "Introduction to Software Innovation, SMR1",
+        "location": "50-T203 - Hawken Engineering Building, Learning Theatre",
+        "description": "COMP7110_S2_STLUC_IN, SMR1, 01\nIntroduction to Software Innovation\nStaff: Miller, Tim\nLocation: 50-T203 - Hawken Engineering Building, Learning Theatre",
+        "uid": "uid0"
+      },
+      {
+        "start": "2025-08-04T17:00:00",
+        "end": "2025-08-04T19:00:00",
+        "title": "Introduction to Software Innovation, SMR1",
+        "location": "50-T203 - Hawken Engineering Building, Learning Theatre",
+        "description": "COMP7110_S2_STLUC_IN, SMR1, 01\nIntroduction to Software Innovation\nStaff: Miller, Tim\nLocation: 50-T203 - Hawken Engineering Building, Learning Theatre",
+        "uid": "uid1"
+      },
+      {
+        "start": "2025-08-11T17:00:00",
+        "end": "2025-08-11T19:00:00",
+        "title": "Introduction to Software Innovation, SMR1",
+        "location": "50-T203 - Hawken Engineering Building, Learning Theatre",
+        "description": "COMP7110_S2_STLUC_IN, SMR1, 01\nIntroduction to Software Innovation\nStaff: Miller, Tim\nLocation: 50-T203 - Hawken Engineering Building, Learning Theatre",
+        "uid": "uid2"
+      },
+      {
+        "start": "2025-08-18T17:00:00",
+        "end": "2025-08-18T19:00:00",
+        "title": "Introduction to Software Innovation, SMR1",
+        "location": "50-T203 - Hawken Engineering Building, Learning Theatre",
+        "description": "COMP7110_S2_STLUC_IN, SMR1, 01\nIntroduction to Software Innovation\nStaff: Miller, Tim\nLocation: 50-T203 - Hawken Engineering Building, Learning Theatre",
+        "uid": "uid3"
+      },
+      {
+        "start": "2025-08-25T17:00:00",
+        "end": "2025-08-25T19:00:00",
+        "title": "Introduction to Software Innovation, SMR1",
+        "location": "50-T203 - Hawken Engineering Building, Learning Theatre",
+        "description": "COMP7110_S2_STLUC_IN, SMR1, 01\nIntroduction to Software Innovation\nStaff: Miller, Tim\nLocation: 50-T203 - Hawken Engineering Building, Learning Theatre",
+        "uid": "uid4"
+      },
+      {
+        "start": "2025-09-01T17:00:00",
+        "end": "2025-09-01T19:00:00",
+        "title": "Introduction to Software Innovation, SMR1",
+        "location": "50-T203 - Hawken Engineering Building, Learning Theatre",
+        "description": "COMP7110_S2_STLUC_IN, SMR1, 01\nIntroduction to Software Innovation\nStaff: Miller, Tim\nLocation: 50-T203 - Hawken Engineering Building, Learning Theatre",
+        "uid": "uid5"
+      },
+      {
+        "start": "2025-09-08T17:00:00",
+        "end": "2025-09-08T19:00:00",
+        "title": "Introduction to Software Innovation, SMR1",
+        "location": "50-T203 - Hawken Engineering Building, Learning Theatre",
+        "description": "COMP7110_S2_STLUC_IN, SMR1, 01\nIntroduction to Software Innovation\nStaff: Miller, Tim\nLocation: 50-T203 - Hawken Engineering Building, Learning Theatre",
+        "uid": "uid6"
+      },
+      {
+        "start": "2025-09-15T17:00:00",
+        "end": "2025-09-15T19:00:00",
+        "title": "Introduction to Software Innovation, SMR1",
+        "location": "50-T203 - Hawken Engineering Building, Learning Theatre",
+        "description": "COMP7110_S2_STLUC_IN, SMR1, 01\nIntroduction to Software Innovation\nStaff: Miller, Tim\nLocation: 50-T203 - Hawken Engineering Building, Learning Theatre",
+        "uid": "uid7"
+      },
+      {
+        "start": "2025-09-22T17:00:00",
+        "end": "2025-09-22T19:00:00",
+        "title": "Introduction to Software Innovation, SMR1",
+        "location": "50-T203 - Hawken Engineering Building, Learning Theatre",
+        "description": "COMP7110_S2_STLUC_IN, SMR1, 01\nIntroduction to Software Innovation\nStaff: Miller, Tim\nLocation: 50-T203 - Hawken Engineering Building, Learning Theatre",
+        "uid": "uid8"
+      },
+      {
+        "start": "2025-10-13T17:00:00",
+        "end": "2025-10-13T19:00:00",
+        "title": "Introduction to Software Innovation, SMR1",
+        "location": "50-T203 - Hawken Engineering Building, Learning Theatre",
+        "description": "COMP7110_S2_STLUC_IN, SMR1, 01\nIntroduction to Software Innovation\nStaff: Miller, Tim\nLocation: 50-T203 - Hawken Engineering Building, Learning Theatre",
+        "uid": "uid9"
+      },
+      {
+        "start": "2025-10-20T17:00:00",
+        "end": "2025-10-20T19:00:00",
+        "title": "Introduction to Software Innovation, SMR1",
+        "location": "50-T203 - Hawken Engineering Building, Learning Theatre",
+        "description": "COMP7110_S2_STLUC_IN, SMR1, 01\nIntroduction to Software Innovation\nStaff: Miller, Tim\nLocation: 50-T203 - Hawken Engineering Building, Learning Theatre",
+        "uid": "uid10"
+      },
+      {
+        "start": "2025-10-27T17:00:00",
+        "end": "2025-10-27T19:00:00",
+        "title": "Introduction to Software Innovation, SMR1",
+        "location": "50-T203 - Hawken Engineering Building, Learning Theatre",
+        "description": "COMP7110_S2_STLUC_IN, SMR1, 01\nIntroduction to Software Innovation\nStaff: Miller, Tim\nLocation: 50-T203 - Hawken Engineering Building, Learning Theatre",
+        "uid": "uid11"
+      },
+      {
+        "start": "2025-07-30T08:00:00",
+        "end": "2025-07-30T11:00:00",
+        "title": "Introduction to Software Innovation, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "COMP7110_S2_STLUC_IN, STU1, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid12"
+      },
+      {
+        "start": "2025-08-06T08:00:00",
+        "end": "2025-08-06T11:00:00",
+        "title": "Introduction to Software Innovation, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "COMP7110_S2_STLUC_IN, STU1, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid13"
+      },
+      {
+        "start": "2025-08-20T08:00:00",
+        "end": "2025-08-20T11:00:00",
+        "title": "Introduction to Software Innovation, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "COMP7110_S2_STLUC_IN, STU1, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid14"
+      },
+      {
+        "start": "2025-08-27T08:00:00",
+        "end": "2025-08-27T11:00:00",
+        "title": "Introduction to Software Innovation, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "COMP7110_S2_STLUC_IN, STU1, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid15"
+      },
+      {
+        "start": "2025-09-03T08:00:00",
+        "end": "2025-09-03T11:00:00",
+        "title": "Introduction to Software Innovation, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "COMP7110_S2_STLUC_IN, STU1, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid16"
+      },
+      {
+        "start": "2025-09-10T08:00:00",
+        "end": "2025-09-10T11:00:00",
+        "title": "Introduction to Software Innovation, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "COMP7110_S2_STLUC_IN, STU1, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid17"
+      },
+      {
+        "start": "2025-09-17T08:00:00",
+        "end": "2025-09-17T11:00:00",
+        "title": "Introduction to Software Innovation, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "COMP7110_S2_STLUC_IN, STU1, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid18"
+      },
+      {
+        "start": "2025-09-24T08:00:00",
+        "end": "2025-09-24T11:00:00",
+        "title": "Introduction to Software Innovation, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "COMP7110_S2_STLUC_IN, STU1, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid19"
+      },
+      {
+        "start": "2025-10-08T08:00:00",
+        "end": "2025-10-08T11:00:00",
+        "title": "Introduction to Software Innovation, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "COMP7110_S2_STLUC_IN, STU1, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid20"
+      },
+      {
+        "start": "2025-10-15T08:00:00",
+        "end": "2025-10-15T11:00:00",
+        "title": "Introduction to Software Innovation, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "COMP7110_S2_STLUC_IN, STU1, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid21"
+      },
+      {
+        "start": "2025-10-22T08:00:00",
+        "end": "2025-10-22T11:00:00",
+        "title": "Introduction to Software Innovation, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "COMP7110_S2_STLUC_IN, STU1, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid22"
+      },
+      {
+        "start": "2025-10-29T08:00:00",
+        "end": "2025-10-29T11:00:00",
+        "title": "Introduction to Software Innovation, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "COMP7110_S2_STLUC_IN, STU1, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid23"
+      },
+      {
+        "start": "2025-03-06T12:00:00",
+        "end": "2025-03-06T13:00:00",
+        "title": "Object Oriented Programming, CON1",
+        "location": "14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "description": "CSSE7023_S1_STLUC_IN, CON1, 02\nObject Oriented Programming\nStaff: -\nLocation: 14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "uid": "uid24"
+      },
+      {
+        "start": "2025-03-13T12:00:00",
+        "end": "2025-03-13T13:00:00",
+        "title": "Object Oriented Programming, CON1",
+        "location": "14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "description": "CSSE7023_S1_STLUC_IN, CON1, 02\nObject Oriented Programming\nStaff: -\nLocation: 14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "uid": "uid25"
+      },
+      {
+        "start": "2025-03-20T12:00:00",
+        "end": "2025-03-20T13:00:00",
+        "title": "Object Oriented Programming, CON1",
+        "location": "14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "description": "CSSE7023_S1_STLUC_IN, CON1, 02\nObject Oriented Programming\nStaff: -\nLocation: 14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "uid": "uid26"
+      },
+      {
+        "start": "2025-03-27T12:00:00",
+        "end": "2025-03-27T13:00:00",
+        "title": "Object Oriented Programming, CON1",
+        "location": "14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "description": "CSSE7023_S1_STLUC_IN, CON1, 02\nObject Oriented Programming\nStaff: -\nLocation: 14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "uid": "uid27"
+      },
+      {
+        "start": "2025-04-03T12:00:00",
+        "end": "2025-04-03T13:00:00",
+        "title": "Object Oriented Programming, CON1",
+        "location": "14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "description": "CSSE7023_S1_STLUC_IN, CON1, 02\nObject Oriented Programming\nStaff: -\nLocation: 14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "uid": "uid28"
+      },
+      {
+        "start": "2025-04-10T12:00:00",
+        "end": "2025-04-10T13:00:00",
+        "title": "Object Oriented Programming, CON1",
+        "location": "14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "description": "CSSE7023_S1_STLUC_IN, CON1, 02\nObject Oriented Programming\nStaff: -\nLocation: 14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "uid": "uid29"
+      },
+      {
+        "start": "2025-04-17T12:00:00",
+        "end": "2025-04-17T13:00:00",
+        "title": "Object Oriented Programming, CON1",
+        "location": "14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "description": "CSSE7023_S1_STLUC_IN, CON1, 02\nObject Oriented Programming\nStaff: -\nLocation: 14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "uid": "uid30"
+      },
+      {
+        "start": "2025-05-01T12:00:00",
+        "end": "2025-05-01T13:00:00",
+        "title": "Object Oriented Programming, CON1",
+        "location": "14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "description": "CSSE7023_S1_STLUC_IN, CON1, 02\nObject Oriented Programming\nStaff: -\nLocation: 14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "uid": "uid31"
+      },
+      {
+        "start": "2025-05-08T12:00:00",
+        "end": "2025-05-08T13:00:00",
+        "title": "Object Oriented Programming, CON1",
+        "location": "14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "description": "CSSE7023_S1_STLUC_IN, CON1, 02\nObject Oriented Programming\nStaff: -\nLocation: 14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "uid": "uid32"
+      },
+      {
+        "start": "2025-05-15T12:00:00",
+        "end": "2025-05-15T13:00:00",
+        "title": "Object Oriented Programming, CON1",
+        "location": "14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "description": "CSSE7023_S1_STLUC_IN, CON1, 02\nObject Oriented Programming\nStaff: -\nLocation: 14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "uid": "uid33"
+      },
+      {
+        "start": "2025-05-22T12:00:00",
+        "end": "2025-05-22T13:00:00",
+        "title": "Object Oriented Programming, CON1",
+        "location": "14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "description": "CSSE7023_S1_STLUC_IN, CON1, 02\nObject Oriented Programming\nStaff: -\nLocation: 14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "uid": "uid34"
+      },
+      {
+        "start": "2025-05-29T12:00:00",
+        "end": "2025-05-29T13:00:00",
+        "title": "Object Oriented Programming, CON1",
+        "location": "14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "description": "CSSE7023_S1_STLUC_IN, CON1, 02\nObject Oriented Programming\nStaff: -\nLocation: 14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "uid": "uid35"
+      },
+      {
+        "start": "2025-02-24T12:00:00",
+        "end": "2025-02-24T14:00:00",
+        "title": "Object Oriented Programming, LEC1",
+        "location": "14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "description": "CSSE7023_S1_STLUC_IN, LEC1, 01\nObject Oriented Programming\nStaff: -\nLocation: 14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "uid": "uid36"
+      },
+      {
+        "start": "2025-03-03T12:00:00",
+        "end": "2025-03-03T14:00:00",
+        "title": "Object Oriented Programming, LEC1",
+        "location": "14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "description": "CSSE7023_S1_STLUC_IN, LEC1, 01\nObject Oriented Programming\nStaff: -\nLocation: 14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "uid": "uid37"
+      },
+      {
+        "start": "2025-03-10T12:00:00",
+        "end": "2025-03-10T14:00:00",
+        "title": "Object Oriented Programming, LEC1",
+        "location": "14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "description": "CSSE7023_S1_STLUC_IN, LEC1, 01\nObject Oriented Programming\nStaff: -\nLocation: 14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "uid": "uid38"
+      },
+      {
+        "start": "2025-03-17T12:00:00",
+        "end": "2025-03-17T14:00:00",
+        "title": "Object Oriented Programming, LEC1",
+        "location": "14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "description": "CSSE7023_S1_STLUC_IN, LEC1, 01\nObject Oriented Programming\nStaff: -\nLocation: 14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "uid": "uid39"
+      },
+      {
+        "start": "2025-03-24T12:00:00",
+        "end": "2025-03-24T14:00:00",
+        "title": "Object Oriented Programming, LEC1",
+        "location": "14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "description": "CSSE7023_S1_STLUC_IN, LEC1, 01\nObject Oriented Programming\nStaff: -\nLocation: 14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "uid": "uid40"
+      },
+      {
+        "start": "2025-03-31T12:00:00",
+        "end": "2025-03-31T14:00:00",
+        "title": "Object Oriented Programming, LEC1",
+        "location": "14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "description": "CSSE7023_S1_STLUC_IN, LEC1, 01\nObject Oriented Programming\nStaff: -\nLocation: 14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "uid": "uid41"
+      },
+      {
+        "start": "2025-04-07T12:00:00",
+        "end": "2025-04-07T14:00:00",
+        "title": "Object Oriented Programming, LEC1",
+        "location": "14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "description": "CSSE7023_S1_STLUC_IN, LEC1, 01\nObject Oriented Programming\nStaff: -\nLocation: 14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "uid": "uid42"
+      },
+      {
+        "start": "2025-04-14T12:00:00",
+        "end": "2025-04-14T14:00:00",
+        "title": "Object Oriented Programming, LEC1",
+        "location": "14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "description": "CSSE7023_S1_STLUC_IN, LEC1, 01\nObject Oriented Programming\nStaff: -\nLocation: 14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "uid": "uid43"
+      },
+      {
+        "start": "2025-04-28T12:00:00",
+        "end": "2025-04-28T14:00:00",
+        "title": "Object Oriented Programming, LEC1",
+        "location": "14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "description": "CSSE7023_S1_STLUC_IN, LEC1, 01\nObject Oriented Programming\nStaff: -\nLocation: 14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "uid": "uid44"
+      },
+      {
+        "start": "2025-05-12T12:00:00",
+        "end": "2025-05-12T14:00:00",
+        "title": "Object Oriented Programming, LEC1",
+        "location": "14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "description": "CSSE7023_S1_STLUC_IN, LEC1, 01\nObject Oriented Programming\nStaff: -\nLocation: 14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "uid": "uid45"
+      },
+      {
+        "start": "2025-05-19T12:00:00",
+        "end": "2025-05-19T14:00:00",
+        "title": "Object Oriented Programming, LEC1",
+        "location": "14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "description": "CSSE7023_S1_STLUC_IN, LEC1, 01\nObject Oriented Programming\nStaff: -\nLocation: 14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "uid": "uid46"
+      },
+      {
+        "start": "2025-05-26T12:00:00",
+        "end": "2025-05-26T14:00:00",
+        "title": "Object Oriented Programming, LEC1",
+        "location": "14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "description": "CSSE7023_S1_STLUC_IN, LEC1, 01\nObject Oriented Programming\nStaff: -\nLocation: 14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "uid": "uid47"
+      },
+      {
+        "start": "2025-03-03T16:00:00",
+        "end": "2025-03-03T18:00:00",
+        "title": "Object Oriented Programming, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "CSSE7023_S1_STLUC_IN, PRA1, 01\nObject Oriented Programming\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid48"
+      },
+      {
+        "start": "2025-03-10T16:00:00",
+        "end": "2025-03-10T18:00:00",
+        "title": "Object Oriented Programming, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "CSSE7023_S1_STLUC_IN, PRA1, 01\nObject Oriented Programming\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid49"
+      },
+      {
+        "start": "2025-03-17T16:00:00",
+        "end": "2025-03-17T18:00:00",
+        "title": "Object Oriented Programming, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "CSSE7023_S1_STLUC_IN, PRA1, 01\nObject Oriented Programming\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid50"
+      },
+      {
+        "start": "2025-03-24T16:00:00",
+        "end": "2025-03-24T18:00:00",
+        "title": "Object Oriented Programming, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "CSSE7023_S1_STLUC_IN, PRA1, 01\nObject Oriented Programming\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid51"
+      },
+      {
+        "start": "2025-03-31T16:00:00",
+        "end": "2025-03-31T18:00:00",
+        "title": "Object Oriented Programming, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "CSSE7023_S1_STLUC_IN, PRA1, 01\nObject Oriented Programming\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid52"
+      },
+      {
+        "start": "2025-04-07T16:00:00",
+        "end": "2025-04-07T18:00:00",
+        "title": "Object Oriented Programming, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "CSSE7023_S1_STLUC_IN, PRA1, 01\nObject Oriented Programming\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid53"
+      },
+      {
+        "start": "2025-04-14T16:00:00",
+        "end": "2025-04-14T18:00:00",
+        "title": "Object Oriented Programming, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "CSSE7023_S1_STLUC_IN, PRA1, 01\nObject Oriented Programming\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid54"
+      },
+      {
+        "start": "2025-04-28T16:00:00",
+        "end": "2025-04-28T18:00:00",
+        "title": "Object Oriented Programming, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "CSSE7023_S1_STLUC_IN, PRA1, 01\nObject Oriented Programming\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid55"
+      },
+      {
+        "start": "2025-05-12T16:00:00",
+        "end": "2025-05-12T18:00:00",
+        "title": "Object Oriented Programming, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "CSSE7023_S1_STLUC_IN, PRA1, 01\nObject Oriented Programming\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid56"
+      },
+      {
+        "start": "2025-05-19T16:00:00",
+        "end": "2025-05-19T18:00:00",
+        "title": "Object Oriented Programming, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "CSSE7023_S1_STLUC_IN, PRA1, 01\nObject Oriented Programming\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid57"
+      },
+      {
+        "start": "2025-05-26T16:00:00",
+        "end": "2025-05-26T18:00:00",
+        "title": "Object Oriented Programming, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "CSSE7023_S1_STLUC_IN, PRA1, 01\nObject Oriented Programming\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid58"
+      },
+      {
+        "start": "2025-02-27T16:00:00",
+        "end": "2025-02-27T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid59"
+      },
+      {
+        "start": "2025-03-06T16:00:00",
+        "end": "2025-03-06T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid60"
+      },
+      {
+        "start": "2025-03-13T16:00:00",
+        "end": "2025-03-13T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid61"
+      },
+      {
+        "start": "2025-03-20T16:00:00",
+        "end": "2025-03-20T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid62"
+      },
+      {
+        "start": "2025-03-27T16:00:00",
+        "end": "2025-03-27T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid63"
+      },
+      {
+        "start": "2025-04-03T16:00:00",
+        "end": "2025-04-03T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid64"
+      },
+      {
+        "start": "2025-04-10T16:00:00",
+        "end": "2025-04-10T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid65"
+      },
+      {
+        "start": "2025-04-17T16:00:00",
+        "end": "2025-04-17T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid66"
+      },
+      {
+        "start": "2025-05-01T16:00:00",
+        "end": "2025-05-01T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid67"
+      },
+      {
+        "start": "2025-05-08T16:00:00",
+        "end": "2025-05-08T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid68"
+      },
+      {
+        "start": "2025-05-15T16:00:00",
+        "end": "2025-05-15T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid69"
+      },
+      {
+        "start": "2025-05-22T16:00:00",
+        "end": "2025-05-22T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid70"
+      },
+      {
+        "start": "2025-05-29T16:00:00",
+        "end": "2025-05-29T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid71"
+      },
+      {
+        "start": "2025-02-27T09:00:00",
+        "end": "2025-02-27T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid72"
+      },
+      {
+        "start": "2025-03-06T09:00:00",
+        "end": "2025-03-06T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid73"
+      },
+      {
+        "start": "2025-03-13T09:00:00",
+        "end": "2025-03-13T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid74"
+      },
+      {
+        "start": "2025-03-20T09:00:00",
+        "end": "2025-03-20T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid75"
+      },
+      {
+        "start": "2025-03-27T09:00:00",
+        "end": "2025-03-27T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid76"
+      },
+      {
+        "start": "2025-04-03T09:00:00",
+        "end": "2025-04-03T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid77"
+      },
+      {
+        "start": "2025-04-10T09:00:00",
+        "end": "2025-04-10T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid78"
+      },
+      {
+        "start": "2025-04-17T09:00:00",
+        "end": "2025-04-17T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid79"
+      },
+      {
+        "start": "2025-05-01T09:00:00",
+        "end": "2025-05-01T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid80"
+      },
+      {
+        "start": "2025-05-08T09:00:00",
+        "end": "2025-05-08T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid81"
+      },
+      {
+        "start": "2025-05-15T09:00:00",
+        "end": "2025-05-15T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid82"
+      },
+      {
+        "start": "2025-05-22T09:00:00",
+        "end": "2025-05-22T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid83"
+      },
+      {
+        "start": "2025-05-29T09:00:00",
+        "end": "2025-05-29T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid84"
+      },
+      {
+        "start": "2025-02-24T14:00:00",
+        "end": "2025-02-24T16:00:00",
+        "title": "Human-Computer Interaction, LEC1",
+        "location": "23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "description": "DECO7250_S1_STLUC_IN, LEC1, 01\nHuman-Computer Interaction\nStaff: Halloluwa, Thilina (24/2-14/4, 28/4, 12/5-26/5), Worthy, Peter (24/2-14/4, 28/4, 12/5-26/5)\nLocation: 23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "uid": "uid85"
+      },
+      {
+        "start": "2025-03-03T14:00:00",
+        "end": "2025-03-03T16:00:00",
+        "title": "Human-Computer Interaction, LEC1",
+        "location": "23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "description": "DECO7250_S1_STLUC_IN, LEC1, 01\nHuman-Computer Interaction\nStaff: Halloluwa, Thilina (24/2-14/4, 28/4, 12/5-26/5), Worthy, Peter (24/2-14/4, 28/4, 12/5-26/5)\nLocation: 23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "uid": "uid86"
+      },
+      {
+        "start": "2025-03-10T14:00:00",
+        "end": "2025-03-10T16:00:00",
+        "title": "Human-Computer Interaction, LEC1",
+        "location": "23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "description": "DECO7250_S1_STLUC_IN, LEC1, 01\nHuman-Computer Interaction\nStaff: Halloluwa, Thilina (24/2-14/4, 28/4, 12/5-26/5), Worthy, Peter (24/2-14/4, 28/4, 12/5-26/5)\nLocation: 23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "uid": "uid87"
+      },
+      {
+        "start": "2025-03-17T14:00:00",
+        "end": "2025-03-17T16:00:00",
+        "title": "Human-Computer Interaction, LEC1",
+        "location": "23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "description": "DECO7250_S1_STLUC_IN, LEC1, 01\nHuman-Computer Interaction\nStaff: Halloluwa, Thilina (24/2-14/4, 28/4, 12/5-26/5), Worthy, Peter (24/2-14/4, 28/4, 12/5-26/5)\nLocation: 23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "uid": "uid88"
+      },
+      {
+        "start": "2025-03-24T14:00:00",
+        "end": "2025-03-24T16:00:00",
+        "title": "Human-Computer Interaction, LEC1",
+        "location": "23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "description": "DECO7250_S1_STLUC_IN, LEC1, 01\nHuman-Computer Interaction\nStaff: Halloluwa, Thilina (24/2-14/4, 28/4, 12/5-26/5), Worthy, Peter (24/2-14/4, 28/4, 12/5-26/5)\nLocation: 23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "uid": "uid89"
+      },
+      {
+        "start": "2025-03-31T14:00:00",
+        "end": "2025-03-31T16:00:00",
+        "title": "Human-Computer Interaction, LEC1",
+        "location": "23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "description": "DECO7250_S1_STLUC_IN, LEC1, 01\nHuman-Computer Interaction\nStaff: Halloluwa, Thilina (24/2-14/4, 28/4, 12/5-26/5), Worthy, Peter (24/2-14/4, 28/4, 12/5-26/5)\nLocation: 23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "uid": "uid90"
+      },
+      {
+        "start": "2025-04-07T14:00:00",
+        "end": "2025-04-07T16:00:00",
+        "title": "Human-Computer Interaction, LEC1",
+        "location": "23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "description": "DECO7250_S1_STLUC_IN, LEC1, 01\nHuman-Computer Interaction\nStaff: Halloluwa, Thilina (24/2-14/4, 28/4, 12/5-26/5), Worthy, Peter (24/2-14/4, 28/4, 12/5-26/5)\nLocation: 23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "uid": "uid91"
+      },
+      {
+        "start": "2025-04-14T14:00:00",
+        "end": "2025-04-14T16:00:00",
+        "title": "Human-Computer Interaction, LEC1",
+        "location": "23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "description": "DECO7250_S1_STLUC_IN, LEC1, 01\nHuman-Computer Interaction\nStaff: Halloluwa, Thilina (24/2-14/4, 28/4, 12/5-26/5), Worthy, Peter (24/2-14/4, 28/4, 12/5-26/5)\nLocation: 23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "uid": "uid92"
+      },
+      {
+        "start": "2025-04-28T14:00:00",
+        "end": "2025-04-28T16:00:00",
+        "title": "Human-Computer Interaction, LEC1",
+        "location": "23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "description": "DECO7250_S1_STLUC_IN, LEC1, 01\nHuman-Computer Interaction\nStaff: Halloluwa, Thilina (24/2-14/4, 28/4, 12/5-26/5), Worthy, Peter (24/2-14/4, 28/4, 12/5-26/5)\nLocation: 23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "uid": "uid93"
+      },
+      {
+        "start": "2025-05-12T14:00:00",
+        "end": "2025-05-12T16:00:00",
+        "title": "Human-Computer Interaction, LEC1",
+        "location": "23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "description": "DECO7250_S1_STLUC_IN, LEC1, 01\nHuman-Computer Interaction\nStaff: Halloluwa, Thilina (24/2-14/4, 28/4, 12/5-26/5), Worthy, Peter (24/2-14/4, 28/4, 12/5-26/5)\nLocation: 23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "uid": "uid94"
+      },
+      {
+        "start": "2025-05-19T14:00:00",
+        "end": "2025-05-19T16:00:00",
+        "title": "Human-Computer Interaction, LEC1",
+        "location": "23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "description": "DECO7250_S1_STLUC_IN, LEC1, 01\nHuman-Computer Interaction\nStaff: Halloluwa, Thilina (24/2-14/4, 28/4, 12/5-26/5), Worthy, Peter (24/2-14/4, 28/4, 12/5-26/5)\nLocation: 23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "uid": "uid95"
+      },
+      {
+        "start": "2025-05-26T14:00:00",
+        "end": "2025-05-26T16:00:00",
+        "title": "Human-Computer Interaction, LEC1",
+        "location": "23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "description": "DECO7250_S1_STLUC_IN, LEC1, 01\nHuman-Computer Interaction\nStaff: Halloluwa, Thilina (24/2-14/4, 28/4, 12/5-26/5), Worthy, Peter (24/2-14/4, 28/4, 12/5-26/5)\nLocation: 23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "uid": "uid96"
+      },
+      {
+        "start": "2025-02-25T18:00:00",
+        "end": "2025-02-25T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid97"
+      },
+      {
+        "start": "2025-03-04T18:00:00",
+        "end": "2025-03-04T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid98"
+      },
+      {
+        "start": "2025-03-11T18:00:00",
+        "end": "2025-03-11T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid99"
+      },
+      {
+        "start": "2025-03-18T18:00:00",
+        "end": "2025-03-18T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid100"
+      },
+      {
+        "start": "2025-03-25T18:00:00",
+        "end": "2025-03-25T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid101"
+      },
+      {
+        "start": "2025-04-01T18:00:00",
+        "end": "2025-04-01T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid102"
+      },
+      {
+        "start": "2025-04-08T18:00:00",
+        "end": "2025-04-08T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid103"
+      },
+      {
+        "start": "2025-04-15T18:00:00",
+        "end": "2025-04-15T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid104"
+      },
+      {
+        "start": "2025-04-29T18:00:00",
+        "end": "2025-04-29T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid105"
+      },
+      {
+        "start": "2025-05-06T18:00:00",
+        "end": "2025-05-06T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid106"
+      },
+      {
+        "start": "2025-05-13T18:00:00",
+        "end": "2025-05-13T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid107"
+      },
+      {
+        "start": "2025-05-20T18:00:00",
+        "end": "2025-05-20T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid108"
+      },
+      {
+        "start": "2025-05-27T18:00:00",
+        "end": "2025-05-27T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid109"
+      },
+      {
+        "start": "2025-08-01T08:00:00",
+        "end": "2025-08-01T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid110"
+      },
+      {
+        "start": "2025-08-08T08:00:00",
+        "end": "2025-08-08T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid111"
+      },
+      {
+        "start": "2025-08-15T08:00:00",
+        "end": "2025-08-15T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid112"
+      },
+      {
+        "start": "2025-08-22T08:00:00",
+        "end": "2025-08-22T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid113"
+      },
+      {
+        "start": "2025-08-29T08:00:00",
+        "end": "2025-08-29T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid114"
+      },
+      {
+        "start": "2025-09-05T08:00:00",
+        "end": "2025-09-05T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid115"
+      },
+      {
+        "start": "2025-09-12T08:00:00",
+        "end": "2025-09-12T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid116"
+      },
+      {
+        "start": "2025-09-19T08:00:00",
+        "end": "2025-09-19T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid117"
+      },
+      {
+        "start": "2025-09-26T08:00:00",
+        "end": "2025-09-26T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid118"
+      },
+      {
+        "start": "2025-10-10T08:00:00",
+        "end": "2025-10-10T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid119"
+      },
+      {
+        "start": "2025-10-17T08:00:00",
+        "end": "2025-10-17T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid120"
+      },
+      {
+        "start": "2025-10-24T08:00:00",
+        "end": "2025-10-24T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid121"
+      },
+      {
+        "start": "2025-10-31T08:00:00",
+        "end": "2025-10-31T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid122"
+      },
+      {
+        "start": "2025-02-27T14:00:00",
+        "end": "2025-02-27T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid123"
+      },
+      {
+        "start": "2025-03-06T14:00:00",
+        "end": "2025-03-06T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid124"
+      },
+      {
+        "start": "2025-03-13T14:00:00",
+        "end": "2025-03-13T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid125"
+      },
+      {
+        "start": "2025-03-20T14:00:00",
+        "end": "2025-03-20T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid126"
+      },
+      {
+        "start": "2025-03-27T14:00:00",
+        "end": "2025-03-27T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid127"
+      },
+      {
+        "start": "2025-04-03T14:00:00",
+        "end": "2025-04-03T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid128"
+      },
+      {
+        "start": "2025-04-10T14:00:00",
+        "end": "2025-04-10T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid129"
+      },
+      {
+        "start": "2025-04-17T14:00:00",
+        "end": "2025-04-17T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid130"
+      },
+      {
+        "start": "2025-05-01T14:00:00",
+        "end": "2025-05-01T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid131"
+      },
+      {
+        "start": "2025-05-08T14:00:00",
+        "end": "2025-05-08T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid132"
+      },
+      {
+        "start": "2025-05-15T14:00:00",
+        "end": "2025-05-15T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid133"
+      },
+      {
+        "start": "2025-05-22T14:00:00",
+        "end": "2025-05-22T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid134"
+      },
+      {
+        "start": "2025-05-29T14:00:00",
+        "end": "2025-05-29T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid135"
+      },
+      {
+        "start": "2025-03-03T10:00:00",
+        "end": "2025-03-03T12:00:00",
+        "title": "Web Information Systems, PRA1",
+        "location": "78-116 - General Purpose South, Computer Lab",
+        "description": "INFS7202_S1_STLUC_IN, PRA1, 02\nWeb Information Systems\nStaff: -\nLocation: 78-116 - General Purpose South, Computer Lab",
+        "uid": "uid136"
+      },
+      {
+        "start": "2025-03-10T10:00:00",
+        "end": "2025-03-10T12:00:00",
+        "title": "Web Information Systems, PRA1",
+        "location": "78-116 - General Purpose South, Computer Lab",
+        "description": "INFS7202_S1_STLUC_IN, PRA1, 02\nWeb Information Systems\nStaff: -\nLocation: 78-116 - General Purpose South, Computer Lab",
+        "uid": "uid137"
+      },
+      {
+        "start": "2025-03-17T10:00:00",
+        "end": "2025-03-17T12:00:00",
+        "title": "Web Information Systems, PRA1",
+        "location": "78-116 - General Purpose South, Computer Lab",
+        "description": "INFS7202_S1_STLUC_IN, PRA1, 02\nWeb Information Systems\nStaff: -\nLocation: 78-116 - General Purpose South, Computer Lab",
+        "uid": "uid138"
+      },
+      {
+        "start": "2025-03-24T10:00:00",
+        "end": "2025-03-24T12:00:00",
+        "title": "Web Information Systems, PRA1",
+        "location": "78-116 - General Purpose South, Computer Lab",
+        "description": "INFS7202_S1_STLUC_IN, PRA1, 02\nWeb Information Systems\nStaff: -\nLocation: 78-116 - General Purpose South, Computer Lab",
+        "uid": "uid139"
+      },
+      {
+        "start": "2025-03-31T10:00:00",
+        "end": "2025-03-31T12:00:00",
+        "title": "Web Information Systems, PRA1",
+        "location": "78-116 - General Purpose South, Computer Lab",
+        "description": "INFS7202_S1_STLUC_IN, PRA1, 02\nWeb Information Systems\nStaff: -\nLocation: 78-116 - General Purpose South, Computer Lab",
+        "uid": "uid140"
+      },
+      {
+        "start": "2025-04-07T10:00:00",
+        "end": "2025-04-07T12:00:00",
+        "title": "Web Information Systems, PRA1",
+        "location": "78-116 - General Purpose South, Computer Lab",
+        "description": "INFS7202_S1_STLUC_IN, PRA1, 02\nWeb Information Systems\nStaff: -\nLocation: 78-116 - General Purpose South, Computer Lab",
+        "uid": "uid141"
+      },
+      {
+        "start": "2025-04-14T10:00:00",
+        "end": "2025-04-14T12:00:00",
+        "title": "Web Information Systems, PRA1",
+        "location": "78-116 - General Purpose South, Computer Lab",
+        "description": "INFS7202_S1_STLUC_IN, PRA1, 02\nWeb Information Systems\nStaff: -\nLocation: 78-116 - General Purpose South, Computer Lab",
+        "uid": "uid142"
+      },
+      {
+        "start": "2025-04-28T10:00:00",
+        "end": "2025-04-28T12:00:00",
+        "title": "Web Information Systems, PRA1",
+        "location": "78-116 - General Purpose South, Computer Lab",
+        "description": "INFS7202_S1_STLUC_IN, PRA1, 02\nWeb Information Systems\nStaff: -\nLocation: 78-116 - General Purpose South, Computer Lab",
+        "uid": "uid143"
+      },
+      {
+        "start": "2025-05-12T10:00:00",
+        "end": "2025-05-12T12:00:00",
+        "title": "Web Information Systems, PRA1",
+        "location": "78-116 - General Purpose South, Computer Lab",
+        "description": "INFS7202_S1_STLUC_IN, PRA1, 02\nWeb Information Systems\nStaff: -\nLocation: 78-116 - General Purpose South, Computer Lab",
+        "uid": "uid144"
+      },
+      {
+        "start": "2025-05-19T10:00:00",
+        "end": "2025-05-19T12:00:00",
+        "title": "Web Information Systems, PRA1",
+        "location": "78-116 - General Purpose South, Computer Lab",
+        "description": "INFS7202_S1_STLUC_IN, PRA1, 02\nWeb Information Systems\nStaff: -\nLocation: 78-116 - General Purpose South, Computer Lab",
+        "uid": "uid145"
+      },
+      {
+        "start": "2025-05-26T10:00:00",
+        "end": "2025-05-26T12:00:00",
+        "title": "Web Information Systems, PRA1",
+        "location": "78-116 - General Purpose South, Computer Lab",
+        "description": "INFS7202_S1_STLUC_IN, PRA1, 02\nWeb Information Systems\nStaff: -\nLocation: 78-116 - General Purpose South, Computer Lab",
+        "uid": "uid146"
+      },
+      {
+        "start": "2025-08-08T15:00:00",
+        "end": "2025-08-08T16:00:00",
+        "title": "Relational Database Systems, APP1",
+        "location": "78-224 - General Purpose South, Collaborative Room",
+        "description": "INFS7903_S2_STLUC_IN, APP1, 17\nRelational Database Systems\nStaff: -\nLocation: 78-224 - General Purpose South, Collaborative Room",
+        "uid": "uid147"
+      },
+      {
+        "start": "2025-08-15T15:00:00",
+        "end": "2025-08-15T16:00:00",
+        "title": "Relational Database Systems, APP1",
+        "location": "78-224 - General Purpose South, Collaborative Room",
+        "description": "INFS7903_S2_STLUC_IN, APP1, 17\nRelational Database Systems\nStaff: -\nLocation: 78-224 - General Purpose South, Collaborative Room",
+        "uid": "uid148"
+      },
+      {
+        "start": "2025-08-22T15:00:00",
+        "end": "2025-08-22T16:00:00",
+        "title": "Relational Database Systems, APP1",
+        "location": "78-224 - General Purpose South, Collaborative Room",
+        "description": "INFS7903_S2_STLUC_IN, APP1, 17\nRelational Database Systems\nStaff: -\nLocation: 78-224 - General Purpose South, Collaborative Room",
+        "uid": "uid149"
+      },
+      {
+        "start": "2025-08-29T15:00:00",
+        "end": "2025-08-29T16:00:00",
+        "title": "Relational Database Systems, APP1",
+        "location": "78-224 - General Purpose South, Collaborative Room",
+        "description": "INFS7903_S2_STLUC_IN, APP1, 17\nRelational Database Systems\nStaff: -\nLocation: 78-224 - General Purpose South, Collaborative Room",
+        "uid": "uid150"
+      },
+      {
+        "start": "2025-09-05T15:00:00",
+        "end": "2025-09-05T16:00:00",
+        "title": "Relational Database Systems, APP1",
+        "location": "78-224 - General Purpose South, Collaborative Room",
+        "description": "INFS7903_S2_STLUC_IN, APP1, 17\nRelational Database Systems\nStaff: -\nLocation: 78-224 - General Purpose South, Collaborative Room",
+        "uid": "uid151"
+      },
+      {
+        "start": "2025-09-12T15:00:00",
+        "end": "2025-09-12T16:00:00",
+        "title": "Relational Database Systems, APP1",
+        "location": "78-224 - General Purpose South, Collaborative Room",
+        "description": "INFS7903_S2_STLUC_IN, APP1, 17\nRelational Database Systems\nStaff: -\nLocation: 78-224 - General Purpose South, Collaborative Room",
+        "uid": "uid152"
+      },
+      {
+        "start": "2025-09-19T15:00:00",
+        "end": "2025-09-19T16:00:00",
+        "title": "Relational Database Systems, APP1",
+        "location": "78-224 - General Purpose South, Collaborative Room",
+        "description": "INFS7903_S2_STLUC_IN, APP1, 17\nRelational Database Systems\nStaff: -\nLocation: 78-224 - General Purpose South, Collaborative Room",
+        "uid": "uid153"
+      },
+      {
+        "start": "2025-09-26T15:00:00",
+        "end": "2025-09-26T16:00:00",
+        "title": "Relational Database Systems, APP1",
+        "location": "78-224 - General Purpose South, Collaborative Room",
+        "description": "INFS7903_S2_STLUC_IN, APP1, 17\nRelational Database Systems\nStaff: -\nLocation: 78-224 - General Purpose South, Collaborative Room",
+        "uid": "uid154"
+      },
+      {
+        "start": "2025-10-10T15:00:00",
+        "end": "2025-10-10T16:00:00",
+        "title": "Relational Database Systems, APP1",
+        "location": "78-224 - General Purpose South, Collaborative Room",
+        "description": "INFS7903_S2_STLUC_IN, APP1, 17\nRelational Database Systems\nStaff: -\nLocation: 78-224 - General Purpose South, Collaborative Room",
+        "uid": "uid155"
+      },
+      {
+        "start": "2025-10-17T15:00:00",
+        "end": "2025-10-17T16:00:00",
+        "title": "Relational Database Systems, APP1",
+        "location": "78-224 - General Purpose South, Collaborative Room",
+        "description": "INFS7903_S2_STLUC_IN, APP1, 17\nRelational Database Systems\nStaff: -\nLocation: 78-224 - General Purpose South, Collaborative Room",
+        "uid": "uid156"
+      },
+      {
+        "start": "2025-10-24T15:00:00",
+        "end": "2025-10-24T16:00:00",
+        "title": "Relational Database Systems, APP1",
+        "location": "78-224 - General Purpose South, Collaborative Room",
+        "description": "INFS7903_S2_STLUC_IN, APP1, 17\nRelational Database Systems\nStaff: -\nLocation: 78-224 - General Purpose South, Collaborative Room",
+        "uid": "uid157"
+      },
+      {
+        "start": "2025-10-31T15:00:00",
+        "end": "2025-10-31T16:00:00",
+        "title": "Relational Database Systems, APP1",
+        "location": "78-224 - General Purpose South, Collaborative Room",
+        "description": "INFS7903_S2_STLUC_IN, APP1, 17\nRelational Database Systems\nStaff: -\nLocation: 78-224 - General Purpose South, Collaborative Room",
+        "uid": "uid158"
+      },
+      {
+        "start": "2025-07-28T16:00:00",
+        "end": "2025-07-28T18:00:00",
+        "title": "Relational Database Systems, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "INFS7903_S2_STLUC_IN, LEC1, 01_Delayed\nRelational Database Systems\nStaff: Li, Xue\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid159"
+      },
+      {
+        "start": "2025-08-04T16:00:00",
+        "end": "2025-08-04T18:00:00",
+        "title": "Relational Database Systems, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "INFS7903_S2_STLUC_IN, LEC1, 01_Delayed\nRelational Database Systems\nStaff: Li, Xue\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid160"
+      },
+      {
+        "start": "2025-08-11T16:00:00",
+        "end": "2025-08-11T18:00:00",
+        "title": "Relational Database Systems, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "INFS7903_S2_STLUC_IN, LEC1, 01_Delayed\nRelational Database Systems\nStaff: Li, Xue\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid161"
+      },
+      {
+        "start": "2025-08-18T16:00:00",
+        "end": "2025-08-18T18:00:00",
+        "title": "Relational Database Systems, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "INFS7903_S2_STLUC_IN, LEC1, 01_Delayed\nRelational Database Systems\nStaff: Li, Xue\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid162"
+      },
+      {
+        "start": "2025-08-25T16:00:00",
+        "end": "2025-08-25T18:00:00",
+        "title": "Relational Database Systems, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "INFS7903_S2_STLUC_IN, LEC1, 01_Delayed\nRelational Database Systems\nStaff: Li, Xue\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid163"
+      },
+      {
+        "start": "2025-09-01T16:00:00",
+        "end": "2025-09-01T18:00:00",
+        "title": "Relational Database Systems, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "INFS7903_S2_STLUC_IN, LEC1, 01_Delayed\nRelational Database Systems\nStaff: Li, Xue\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid164"
+      },
+      {
+        "start": "2025-09-08T16:00:00",
+        "end": "2025-09-08T18:00:00",
+        "title": "Relational Database Systems, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "INFS7903_S2_STLUC_IN, LEC1, 01_Delayed\nRelational Database Systems\nStaff: Li, Xue\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid165"
+      },
+      {
+        "start": "2025-09-15T16:00:00",
+        "end": "2025-09-15T18:00:00",
+        "title": "Relational Database Systems, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "INFS7903_S2_STLUC_IN, LEC1, 01_Delayed\nRelational Database Systems\nStaff: Li, Xue\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid166"
+      },
+      {
+        "start": "2025-09-22T16:00:00",
+        "end": "2025-09-22T18:00:00",
+        "title": "Relational Database Systems, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "INFS7903_S2_STLUC_IN, LEC1, 01_Delayed\nRelational Database Systems\nStaff: Li, Xue\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid167"
+      },
+      {
+        "start": "2025-10-13T16:00:00",
+        "end": "2025-10-13T18:00:00",
+        "title": "Relational Database Systems, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "INFS7903_S2_STLUC_IN, LEC1, 01_Delayed\nRelational Database Systems\nStaff: Li, Xue\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid168"
+      },
+      {
+        "start": "2025-10-20T16:00:00",
+        "end": "2025-10-20T18:00:00",
+        "title": "Relational Database Systems, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "INFS7903_S2_STLUC_IN, LEC1, 01_Delayed\nRelational Database Systems\nStaff: Li, Xue\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid169"
+      },
+      {
+        "start": "2025-10-27T16:00:00",
+        "end": "2025-10-27T18:00:00",
+        "title": "Relational Database Systems, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "INFS7903_S2_STLUC_IN, LEC1, 01_Delayed\nRelational Database Systems\nStaff: Li, Xue\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid170"
+      },
+      {
+        "start": "2025-08-05T17:00:00",
+        "end": "2025-08-05T18:00:00",
+        "title": "Relational Database Systems, PRA1",
+        "location": "78-328 - General Purpose South, Computer Lab",
+        "description": "INFS7903_S2_STLUC_IN, PRA1, 09\nRelational Database Systems\nStaff: -\nLocation: 78-328 - General Purpose South, Computer Lab",
+        "uid": "uid171"
+      },
+      {
+        "start": "2025-08-12T17:00:00",
+        "end": "2025-08-12T18:00:00",
+        "title": "Relational Database Systems, PRA1",
+        "location": "78-328 - General Purpose South, Computer Lab",
+        "description": "INFS7903_S2_STLUC_IN, PRA1, 09\nRelational Database Systems\nStaff: -\nLocation: 78-328 - General Purpose South, Computer Lab",
+        "uid": "uid172"
+      },
+      {
+        "start": "2025-08-19T17:00:00",
+        "end": "2025-08-19T18:00:00",
+        "title": "Relational Database Systems, PRA1",
+        "location": "78-328 - General Purpose South, Computer Lab",
+        "description": "INFS7903_S2_STLUC_IN, PRA1, 09\nRelational Database Systems\nStaff: -\nLocation: 78-328 - General Purpose South, Computer Lab",
+        "uid": "uid173"
+      },
+      {
+        "start": "2025-08-26T17:00:00",
+        "end": "2025-08-26T18:00:00",
+        "title": "Relational Database Systems, PRA1",
+        "location": "78-328 - General Purpose South, Computer Lab",
+        "description": "INFS7903_S2_STLUC_IN, PRA1, 09\nRelational Database Systems\nStaff: -\nLocation: 78-328 - General Purpose South, Computer Lab",
+        "uid": "uid174"
+      },
+      {
+        "start": "2025-09-02T17:00:00",
+        "end": "2025-09-02T18:00:00",
+        "title": "Relational Database Systems, PRA1",
+        "location": "78-328 - General Purpose South, Computer Lab",
+        "description": "INFS7903_S2_STLUC_IN, PRA1, 09\nRelational Database Systems\nStaff: -\nLocation: 78-328 - General Purpose South, Computer Lab",
+        "uid": "uid175"
+      },
+      {
+        "start": "2025-09-09T17:00:00",
+        "end": "2025-09-09T18:00:00",
+        "title": "Relational Database Systems, PRA1",
+        "location": "78-328 - General Purpose South, Computer Lab",
+        "description": "INFS7903_S2_STLUC_IN, PRA1, 09\nRelational Database Systems\nStaff: -\nLocation: 78-328 - General Purpose South, Computer Lab",
+        "uid": "uid176"
+      },
+      {
+        "start": "2025-09-16T17:00:00",
+        "end": "2025-09-16T18:00:00",
+        "title": "Relational Database Systems, PRA1",
+        "location": "78-328 - General Purpose South, Computer Lab",
+        "description": "INFS7903_S2_STLUC_IN, PRA1, 09\nRelational Database Systems\nStaff: -\nLocation: 78-328 - General Purpose South, Computer Lab",
+        "uid": "uid177"
+      },
+      {
+        "start": "2025-09-23T17:00:00",
+        "end": "2025-09-23T18:00:00",
+        "title": "Relational Database Systems, PRA1",
+        "location": "78-328 - General Purpose South, Computer Lab",
+        "description": "INFS7903_S2_STLUC_IN, PRA1, 09\nRelational Database Systems\nStaff: -\nLocation: 78-328 - General Purpose South, Computer Lab",
+        "uid": "uid178"
+      },
+      {
+        "start": "2025-10-07T17:00:00",
+        "end": "2025-10-07T18:00:00",
+        "title": "Relational Database Systems, PRA1",
+        "location": "78-328 - General Purpose South, Computer Lab",
+        "description": "INFS7903_S2_STLUC_IN, PRA1, 09\nRelational Database Systems\nStaff: -\nLocation: 78-328 - General Purpose South, Computer Lab",
+        "uid": "uid179"
+      },
+      {
+        "start": "2025-10-14T17:00:00",
+        "end": "2025-10-14T18:00:00",
+        "title": "Relational Database Systems, PRA1",
+        "location": "78-328 - General Purpose South, Computer Lab",
+        "description": "INFS7903_S2_STLUC_IN, PRA1, 09\nRelational Database Systems\nStaff: -\nLocation: 78-328 - General Purpose South, Computer Lab",
+        "uid": "uid180"
+      },
+      {
+        "start": "2025-10-21T17:00:00",
+        "end": "2025-10-21T18:00:00",
+        "title": "Relational Database Systems, PRA1",
+        "location": "78-328 - General Purpose South, Computer Lab",
+        "description": "INFS7903_S2_STLUC_IN, PRA1, 09\nRelational Database Systems\nStaff: -\nLocation: 78-328 - General Purpose South, Computer Lab",
+        "uid": "uid181"
+      },
+      {
+        "start": "2025-10-28T17:00:00",
+        "end": "2025-10-28T18:00:00",
+        "title": "Relational Database Systems, PRA1",
+        "location": "78-328 - General Purpose South, Computer Lab",
+        "description": "INFS7903_S2_STLUC_IN, PRA1, 09\nRelational Database Systems\nStaff: -\nLocation: 78-328 - General Purpose South, Computer Lab",
+        "uid": "uid182"
+      },
+      {
+        "start": "2025-08-07T08:00:00",
+        "end": "2025-08-07T10:00:00",
+        "title": "Research Methods, APP1",
+        "location": "65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "description": "REIT6811_S2_STLUC_IN, APP1, 10\nResearch Methods\nStaff: -\nLocation: 65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "uid": "uid183"
+      },
+      {
+        "start": "2025-08-14T08:00:00",
+        "end": "2025-08-14T10:00:00",
+        "title": "Research Methods, APP1",
+        "location": "65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "description": "REIT6811_S2_STLUC_IN, APP1, 10\nResearch Methods\nStaff: -\nLocation: 65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "uid": "uid184"
+      },
+      {
+        "start": "2025-08-21T08:00:00",
+        "end": "2025-08-21T10:00:00",
+        "title": "Research Methods, APP1",
+        "location": "65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "description": "REIT6811_S2_STLUC_IN, APP1, 10\nResearch Methods\nStaff: -\nLocation: 65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "uid": "uid185"
+      },
+      {
+        "start": "2025-08-28T08:00:00",
+        "end": "2025-08-28T10:00:00",
+        "title": "Research Methods, APP1",
+        "location": "65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "description": "REIT6811_S2_STLUC_IN, APP1, 10\nResearch Methods\nStaff: -\nLocation: 65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "uid": "uid186"
+      },
+      {
+        "start": "2025-09-04T08:00:00",
+        "end": "2025-09-04T10:00:00",
+        "title": "Research Methods, APP1",
+        "location": "65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "description": "REIT6811_S2_STLUC_IN, APP1, 10\nResearch Methods\nStaff: -\nLocation: 65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "uid": "uid187"
+      },
+      {
+        "start": "2025-09-11T08:00:00",
+        "end": "2025-09-11T10:00:00",
+        "title": "Research Methods, APP1",
+        "location": "65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "description": "REIT6811_S2_STLUC_IN, APP1, 10\nResearch Methods\nStaff: -\nLocation: 65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "uid": "uid188"
+      },
+      {
+        "start": "2025-09-18T08:00:00",
+        "end": "2025-09-18T10:00:00",
+        "title": "Research Methods, APP1",
+        "location": "65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "description": "REIT6811_S2_STLUC_IN, APP1, 10\nResearch Methods\nStaff: -\nLocation: 65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "uid": "uid189"
+      },
+      {
+        "start": "2025-09-25T08:00:00",
+        "end": "2025-09-25T10:00:00",
+        "title": "Research Methods, APP1",
+        "location": "65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "description": "REIT6811_S2_STLUC_IN, APP1, 10\nResearch Methods\nStaff: -\nLocation: 65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "uid": "uid190"
+      },
+      {
+        "start": "2025-10-09T08:00:00",
+        "end": "2025-10-09T10:00:00",
+        "title": "Research Methods, APP1",
+        "location": "65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "description": "REIT6811_S2_STLUC_IN, APP1, 10\nResearch Methods\nStaff: -\nLocation: 65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "uid": "uid191"
+      },
+      {
+        "start": "2025-10-16T08:00:00",
+        "end": "2025-10-16T10:00:00",
+        "title": "Research Methods, APP1",
+        "location": "65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "description": "REIT6811_S2_STLUC_IN, APP1, 10\nResearch Methods\nStaff: -\nLocation: 65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "uid": "uid192"
+      },
+      {
+        "start": "2025-10-23T08:00:00",
+        "end": "2025-10-23T10:00:00",
+        "title": "Research Methods, APP1",
+        "location": "65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "description": "REIT6811_S2_STLUC_IN, APP1, 10\nResearch Methods\nStaff: -\nLocation: 65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "uid": "uid193"
+      },
+      {
+        "start": "2025-10-30T08:00:00",
+        "end": "2025-10-30T10:00:00",
+        "title": "Research Methods, APP1",
+        "location": "65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "description": "REIT6811_S2_STLUC_IN, APP1, 10\nResearch Methods\nStaff: -\nLocation: 65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "uid": "uid194"
+      },
+      {
+        "start": "2025-07-29T08:00:00",
+        "end": "2025-07-29T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid195"
+      },
+      {
+        "start": "2025-08-05T08:00:00",
+        "end": "2025-08-05T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid196"
+      },
+      {
+        "start": "2025-08-12T08:00:00",
+        "end": "2025-08-12T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid197"
+      },
+      {
+        "start": "2025-08-19T08:00:00",
+        "end": "2025-08-19T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid198"
+      },
+      {
+        "start": "2025-08-26T08:00:00",
+        "end": "2025-08-26T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid199"
+      },
+      {
+        "start": "2025-09-02T08:00:00",
+        "end": "2025-09-02T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid200"
+      },
+      {
+        "start": "2025-09-09T08:00:00",
+        "end": "2025-09-09T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid201"
+      },
+      {
+        "start": "2025-09-16T08:00:00",
+        "end": "2025-09-16T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid202"
+      },
+      {
+        "start": "2025-09-23T08:00:00",
+        "end": "2025-09-23T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid203"
+      },
+      {
+        "start": "2025-10-07T08:00:00",
+        "end": "2025-10-07T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid204"
+      },
+      {
+        "start": "2025-10-14T08:00:00",
+        "end": "2025-10-14T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid205"
+      },
+      {
+        "start": "2025-10-21T08:00:00",
+        "end": "2025-10-21T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid206"
+      },
+      {
+        "start": "2025-10-28T08:00:00",
+        "end": "2025-10-28T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid207"
+      },
+      {
+        "id": "event-3",
+        "title": "AI Research Frontiers Sharing",
+        "description": "UQ AI research team shares latest research achievements, including machine learning, deep learning, natural language processing and other cutting-edge developments.",
+        "start": "2024-11-25T16:00:00",
+        "end": "2024-11-25T18:00:00+10:00",
+        "location": "Sir Llew Edwards Building, Learning Theatre 14-132",
+        "category": "Academic",
+        "type": "Hybrid",
+        "source": "recommendation"
+      }
+    ],
+    "lastUpdated": "2025-10-18T12:57:21.553Z"
+  },
+  {
+    "userId": "d71cf992-6600-4667-9efe-884509aa94c4",
+    "events": [
+      {
+        "start": "2025-07-28T17:00:00",
+        "end": "2025-07-28T19:00:00",
+        "title": "Introduction to Software Innovation, SMR1",
+        "location": "50-T203 - Hawken Engineering Building, Learning Theatre",
+        "description": "COMP7110_S2_STLUC_IN, SMR1, 01\nIntroduction to Software Innovation\nStaff: Miller, Tim\nLocation: 50-T203 - Hawken Engineering Building, Learning Theatre",
+        "uid": "uid0"
+      },
+      {
+        "start": "2025-08-04T17:00:00",
+        "end": "2025-08-04T19:00:00",
+        "title": "Introduction to Software Innovation, SMR1",
+        "location": "50-T203 - Hawken Engineering Building, Learning Theatre",
+        "description": "COMP7110_S2_STLUC_IN, SMR1, 01\nIntroduction to Software Innovation\nStaff: Miller, Tim\nLocation: 50-T203 - Hawken Engineering Building, Learning Theatre",
+        "uid": "uid1"
+      },
+      {
+        "start": "2025-08-11T17:00:00",
+        "end": "2025-08-11T19:00:00",
+        "title": "Introduction to Software Innovation, SMR1",
+        "location": "50-T203 - Hawken Engineering Building, Learning Theatre",
+        "description": "COMP7110_S2_STLUC_IN, SMR1, 01\nIntroduction to Software Innovation\nStaff: Miller, Tim\nLocation: 50-T203 - Hawken Engineering Building, Learning Theatre",
+        "uid": "uid2"
+      },
+      {
+        "start": "2025-08-18T17:00:00",
+        "end": "2025-08-18T19:00:00",
+        "title": "Introduction to Software Innovation, SMR1",
+        "location": "50-T203 - Hawken Engineering Building, Learning Theatre",
+        "description": "COMP7110_S2_STLUC_IN, SMR1, 01\nIntroduction to Software Innovation\nStaff: Miller, Tim\nLocation: 50-T203 - Hawken Engineering Building, Learning Theatre",
+        "uid": "uid3"
+      },
+      {
+        "start": "2025-08-25T17:00:00",
+        "end": "2025-08-25T19:00:00",
+        "title": "Introduction to Software Innovation, SMR1",
+        "location": "50-T203 - Hawken Engineering Building, Learning Theatre",
+        "description": "COMP7110_S2_STLUC_IN, SMR1, 01\nIntroduction to Software Innovation\nStaff: Miller, Tim\nLocation: 50-T203 - Hawken Engineering Building, Learning Theatre",
+        "uid": "uid4"
+      },
+      {
+        "start": "2025-09-01T17:00:00",
+        "end": "2025-09-01T19:00:00",
+        "title": "Introduction to Software Innovation, SMR1",
+        "location": "50-T203 - Hawken Engineering Building, Learning Theatre",
+        "description": "COMP7110_S2_STLUC_IN, SMR1, 01\nIntroduction to Software Innovation\nStaff: Miller, Tim\nLocation: 50-T203 - Hawken Engineering Building, Learning Theatre",
+        "uid": "uid5"
+      },
+      {
+        "start": "2025-09-08T17:00:00",
+        "end": "2025-09-08T19:00:00",
+        "title": "Introduction to Software Innovation, SMR1",
+        "location": "50-T203 - Hawken Engineering Building, Learning Theatre",
+        "description": "COMP7110_S2_STLUC_IN, SMR1, 01\nIntroduction to Software Innovation\nStaff: Miller, Tim\nLocation: 50-T203 - Hawken Engineering Building, Learning Theatre",
+        "uid": "uid6"
+      },
+      {
+        "start": "2025-09-15T17:00:00",
+        "end": "2025-09-15T19:00:00",
+        "title": "Introduction to Software Innovation, SMR1",
+        "location": "50-T203 - Hawken Engineering Building, Learning Theatre",
+        "description": "COMP7110_S2_STLUC_IN, SMR1, 01\nIntroduction to Software Innovation\nStaff: Miller, Tim\nLocation: 50-T203 - Hawken Engineering Building, Learning Theatre",
+        "uid": "uid7"
+      },
+      {
+        "start": "2025-09-22T17:00:00",
+        "end": "2025-09-22T19:00:00",
+        "title": "Introduction to Software Innovation, SMR1",
+        "location": "50-T203 - Hawken Engineering Building, Learning Theatre",
+        "description": "COMP7110_S2_STLUC_IN, SMR1, 01\nIntroduction to Software Innovation\nStaff: Miller, Tim\nLocation: 50-T203 - Hawken Engineering Building, Learning Theatre",
+        "uid": "uid8"
+      },
+      {
+        "start": "2025-10-13T17:00:00",
+        "end": "2025-10-13T19:00:00",
+        "title": "Introduction to Software Innovation, SMR1",
+        "location": "50-T203 - Hawken Engineering Building, Learning Theatre",
+        "description": "COMP7110_S2_STLUC_IN, SMR1, 01\nIntroduction to Software Innovation\nStaff: Miller, Tim\nLocation: 50-T203 - Hawken Engineering Building, Learning Theatre",
+        "uid": "uid9"
+      },
+      {
+        "start": "2025-10-20T17:00:00",
+        "end": "2025-10-20T19:00:00",
+        "title": "Introduction to Software Innovation, SMR1",
+        "location": "50-T203 - Hawken Engineering Building, Learning Theatre",
+        "description": "COMP7110_S2_STLUC_IN, SMR1, 01\nIntroduction to Software Innovation\nStaff: Miller, Tim\nLocation: 50-T203 - Hawken Engineering Building, Learning Theatre",
+        "uid": "uid10"
+      },
+      {
+        "start": "2025-10-27T17:00:00",
+        "end": "2025-10-27T19:00:00",
+        "title": "Introduction to Software Innovation, SMR1",
+        "location": "50-T203 - Hawken Engineering Building, Learning Theatre",
+        "description": "COMP7110_S2_STLUC_IN, SMR1, 01\nIntroduction to Software Innovation\nStaff: Miller, Tim\nLocation: 50-T203 - Hawken Engineering Building, Learning Theatre",
+        "uid": "uid11"
+      },
+      {
+        "start": "2025-07-30T08:00:00",
+        "end": "2025-07-30T11:00:00",
+        "title": "Introduction to Software Innovation, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "COMP7110_S2_STLUC_IN, STU1, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid12"
+      },
+      {
+        "start": "2025-08-06T08:00:00",
+        "end": "2025-08-06T11:00:00",
+        "title": "Introduction to Software Innovation, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "COMP7110_S2_STLUC_IN, STU1, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid13"
+      },
+      {
+        "start": "2025-08-20T08:00:00",
+        "end": "2025-08-20T11:00:00",
+        "title": "Introduction to Software Innovation, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "COMP7110_S2_STLUC_IN, STU1, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid14"
+      },
+      {
+        "start": "2025-08-27T08:00:00",
+        "end": "2025-08-27T11:00:00",
+        "title": "Introduction to Software Innovation, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "COMP7110_S2_STLUC_IN, STU1, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid15"
+      },
+      {
+        "start": "2025-09-03T08:00:00",
+        "end": "2025-09-03T11:00:00",
+        "title": "Introduction to Software Innovation, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "COMP7110_S2_STLUC_IN, STU1, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid16"
+      },
+      {
+        "start": "2025-09-10T08:00:00",
+        "end": "2025-09-10T11:00:00",
+        "title": "Introduction to Software Innovation, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "COMP7110_S2_STLUC_IN, STU1, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid17"
+      },
+      {
+        "start": "2025-09-17T08:00:00",
+        "end": "2025-09-17T11:00:00",
+        "title": "Introduction to Software Innovation, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "COMP7110_S2_STLUC_IN, STU1, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid18"
+      },
+      {
+        "start": "2025-09-24T08:00:00",
+        "end": "2025-09-24T11:00:00",
+        "title": "Introduction to Software Innovation, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "COMP7110_S2_STLUC_IN, STU1, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid19"
+      },
+      {
+        "start": "2025-10-08T08:00:00",
+        "end": "2025-10-08T11:00:00",
+        "title": "Introduction to Software Innovation, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "COMP7110_S2_STLUC_IN, STU1, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid20"
+      },
+      {
+        "start": "2025-10-15T08:00:00",
+        "end": "2025-10-15T11:00:00",
+        "title": "Introduction to Software Innovation, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "COMP7110_S2_STLUC_IN, STU1, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid21"
+      },
+      {
+        "start": "2025-10-22T08:00:00",
+        "end": "2025-10-22T11:00:00",
+        "title": "Introduction to Software Innovation, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "COMP7110_S2_STLUC_IN, STU1, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid22"
+      },
+      {
+        "start": "2025-10-29T08:00:00",
+        "end": "2025-10-29T11:00:00",
+        "title": "Introduction to Software Innovation, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "COMP7110_S2_STLUC_IN, STU1, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid23"
+      },
+      {
+        "start": "2025-03-06T12:00:00",
+        "end": "2025-03-06T13:00:00",
+        "title": "Object Oriented Programming, CON1",
+        "location": "14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "description": "CSSE7023_S1_STLUC_IN, CON1, 02\nObject Oriented Programming\nStaff: -\nLocation: 14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "uid": "uid24"
+      },
+      {
+        "start": "2025-03-13T12:00:00",
+        "end": "2025-03-13T13:00:00",
+        "title": "Object Oriented Programming, CON1",
+        "location": "14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "description": "CSSE7023_S1_STLUC_IN, CON1, 02\nObject Oriented Programming\nStaff: -\nLocation: 14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "uid": "uid25"
+      },
+      {
+        "start": "2025-03-20T12:00:00",
+        "end": "2025-03-20T13:00:00",
+        "title": "Object Oriented Programming, CON1",
+        "location": "14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "description": "CSSE7023_S1_STLUC_IN, CON1, 02\nObject Oriented Programming\nStaff: -\nLocation: 14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "uid": "uid26"
+      },
+      {
+        "start": "2025-03-27T12:00:00",
+        "end": "2025-03-27T13:00:00",
+        "title": "Object Oriented Programming, CON1",
+        "location": "14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "description": "CSSE7023_S1_STLUC_IN, CON1, 02\nObject Oriented Programming\nStaff: -\nLocation: 14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "uid": "uid27"
+      },
+      {
+        "start": "2025-04-03T12:00:00",
+        "end": "2025-04-03T13:00:00",
+        "title": "Object Oriented Programming, CON1",
+        "location": "14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "description": "CSSE7023_S1_STLUC_IN, CON1, 02\nObject Oriented Programming\nStaff: -\nLocation: 14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "uid": "uid28"
+      },
+      {
+        "start": "2025-04-10T12:00:00",
+        "end": "2025-04-10T13:00:00",
+        "title": "Object Oriented Programming, CON1",
+        "location": "14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "description": "CSSE7023_S1_STLUC_IN, CON1, 02\nObject Oriented Programming\nStaff: -\nLocation: 14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "uid": "uid29"
+      },
+      {
+        "start": "2025-04-17T12:00:00",
+        "end": "2025-04-17T13:00:00",
+        "title": "Object Oriented Programming, CON1",
+        "location": "14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "description": "CSSE7023_S1_STLUC_IN, CON1, 02\nObject Oriented Programming\nStaff: -\nLocation: 14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "uid": "uid30"
+      },
+      {
+        "start": "2025-05-01T12:00:00",
+        "end": "2025-05-01T13:00:00",
+        "title": "Object Oriented Programming, CON1",
+        "location": "14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "description": "CSSE7023_S1_STLUC_IN, CON1, 02\nObject Oriented Programming\nStaff: -\nLocation: 14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "uid": "uid31"
+      },
+      {
+        "start": "2025-05-08T12:00:00",
+        "end": "2025-05-08T13:00:00",
+        "title": "Object Oriented Programming, CON1",
+        "location": "14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "description": "CSSE7023_S1_STLUC_IN, CON1, 02\nObject Oriented Programming\nStaff: -\nLocation: 14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "uid": "uid32"
+      },
+      {
+        "start": "2025-05-15T12:00:00",
+        "end": "2025-05-15T13:00:00",
+        "title": "Object Oriented Programming, CON1",
+        "location": "14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "description": "CSSE7023_S1_STLUC_IN, CON1, 02\nObject Oriented Programming\nStaff: -\nLocation: 14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "uid": "uid33"
+      },
+      {
+        "start": "2025-05-22T12:00:00",
+        "end": "2025-05-22T13:00:00",
+        "title": "Object Oriented Programming, CON1",
+        "location": "14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "description": "CSSE7023_S1_STLUC_IN, CON1, 02\nObject Oriented Programming\nStaff: -\nLocation: 14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "uid": "uid34"
+      },
+      {
+        "start": "2025-05-29T12:00:00",
+        "end": "2025-05-29T13:00:00",
+        "title": "Object Oriented Programming, CON1",
+        "location": "14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "description": "CSSE7023_S1_STLUC_IN, CON1, 02\nObject Oriented Programming\nStaff: -\nLocation: 14-219 - Sir Llew Edwards Building, Collaborative Room.",
+        "uid": "uid35"
+      },
+      {
+        "start": "2025-02-24T12:00:00",
+        "end": "2025-02-24T14:00:00",
+        "title": "Object Oriented Programming, LEC1",
+        "location": "14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "description": "CSSE7023_S1_STLUC_IN, LEC1, 01\nObject Oriented Programming\nStaff: -\nLocation: 14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "uid": "uid36"
+      },
+      {
+        "start": "2025-03-03T12:00:00",
+        "end": "2025-03-03T14:00:00",
+        "title": "Object Oriented Programming, LEC1",
+        "location": "14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "description": "CSSE7023_S1_STLUC_IN, LEC1, 01\nObject Oriented Programming\nStaff: -\nLocation: 14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "uid": "uid37"
+      },
+      {
+        "start": "2025-03-10T12:00:00",
+        "end": "2025-03-10T14:00:00",
+        "title": "Object Oriented Programming, LEC1",
+        "location": "14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "description": "CSSE7023_S1_STLUC_IN, LEC1, 01\nObject Oriented Programming\nStaff: -\nLocation: 14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "uid": "uid38"
+      },
+      {
+        "start": "2025-03-17T12:00:00",
+        "end": "2025-03-17T14:00:00",
+        "title": "Object Oriented Programming, LEC1",
+        "location": "14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "description": "CSSE7023_S1_STLUC_IN, LEC1, 01\nObject Oriented Programming\nStaff: -\nLocation: 14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "uid": "uid39"
+      },
+      {
+        "start": "2025-03-24T12:00:00",
+        "end": "2025-03-24T14:00:00",
+        "title": "Object Oriented Programming, LEC1",
+        "location": "14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "description": "CSSE7023_S1_STLUC_IN, LEC1, 01\nObject Oriented Programming\nStaff: -\nLocation: 14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "uid": "uid40"
+      },
+      {
+        "start": "2025-03-31T12:00:00",
+        "end": "2025-03-31T14:00:00",
+        "title": "Object Oriented Programming, LEC1",
+        "location": "14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "description": "CSSE7023_S1_STLUC_IN, LEC1, 01\nObject Oriented Programming\nStaff: -\nLocation: 14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "uid": "uid41"
+      },
+      {
+        "start": "2025-04-07T12:00:00",
+        "end": "2025-04-07T14:00:00",
+        "title": "Object Oriented Programming, LEC1",
+        "location": "14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "description": "CSSE7023_S1_STLUC_IN, LEC1, 01\nObject Oriented Programming\nStaff: -\nLocation: 14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "uid": "uid42"
+      },
+      {
+        "start": "2025-04-14T12:00:00",
+        "end": "2025-04-14T14:00:00",
+        "title": "Object Oriented Programming, LEC1",
+        "location": "14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "description": "CSSE7023_S1_STLUC_IN, LEC1, 01\nObject Oriented Programming\nStaff: -\nLocation: 14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "uid": "uid43"
+      },
+      {
+        "start": "2025-04-28T12:00:00",
+        "end": "2025-04-28T14:00:00",
+        "title": "Object Oriented Programming, LEC1",
+        "location": "14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "description": "CSSE7023_S1_STLUC_IN, LEC1, 01\nObject Oriented Programming\nStaff: -\nLocation: 14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "uid": "uid44"
+      },
+      {
+        "start": "2025-05-12T12:00:00",
+        "end": "2025-05-12T14:00:00",
+        "title": "Object Oriented Programming, LEC1",
+        "location": "14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "description": "CSSE7023_S1_STLUC_IN, LEC1, 01\nObject Oriented Programming\nStaff: -\nLocation: 14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "uid": "uid45"
+      },
+      {
+        "start": "2025-05-19T12:00:00",
+        "end": "2025-05-19T14:00:00",
+        "title": "Object Oriented Programming, LEC1",
+        "location": "14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "description": "CSSE7023_S1_STLUC_IN, LEC1, 01\nObject Oriented Programming\nStaff: -\nLocation: 14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "uid": "uid46"
+      },
+      {
+        "start": "2025-05-26T12:00:00",
+        "end": "2025-05-26T14:00:00",
+        "title": "Object Oriented Programming, LEC1",
+        "location": "14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "description": "CSSE7023_S1_STLUC_IN, LEC1, 01\nObject Oriented Programming\nStaff: -\nLocation: 14-132 - Sir Llew Edwards Building, Learning Theatre",
+        "uid": "uid47"
+      },
+      {
+        "start": "2025-03-03T16:00:00",
+        "end": "2025-03-03T18:00:00",
+        "title": "Object Oriented Programming, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "CSSE7023_S1_STLUC_IN, PRA1, 01\nObject Oriented Programming\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid48"
+      },
+      {
+        "start": "2025-03-10T16:00:00",
+        "end": "2025-03-10T18:00:00",
+        "title": "Object Oriented Programming, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "CSSE7023_S1_STLUC_IN, PRA1, 01\nObject Oriented Programming\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid49"
+      },
+      {
+        "start": "2025-03-17T16:00:00",
+        "end": "2025-03-17T18:00:00",
+        "title": "Object Oriented Programming, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "CSSE7023_S1_STLUC_IN, PRA1, 01\nObject Oriented Programming\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid50"
+      },
+      {
+        "start": "2025-03-24T16:00:00",
+        "end": "2025-03-24T18:00:00",
+        "title": "Object Oriented Programming, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "CSSE7023_S1_STLUC_IN, PRA1, 01\nObject Oriented Programming\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid51"
+      },
+      {
+        "start": "2025-03-31T16:00:00",
+        "end": "2025-03-31T18:00:00",
+        "title": "Object Oriented Programming, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "CSSE7023_S1_STLUC_IN, PRA1, 01\nObject Oriented Programming\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid52"
+      },
+      {
+        "start": "2025-04-07T16:00:00",
+        "end": "2025-04-07T18:00:00",
+        "title": "Object Oriented Programming, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "CSSE7023_S1_STLUC_IN, PRA1, 01\nObject Oriented Programming\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid53"
+      },
+      {
+        "start": "2025-04-14T16:00:00",
+        "end": "2025-04-14T18:00:00",
+        "title": "Object Oriented Programming, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "CSSE7023_S1_STLUC_IN, PRA1, 01\nObject Oriented Programming\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid54"
+      },
+      {
+        "start": "2025-04-28T16:00:00",
+        "end": "2025-04-28T18:00:00",
+        "title": "Object Oriented Programming, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "CSSE7023_S1_STLUC_IN, PRA1, 01\nObject Oriented Programming\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid55"
+      },
+      {
+        "start": "2025-05-12T16:00:00",
+        "end": "2025-05-12T18:00:00",
+        "title": "Object Oriented Programming, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "CSSE7023_S1_STLUC_IN, PRA1, 01\nObject Oriented Programming\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid56"
+      },
+      {
+        "start": "2025-05-19T16:00:00",
+        "end": "2025-05-19T18:00:00",
+        "title": "Object Oriented Programming, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "CSSE7023_S1_STLUC_IN, PRA1, 01\nObject Oriented Programming\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid57"
+      },
+      {
+        "start": "2025-05-26T16:00:00",
+        "end": "2025-05-26T18:00:00",
+        "title": "Object Oriented Programming, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "CSSE7023_S1_STLUC_IN, PRA1, 01\nObject Oriented Programming\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid58"
+      },
+      {
+        "start": "2025-02-27T16:00:00",
+        "end": "2025-02-27T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid59"
+      },
+      {
+        "start": "2025-03-06T16:00:00",
+        "end": "2025-03-06T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid60"
+      },
+      {
+        "start": "2025-03-13T16:00:00",
+        "end": "2025-03-13T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid61"
+      },
+      {
+        "start": "2025-03-20T16:00:00",
+        "end": "2025-03-20T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid62"
+      },
+      {
+        "start": "2025-03-27T16:00:00",
+        "end": "2025-03-27T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid63"
+      },
+      {
+        "start": "2025-04-03T16:00:00",
+        "end": "2025-04-03T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid64"
+      },
+      {
+        "start": "2025-04-10T16:00:00",
+        "end": "2025-04-10T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid65"
+      },
+      {
+        "start": "2025-04-17T16:00:00",
+        "end": "2025-04-17T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid66"
+      },
+      {
+        "start": "2025-05-01T16:00:00",
+        "end": "2025-05-01T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid67"
+      },
+      {
+        "start": "2025-05-08T16:00:00",
+        "end": "2025-05-08T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid68"
+      },
+      {
+        "start": "2025-05-15T16:00:00",
+        "end": "2025-05-15T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid69"
+      },
+      {
+        "start": "2025-05-22T16:00:00",
+        "end": "2025-05-22T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid70"
+      },
+      {
+        "start": "2025-05-29T16:00:00",
+        "end": "2025-05-29T18:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, PRA1",
+        "location": "46-441 - Andrew N. Liveris Building, Computer Lab",
+        "description": "DECO7180_S1_STLUC_IN, PRA1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: -\nLocation: 46-441 - Andrew N. Liveris Building, Computer Lab",
+        "uid": "uid71"
+      },
+      {
+        "start": "2025-02-27T09:00:00",
+        "end": "2025-02-27T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid72"
+      },
+      {
+        "start": "2025-03-06T09:00:00",
+        "end": "2025-03-06T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid73"
+      },
+      {
+        "start": "2025-03-13T09:00:00",
+        "end": "2025-03-13T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid74"
+      },
+      {
+        "start": "2025-03-20T09:00:00",
+        "end": "2025-03-20T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid75"
+      },
+      {
+        "start": "2025-03-27T09:00:00",
+        "end": "2025-03-27T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid76"
+      },
+      {
+        "start": "2025-04-03T09:00:00",
+        "end": "2025-04-03T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid77"
+      },
+      {
+        "start": "2025-04-10T09:00:00",
+        "end": "2025-04-10T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid78"
+      },
+      {
+        "start": "2025-04-17T09:00:00",
+        "end": "2025-04-17T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid79"
+      },
+      {
+        "start": "2025-05-01T09:00:00",
+        "end": "2025-05-01T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid80"
+      },
+      {
+        "start": "2025-05-08T09:00:00",
+        "end": "2025-05-08T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid81"
+      },
+      {
+        "start": "2025-05-15T09:00:00",
+        "end": "2025-05-15T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid82"
+      },
+      {
+        "start": "2025-05-22T09:00:00",
+        "end": "2025-05-22T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid83"
+      },
+      {
+        "start": "2025-05-29T09:00:00",
+        "end": "2025-05-29T12:00:00",
+        "title": "Design Computing Studio 1 - Interactive Technology, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7180_S1_STLUC_IN, STU1, 01\nDesign Computing Studio 1 - Interactive Technology\nStaff: Scott, Steven\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid84"
+      },
+      {
+        "start": "2025-02-24T14:00:00",
+        "end": "2025-02-24T16:00:00",
+        "title": "Human-Computer Interaction, LEC1",
+        "location": "23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "description": "DECO7250_S1_STLUC_IN, LEC1, 01\nHuman-Computer Interaction\nStaff: Halloluwa, Thilina (24/2-14/4, 28/4, 12/5-26/5), Worthy, Peter (24/2-14/4, 28/4, 12/5-26/5)\nLocation: 23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "uid": "uid85"
+      },
+      {
+        "start": "2025-03-03T14:00:00",
+        "end": "2025-03-03T16:00:00",
+        "title": "Human-Computer Interaction, LEC1",
+        "location": "23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "description": "DECO7250_S1_STLUC_IN, LEC1, 01\nHuman-Computer Interaction\nStaff: Halloluwa, Thilina (24/2-14/4, 28/4, 12/5-26/5), Worthy, Peter (24/2-14/4, 28/4, 12/5-26/5)\nLocation: 23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "uid": "uid86"
+      },
+      {
+        "start": "2025-03-10T14:00:00",
+        "end": "2025-03-10T16:00:00",
+        "title": "Human-Computer Interaction, LEC1",
+        "location": "23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "description": "DECO7250_S1_STLUC_IN, LEC1, 01\nHuman-Computer Interaction\nStaff: Halloluwa, Thilina (24/2-14/4, 28/4, 12/5-26/5), Worthy, Peter (24/2-14/4, 28/4, 12/5-26/5)\nLocation: 23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "uid": "uid87"
+      },
+      {
+        "start": "2025-03-17T14:00:00",
+        "end": "2025-03-17T16:00:00",
+        "title": "Human-Computer Interaction, LEC1",
+        "location": "23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "description": "DECO7250_S1_STLUC_IN, LEC1, 01\nHuman-Computer Interaction\nStaff: Halloluwa, Thilina (24/2-14/4, 28/4, 12/5-26/5), Worthy, Peter (24/2-14/4, 28/4, 12/5-26/5)\nLocation: 23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "uid": "uid88"
+      },
+      {
+        "start": "2025-03-24T14:00:00",
+        "end": "2025-03-24T16:00:00",
+        "title": "Human-Computer Interaction, LEC1",
+        "location": "23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "description": "DECO7250_S1_STLUC_IN, LEC1, 01\nHuman-Computer Interaction\nStaff: Halloluwa, Thilina (24/2-14/4, 28/4, 12/5-26/5), Worthy, Peter (24/2-14/4, 28/4, 12/5-26/5)\nLocation: 23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "uid": "uid89"
+      },
+      {
+        "start": "2025-03-31T14:00:00",
+        "end": "2025-03-31T16:00:00",
+        "title": "Human-Computer Interaction, LEC1",
+        "location": "23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "description": "DECO7250_S1_STLUC_IN, LEC1, 01\nHuman-Computer Interaction\nStaff: Halloluwa, Thilina (24/2-14/4, 28/4, 12/5-26/5), Worthy, Peter (24/2-14/4, 28/4, 12/5-26/5)\nLocation: 23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "uid": "uid90"
+      },
+      {
+        "start": "2025-04-07T14:00:00",
+        "end": "2025-04-07T16:00:00",
+        "title": "Human-Computer Interaction, LEC1",
+        "location": "23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "description": "DECO7250_S1_STLUC_IN, LEC1, 01\nHuman-Computer Interaction\nStaff: Halloluwa, Thilina (24/2-14/4, 28/4, 12/5-26/5), Worthy, Peter (24/2-14/4, 28/4, 12/5-26/5)\nLocation: 23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "uid": "uid91"
+      },
+      {
+        "start": "2025-04-14T14:00:00",
+        "end": "2025-04-14T16:00:00",
+        "title": "Human-Computer Interaction, LEC1",
+        "location": "23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "description": "DECO7250_S1_STLUC_IN, LEC1, 01\nHuman-Computer Interaction\nStaff: Halloluwa, Thilina (24/2-14/4, 28/4, 12/5-26/5), Worthy, Peter (24/2-14/4, 28/4, 12/5-26/5)\nLocation: 23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "uid": "uid92"
+      },
+      {
+        "start": "2025-04-28T14:00:00",
+        "end": "2025-04-28T16:00:00",
+        "title": "Human-Computer Interaction, LEC1",
+        "location": "23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "description": "DECO7250_S1_STLUC_IN, LEC1, 01\nHuman-Computer Interaction\nStaff: Halloluwa, Thilina (24/2-14/4, 28/4, 12/5-26/5), Worthy, Peter (24/2-14/4, 28/4, 12/5-26/5)\nLocation: 23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "uid": "uid93"
+      },
+      {
+        "start": "2025-05-12T14:00:00",
+        "end": "2025-05-12T16:00:00",
+        "title": "Human-Computer Interaction, LEC1",
+        "location": "23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "description": "DECO7250_S1_STLUC_IN, LEC1, 01\nHuman-Computer Interaction\nStaff: Halloluwa, Thilina (24/2-14/4, 28/4, 12/5-26/5), Worthy, Peter (24/2-14/4, 28/4, 12/5-26/5)\nLocation: 23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "uid": "uid94"
+      },
+      {
+        "start": "2025-05-19T14:00:00",
+        "end": "2025-05-19T16:00:00",
+        "title": "Human-Computer Interaction, LEC1",
+        "location": "23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "description": "DECO7250_S1_STLUC_IN, LEC1, 01\nHuman-Computer Interaction\nStaff: Halloluwa, Thilina (24/2-14/4, 28/4, 12/5-26/5), Worthy, Peter (24/2-14/4, 28/4, 12/5-26/5)\nLocation: 23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "uid": "uid95"
+      },
+      {
+        "start": "2025-05-26T14:00:00",
+        "end": "2025-05-26T16:00:00",
+        "title": "Human-Computer Interaction, LEC1",
+        "location": "23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "description": "DECO7250_S1_STLUC_IN, LEC1, 01\nHuman-Computer Interaction\nStaff: Halloluwa, Thilina (24/2-14/4, 28/4, 12/5-26/5), Worthy, Peter (24/2-14/4, 28/4, 12/5-26/5)\nLocation: 23-101 - Abel Smith Lecture Theatre, Learning Theatre",
+        "uid": "uid96"
+      },
+      {
+        "start": "2025-02-25T18:00:00",
+        "end": "2025-02-25T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid97"
+      },
+      {
+        "start": "2025-03-04T18:00:00",
+        "end": "2025-03-04T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid98"
+      },
+      {
+        "start": "2025-03-11T18:00:00",
+        "end": "2025-03-11T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid99"
+      },
+      {
+        "start": "2025-03-18T18:00:00",
+        "end": "2025-03-18T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid100"
+      },
+      {
+        "start": "2025-03-25T18:00:00",
+        "end": "2025-03-25T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid101"
+      },
+      {
+        "start": "2025-04-01T18:00:00",
+        "end": "2025-04-01T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid102"
+      },
+      {
+        "start": "2025-04-08T18:00:00",
+        "end": "2025-04-08T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid103"
+      },
+      {
+        "start": "2025-04-15T18:00:00",
+        "end": "2025-04-15T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid104"
+      },
+      {
+        "start": "2025-04-29T18:00:00",
+        "end": "2025-04-29T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid105"
+      },
+      {
+        "start": "2025-05-06T18:00:00",
+        "end": "2025-05-06T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid106"
+      },
+      {
+        "start": "2025-05-13T18:00:00",
+        "end": "2025-05-13T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid107"
+      },
+      {
+        "start": "2025-05-20T18:00:00",
+        "end": "2025-05-20T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid108"
+      },
+      {
+        "start": "2025-05-27T18:00:00",
+        "end": "2025-05-27T20:00:00",
+        "title": "Human-Computer Interaction, STU1",
+        "location": "47A-249 - Sir James Foots Building, Collaborative Room",
+        "description": "DECO7250_S1_STLUC_IN, STU1, 01\nHuman-Computer Interaction\nStaff: -\nLocation: 47A-249 - Sir James Foots Building, Collaborative Room",
+        "uid": "uid109"
+      },
+      {
+        "start": "2025-08-01T08:00:00",
+        "end": "2025-08-01T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid110"
+      },
+      {
+        "start": "2025-08-08T08:00:00",
+        "end": "2025-08-08T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid111"
+      },
+      {
+        "start": "2025-08-15T08:00:00",
+        "end": "2025-08-15T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid112"
+      },
+      {
+        "start": "2025-08-22T08:00:00",
+        "end": "2025-08-22T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid113"
+      },
+      {
+        "start": "2025-08-29T08:00:00",
+        "end": "2025-08-29T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid114"
+      },
+      {
+        "start": "2025-09-05T08:00:00",
+        "end": "2025-09-05T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid115"
+      },
+      {
+        "start": "2025-09-12T08:00:00",
+        "end": "2025-09-12T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid116"
+      },
+      {
+        "start": "2025-09-19T08:00:00",
+        "end": "2025-09-19T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid117"
+      },
+      {
+        "start": "2025-09-26T08:00:00",
+        "end": "2025-09-26T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid118"
+      },
+      {
+        "start": "2025-10-10T08:00:00",
+        "end": "2025-10-10T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid119"
+      },
+      {
+        "start": "2025-10-17T08:00:00",
+        "end": "2025-10-17T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid120"
+      },
+      {
+        "start": "2025-10-24T08:00:00",
+        "end": "2025-10-24T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid121"
+      },
+      {
+        "start": "2025-10-31T08:00:00",
+        "end": "2025-10-31T12:00:00",
+        "title": "Design Computing Studio 3 - Proposal, STU1",
+        "location": "46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "description": "DECO7380_S2_STLUC_IN, STU1, 01\nDesign Computing Studio 3 - Proposal\nStaff: Viller, Stephen\nLocation: 46-442/443 - Andrew N. Liveris Building, Combined Collaborative Room",
+        "uid": "uid122"
+      },
+      {
+        "start": "2025-02-27T14:00:00",
+        "end": "2025-02-27T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid123"
+      },
+      {
+        "start": "2025-03-06T14:00:00",
+        "end": "2025-03-06T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid124"
+      },
+      {
+        "start": "2025-03-13T14:00:00",
+        "end": "2025-03-13T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid125"
+      },
+      {
+        "start": "2025-03-20T14:00:00",
+        "end": "2025-03-20T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid126"
+      },
+      {
+        "start": "2025-03-27T14:00:00",
+        "end": "2025-03-27T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid127"
+      },
+      {
+        "start": "2025-04-03T14:00:00",
+        "end": "2025-04-03T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid128"
+      },
+      {
+        "start": "2025-04-10T14:00:00",
+        "end": "2025-04-10T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid129"
+      },
+      {
+        "start": "2025-04-17T14:00:00",
+        "end": "2025-04-17T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid130"
+      },
+      {
+        "start": "2025-05-01T14:00:00",
+        "end": "2025-05-01T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid131"
+      },
+      {
+        "start": "2025-05-08T14:00:00",
+        "end": "2025-05-08T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid132"
+      },
+      {
+        "start": "2025-05-15T14:00:00",
+        "end": "2025-05-15T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid133"
+      },
+      {
+        "start": "2025-05-22T14:00:00",
+        "end": "2025-05-22T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid134"
+      },
+      {
+        "start": "2025-05-29T14:00:00",
+        "end": "2025-05-29T16:00:00",
+        "title": "Web Information Systems, LEC1",
+        "location": "08-139 - Goddard Building, Learning Theatre",
+        "description": "INFS7202_S1_STLUC_IN, LEC1, 01\nWeb Information Systems\nStaff: Bakharia, Aneesha\nLocation: 08-139 - Goddard Building, Learning Theatre",
+        "uid": "uid135"
+      },
+      {
+        "start": "2025-03-03T10:00:00",
+        "end": "2025-03-03T12:00:00",
+        "title": "Web Information Systems, PRA1",
+        "location": "78-116 - General Purpose South, Computer Lab",
+        "description": "INFS7202_S1_STLUC_IN, PRA1, 02\nWeb Information Systems\nStaff: -\nLocation: 78-116 - General Purpose South, Computer Lab",
+        "uid": "uid136"
+      },
+      {
+        "start": "2025-03-10T10:00:00",
+        "end": "2025-03-10T12:00:00",
+        "title": "Web Information Systems, PRA1",
+        "location": "78-116 - General Purpose South, Computer Lab",
+        "description": "INFS7202_S1_STLUC_IN, PRA1, 02\nWeb Information Systems\nStaff: -\nLocation: 78-116 - General Purpose South, Computer Lab",
+        "uid": "uid137"
+      },
+      {
+        "start": "2025-03-17T10:00:00",
+        "end": "2025-03-17T12:00:00",
+        "title": "Web Information Systems, PRA1",
+        "location": "78-116 - General Purpose South, Computer Lab",
+        "description": "INFS7202_S1_STLUC_IN, PRA1, 02\nWeb Information Systems\nStaff: -\nLocation: 78-116 - General Purpose South, Computer Lab",
+        "uid": "uid138"
+      },
+      {
+        "start": "2025-03-24T10:00:00",
+        "end": "2025-03-24T12:00:00",
+        "title": "Web Information Systems, PRA1",
+        "location": "78-116 - General Purpose South, Computer Lab",
+        "description": "INFS7202_S1_STLUC_IN, PRA1, 02\nWeb Information Systems\nStaff: -\nLocation: 78-116 - General Purpose South, Computer Lab",
+        "uid": "uid139"
+      },
+      {
+        "start": "2025-03-31T10:00:00",
+        "end": "2025-03-31T12:00:00",
+        "title": "Web Information Systems, PRA1",
+        "location": "78-116 - General Purpose South, Computer Lab",
+        "description": "INFS7202_S1_STLUC_IN, PRA1, 02\nWeb Information Systems\nStaff: -\nLocation: 78-116 - General Purpose South, Computer Lab",
+        "uid": "uid140"
+      },
+      {
+        "start": "2025-04-07T10:00:00",
+        "end": "2025-04-07T12:00:00",
+        "title": "Web Information Systems, PRA1",
+        "location": "78-116 - General Purpose South, Computer Lab",
+        "description": "INFS7202_S1_STLUC_IN, PRA1, 02\nWeb Information Systems\nStaff: -\nLocation: 78-116 - General Purpose South, Computer Lab",
+        "uid": "uid141"
+      },
+      {
+        "start": "2025-04-14T10:00:00",
+        "end": "2025-04-14T12:00:00",
+        "title": "Web Information Systems, PRA1",
+        "location": "78-116 - General Purpose South, Computer Lab",
+        "description": "INFS7202_S1_STLUC_IN, PRA1, 02\nWeb Information Systems\nStaff: -\nLocation: 78-116 - General Purpose South, Computer Lab",
+        "uid": "uid142"
+      },
+      {
+        "start": "2025-04-28T10:00:00",
+        "end": "2025-04-28T12:00:00",
+        "title": "Web Information Systems, PRA1",
+        "location": "78-116 - General Purpose South, Computer Lab",
+        "description": "INFS7202_S1_STLUC_IN, PRA1, 02\nWeb Information Systems\nStaff: -\nLocation: 78-116 - General Purpose South, Computer Lab",
+        "uid": "uid143"
+      },
+      {
+        "start": "2025-05-12T10:00:00",
+        "end": "2025-05-12T12:00:00",
+        "title": "Web Information Systems, PRA1",
+        "location": "78-116 - General Purpose South, Computer Lab",
+        "description": "INFS7202_S1_STLUC_IN, PRA1, 02\nWeb Information Systems\nStaff: -\nLocation: 78-116 - General Purpose South, Computer Lab",
+        "uid": "uid144"
+      },
+      {
+        "start": "2025-05-19T10:00:00",
+        "end": "2025-05-19T12:00:00",
+        "title": "Web Information Systems, PRA1",
+        "location": "78-116 - General Purpose South, Computer Lab",
+        "description": "INFS7202_S1_STLUC_IN, PRA1, 02\nWeb Information Systems\nStaff: -\nLocation: 78-116 - General Purpose South, Computer Lab",
+        "uid": "uid145"
+      },
+      {
+        "start": "2025-05-26T10:00:00",
+        "end": "2025-05-26T12:00:00",
+        "title": "Web Information Systems, PRA1",
+        "location": "78-116 - General Purpose South, Computer Lab",
+        "description": "INFS7202_S1_STLUC_IN, PRA1, 02\nWeb Information Systems\nStaff: -\nLocation: 78-116 - General Purpose South, Computer Lab",
+        "uid": "uid146"
+      },
+      {
+        "start": "2025-08-08T15:00:00",
+        "end": "2025-08-08T16:00:00",
+        "title": "Relational Database Systems, APP1",
+        "location": "78-224 - General Purpose South, Collaborative Room",
+        "description": "INFS7903_S2_STLUC_IN, APP1, 17\nRelational Database Systems\nStaff: -\nLocation: 78-224 - General Purpose South, Collaborative Room",
+        "uid": "uid147"
+      },
+      {
+        "start": "2025-08-15T15:00:00",
+        "end": "2025-08-15T16:00:00",
+        "title": "Relational Database Systems, APP1",
+        "location": "78-224 - General Purpose South, Collaborative Room",
+        "description": "INFS7903_S2_STLUC_IN, APP1, 17\nRelational Database Systems\nStaff: -\nLocation: 78-224 - General Purpose South, Collaborative Room",
+        "uid": "uid148"
+      },
+      {
+        "start": "2025-08-22T15:00:00",
+        "end": "2025-08-22T16:00:00",
+        "title": "Relational Database Systems, APP1",
+        "location": "78-224 - General Purpose South, Collaborative Room",
+        "description": "INFS7903_S2_STLUC_IN, APP1, 17\nRelational Database Systems\nStaff: -\nLocation: 78-224 - General Purpose South, Collaborative Room",
+        "uid": "uid149"
+      },
+      {
+        "start": "2025-08-29T15:00:00",
+        "end": "2025-08-29T16:00:00",
+        "title": "Relational Database Systems, APP1",
+        "location": "78-224 - General Purpose South, Collaborative Room",
+        "description": "INFS7903_S2_STLUC_IN, APP1, 17\nRelational Database Systems\nStaff: -\nLocation: 78-224 - General Purpose South, Collaborative Room",
+        "uid": "uid150"
+      },
+      {
+        "start": "2025-09-05T15:00:00",
+        "end": "2025-09-05T16:00:00",
+        "title": "Relational Database Systems, APP1",
+        "location": "78-224 - General Purpose South, Collaborative Room",
+        "description": "INFS7903_S2_STLUC_IN, APP1, 17\nRelational Database Systems\nStaff: -\nLocation: 78-224 - General Purpose South, Collaborative Room",
+        "uid": "uid151"
+      },
+      {
+        "start": "2025-09-12T15:00:00",
+        "end": "2025-09-12T16:00:00",
+        "title": "Relational Database Systems, APP1",
+        "location": "78-224 - General Purpose South, Collaborative Room",
+        "description": "INFS7903_S2_STLUC_IN, APP1, 17\nRelational Database Systems\nStaff: -\nLocation: 78-224 - General Purpose South, Collaborative Room",
+        "uid": "uid152"
+      },
+      {
+        "start": "2025-09-19T15:00:00",
+        "end": "2025-09-19T16:00:00",
+        "title": "Relational Database Systems, APP1",
+        "location": "78-224 - General Purpose South, Collaborative Room",
+        "description": "INFS7903_S2_STLUC_IN, APP1, 17\nRelational Database Systems\nStaff: -\nLocation: 78-224 - General Purpose South, Collaborative Room",
+        "uid": "uid153"
+      },
+      {
+        "start": "2025-09-26T15:00:00",
+        "end": "2025-09-26T16:00:00",
+        "title": "Relational Database Systems, APP1",
+        "location": "78-224 - General Purpose South, Collaborative Room",
+        "description": "INFS7903_S2_STLUC_IN, APP1, 17\nRelational Database Systems\nStaff: -\nLocation: 78-224 - General Purpose South, Collaborative Room",
+        "uid": "uid154"
+      },
+      {
+        "start": "2025-10-10T15:00:00",
+        "end": "2025-10-10T16:00:00",
+        "title": "Relational Database Systems, APP1",
+        "location": "78-224 - General Purpose South, Collaborative Room",
+        "description": "INFS7903_S2_STLUC_IN, APP1, 17\nRelational Database Systems\nStaff: -\nLocation: 78-224 - General Purpose South, Collaborative Room",
+        "uid": "uid155"
+      },
+      {
+        "start": "2025-10-17T15:00:00",
+        "end": "2025-10-17T16:00:00",
+        "title": "Relational Database Systems, APP1",
+        "location": "78-224 - General Purpose South, Collaborative Room",
+        "description": "INFS7903_S2_STLUC_IN, APP1, 17\nRelational Database Systems\nStaff: -\nLocation: 78-224 - General Purpose South, Collaborative Room",
+        "uid": "uid156"
+      },
+      {
+        "start": "2025-10-24T15:00:00",
+        "end": "2025-10-24T16:00:00",
+        "title": "Relational Database Systems, APP1",
+        "location": "78-224 - General Purpose South, Collaborative Room",
+        "description": "INFS7903_S2_STLUC_IN, APP1, 17\nRelational Database Systems\nStaff: -\nLocation: 78-224 - General Purpose South, Collaborative Room",
+        "uid": "uid157"
+      },
+      {
+        "start": "2025-10-31T15:00:00",
+        "end": "2025-10-31T16:00:00",
+        "title": "Relational Database Systems, APP1",
+        "location": "78-224 - General Purpose South, Collaborative Room",
+        "description": "INFS7903_S2_STLUC_IN, APP1, 17\nRelational Database Systems\nStaff: -\nLocation: 78-224 - General Purpose South, Collaborative Room",
+        "uid": "uid158"
+      },
+      {
+        "start": "2025-07-28T16:00:00",
+        "end": "2025-07-28T18:00:00",
+        "title": "Relational Database Systems, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "INFS7903_S2_STLUC_IN, LEC1, 01_Delayed\nRelational Database Systems\nStaff: Li, Xue\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid159"
+      },
+      {
+        "start": "2025-08-04T16:00:00",
+        "end": "2025-08-04T18:00:00",
+        "title": "Relational Database Systems, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "INFS7903_S2_STLUC_IN, LEC1, 01_Delayed\nRelational Database Systems\nStaff: Li, Xue\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid160"
+      },
+      {
+        "start": "2025-08-11T16:00:00",
+        "end": "2025-08-11T18:00:00",
+        "title": "Relational Database Systems, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "INFS7903_S2_STLUC_IN, LEC1, 01_Delayed\nRelational Database Systems\nStaff: Li, Xue\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid161"
+      },
+      {
+        "start": "2025-08-18T16:00:00",
+        "end": "2025-08-18T18:00:00",
+        "title": "Relational Database Systems, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "INFS7903_S2_STLUC_IN, LEC1, 01_Delayed\nRelational Database Systems\nStaff: Li, Xue\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid162"
+      },
+      {
+        "start": "2025-08-25T16:00:00",
+        "end": "2025-08-25T18:00:00",
+        "title": "Relational Database Systems, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "INFS7903_S2_STLUC_IN, LEC1, 01_Delayed\nRelational Database Systems\nStaff: Li, Xue\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid163"
+      },
+      {
+        "start": "2025-09-01T16:00:00",
+        "end": "2025-09-01T18:00:00",
+        "title": "Relational Database Systems, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "INFS7903_S2_STLUC_IN, LEC1, 01_Delayed\nRelational Database Systems\nStaff: Li, Xue\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid164"
+      },
+      {
+        "start": "2025-09-08T16:00:00",
+        "end": "2025-09-08T18:00:00",
+        "title": "Relational Database Systems, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "INFS7903_S2_STLUC_IN, LEC1, 01_Delayed\nRelational Database Systems\nStaff: Li, Xue\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid165"
+      },
+      {
+        "start": "2025-09-15T16:00:00",
+        "end": "2025-09-15T18:00:00",
+        "title": "Relational Database Systems, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "INFS7903_S2_STLUC_IN, LEC1, 01_Delayed\nRelational Database Systems\nStaff: Li, Xue\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid166"
+      },
+      {
+        "start": "2025-09-22T16:00:00",
+        "end": "2025-09-22T18:00:00",
+        "title": "Relational Database Systems, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "INFS7903_S2_STLUC_IN, LEC1, 01_Delayed\nRelational Database Systems\nStaff: Li, Xue\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid167"
+      },
+      {
+        "start": "2025-10-13T16:00:00",
+        "end": "2025-10-13T18:00:00",
+        "title": "Relational Database Systems, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "INFS7903_S2_STLUC_IN, LEC1, 01_Delayed\nRelational Database Systems\nStaff: Li, Xue\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid168"
+      },
+      {
+        "start": "2025-10-20T16:00:00",
+        "end": "2025-10-20T18:00:00",
+        "title": "Relational Database Systems, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "INFS7903_S2_STLUC_IN, LEC1, 01_Delayed\nRelational Database Systems\nStaff: Li, Xue\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid169"
+      },
+      {
+        "start": "2025-10-27T16:00:00",
+        "end": "2025-10-27T18:00:00",
+        "title": "Relational Database Systems, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "INFS7903_S2_STLUC_IN, LEC1, 01_Delayed\nRelational Database Systems\nStaff: Li, Xue\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid170"
+      },
+      {
+        "start": "2025-08-05T17:00:00",
+        "end": "2025-08-05T18:00:00",
+        "title": "Relational Database Systems, PRA1",
+        "location": "78-328 - General Purpose South, Computer Lab",
+        "description": "INFS7903_S2_STLUC_IN, PRA1, 09\nRelational Database Systems\nStaff: -\nLocation: 78-328 - General Purpose South, Computer Lab",
+        "uid": "uid171"
+      },
+      {
+        "start": "2025-08-12T17:00:00",
+        "end": "2025-08-12T18:00:00",
+        "title": "Relational Database Systems, PRA1",
+        "location": "78-328 - General Purpose South, Computer Lab",
+        "description": "INFS7903_S2_STLUC_IN, PRA1, 09\nRelational Database Systems\nStaff: -\nLocation: 78-328 - General Purpose South, Computer Lab",
+        "uid": "uid172"
+      },
+      {
+        "start": "2025-08-19T17:00:00",
+        "end": "2025-08-19T18:00:00",
+        "title": "Relational Database Systems, PRA1",
+        "location": "78-328 - General Purpose South, Computer Lab",
+        "description": "INFS7903_S2_STLUC_IN, PRA1, 09\nRelational Database Systems\nStaff: -\nLocation: 78-328 - General Purpose South, Computer Lab",
+        "uid": "uid173"
+      },
+      {
+        "start": "2025-08-26T17:00:00",
+        "end": "2025-08-26T18:00:00",
+        "title": "Relational Database Systems, PRA1",
+        "location": "78-328 - General Purpose South, Computer Lab",
+        "description": "INFS7903_S2_STLUC_IN, PRA1, 09\nRelational Database Systems\nStaff: -\nLocation: 78-328 - General Purpose South, Computer Lab",
+        "uid": "uid174"
+      },
+      {
+        "start": "2025-09-02T17:00:00",
+        "end": "2025-09-02T18:00:00",
+        "title": "Relational Database Systems, PRA1",
+        "location": "78-328 - General Purpose South, Computer Lab",
+        "description": "INFS7903_S2_STLUC_IN, PRA1, 09\nRelational Database Systems\nStaff: -\nLocation: 78-328 - General Purpose South, Computer Lab",
+        "uid": "uid175"
+      },
+      {
+        "start": "2025-09-09T17:00:00",
+        "end": "2025-09-09T18:00:00",
+        "title": "Relational Database Systems, PRA1",
+        "location": "78-328 - General Purpose South, Computer Lab",
+        "description": "INFS7903_S2_STLUC_IN, PRA1, 09\nRelational Database Systems\nStaff: -\nLocation: 78-328 - General Purpose South, Computer Lab",
+        "uid": "uid176"
+      },
+      {
+        "start": "2025-09-16T17:00:00",
+        "end": "2025-09-16T18:00:00",
+        "title": "Relational Database Systems, PRA1",
+        "location": "78-328 - General Purpose South, Computer Lab",
+        "description": "INFS7903_S2_STLUC_IN, PRA1, 09\nRelational Database Systems\nStaff: -\nLocation: 78-328 - General Purpose South, Computer Lab",
+        "uid": "uid177"
+      },
+      {
+        "start": "2025-09-23T17:00:00",
+        "end": "2025-09-23T18:00:00",
+        "title": "Relational Database Systems, PRA1",
+        "location": "78-328 - General Purpose South, Computer Lab",
+        "description": "INFS7903_S2_STLUC_IN, PRA1, 09\nRelational Database Systems\nStaff: -\nLocation: 78-328 - General Purpose South, Computer Lab",
+        "uid": "uid178"
+      },
+      {
+        "start": "2025-10-07T17:00:00",
+        "end": "2025-10-07T18:00:00",
+        "title": "Relational Database Systems, PRA1",
+        "location": "78-328 - General Purpose South, Computer Lab",
+        "description": "INFS7903_S2_STLUC_IN, PRA1, 09\nRelational Database Systems\nStaff: -\nLocation: 78-328 - General Purpose South, Computer Lab",
+        "uid": "uid179"
+      },
+      {
+        "start": "2025-10-14T17:00:00",
+        "end": "2025-10-14T18:00:00",
+        "title": "Relational Database Systems, PRA1",
+        "location": "78-328 - General Purpose South, Computer Lab",
+        "description": "INFS7903_S2_STLUC_IN, PRA1, 09\nRelational Database Systems\nStaff: -\nLocation: 78-328 - General Purpose South, Computer Lab",
+        "uid": "uid180"
+      },
+      {
+        "start": "2025-10-21T17:00:00",
+        "end": "2025-10-21T18:00:00",
+        "title": "Relational Database Systems, PRA1",
+        "location": "78-328 - General Purpose South, Computer Lab",
+        "description": "INFS7903_S2_STLUC_IN, PRA1, 09\nRelational Database Systems\nStaff: -\nLocation: 78-328 - General Purpose South, Computer Lab",
+        "uid": "uid181"
+      },
+      {
+        "start": "2025-10-28T17:00:00",
+        "end": "2025-10-28T18:00:00",
+        "title": "Relational Database Systems, PRA1",
+        "location": "78-328 - General Purpose South, Computer Lab",
+        "description": "INFS7903_S2_STLUC_IN, PRA1, 09\nRelational Database Systems\nStaff: -\nLocation: 78-328 - General Purpose South, Computer Lab",
+        "uid": "uid182"
+      },
+      {
+        "start": "2025-08-07T08:00:00",
+        "end": "2025-08-07T10:00:00",
+        "title": "Research Methods, APP1",
+        "location": "65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "description": "REIT6811_S2_STLUC_IN, APP1, 10\nResearch Methods\nStaff: -\nLocation: 65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "uid": "uid183"
+      },
+      {
+        "start": "2025-08-14T08:00:00",
+        "end": "2025-08-14T10:00:00",
+        "title": "Research Methods, APP1",
+        "location": "65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "description": "REIT6811_S2_STLUC_IN, APP1, 10\nResearch Methods\nStaff: -\nLocation: 65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "uid": "uid184"
+      },
+      {
+        "start": "2025-08-21T08:00:00",
+        "end": "2025-08-21T10:00:00",
+        "title": "Research Methods, APP1",
+        "location": "65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "description": "REIT6811_S2_STLUC_IN, APP1, 10\nResearch Methods\nStaff: -\nLocation: 65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "uid": "uid185"
+      },
+      {
+        "start": "2025-08-28T08:00:00",
+        "end": "2025-08-28T10:00:00",
+        "title": "Research Methods, APP1",
+        "location": "65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "description": "REIT6811_S2_STLUC_IN, APP1, 10\nResearch Methods\nStaff: -\nLocation: 65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "uid": "uid186"
+      },
+      {
+        "start": "2025-09-04T08:00:00",
+        "end": "2025-09-04T10:00:00",
+        "title": "Research Methods, APP1",
+        "location": "65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "description": "REIT6811_S2_STLUC_IN, APP1, 10\nResearch Methods\nStaff: -\nLocation: 65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "uid": "uid187"
+      },
+      {
+        "start": "2025-09-11T08:00:00",
+        "end": "2025-09-11T10:00:00",
+        "title": "Research Methods, APP1",
+        "location": "65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "description": "REIT6811_S2_STLUC_IN, APP1, 10\nResearch Methods\nStaff: -\nLocation: 65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "uid": "uid188"
+      },
+      {
+        "start": "2025-09-18T08:00:00",
+        "end": "2025-09-18T10:00:00",
+        "title": "Research Methods, APP1",
+        "location": "65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "description": "REIT6811_S2_STLUC_IN, APP1, 10\nResearch Methods\nStaff: -\nLocation: 65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "uid": "uid189"
+      },
+      {
+        "start": "2025-09-25T08:00:00",
+        "end": "2025-09-25T10:00:00",
+        "title": "Research Methods, APP1",
+        "location": "65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "description": "REIT6811_S2_STLUC_IN, APP1, 10\nResearch Methods\nStaff: -\nLocation: 65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "uid": "uid190"
+      },
+      {
+        "start": "2025-10-09T08:00:00",
+        "end": "2025-10-09T10:00:00",
+        "title": "Research Methods, APP1",
+        "location": "65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "description": "REIT6811_S2_STLUC_IN, APP1, 10\nResearch Methods\nStaff: -\nLocation: 65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "uid": "uid191"
+      },
+      {
+        "start": "2025-10-16T08:00:00",
+        "end": "2025-10-16T10:00:00",
+        "title": "Research Methods, APP1",
+        "location": "65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "description": "REIT6811_S2_STLUC_IN, APP1, 10\nResearch Methods\nStaff: -\nLocation: 65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "uid": "uid192"
+      },
+      {
+        "start": "2025-10-23T08:00:00",
+        "end": "2025-10-23T10:00:00",
+        "title": "Research Methods, APP1",
+        "location": "65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "description": "REIT6811_S2_STLUC_IN, APP1, 10\nResearch Methods\nStaff: -\nLocation: 65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "uid": "uid193"
+      },
+      {
+        "start": "2025-10-30T08:00:00",
+        "end": "2025-10-30T10:00:00",
+        "title": "Research Methods, APP1",
+        "location": "65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "description": "REIT6811_S2_STLUC_IN, APP1, 10\nResearch Methods\nStaff: -\nLocation: 65-305 - Skerman Building, Collaborative Room (7/8-25/9, 9/10-30/10), 78-346 - General Purpose South, Collaborative Room (14/8)",
+        "uid": "uid194"
+      },
+      {
+        "start": "2025-07-29T08:00:00",
+        "end": "2025-07-29T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid195"
+      },
+      {
+        "start": "2025-08-05T08:00:00",
+        "end": "2025-08-05T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid196"
+      },
+      {
+        "start": "2025-08-12T08:00:00",
+        "end": "2025-08-12T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid197"
+      },
+      {
+        "start": "2025-08-19T08:00:00",
+        "end": "2025-08-19T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid198"
+      },
+      {
+        "start": "2025-08-26T08:00:00",
+        "end": "2025-08-26T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid199"
+      },
+      {
+        "start": "2025-09-02T08:00:00",
+        "end": "2025-09-02T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid200"
+      },
+      {
+        "start": "2025-09-09T08:00:00",
+        "end": "2025-09-09T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid201"
+      },
+      {
+        "start": "2025-09-16T08:00:00",
+        "end": "2025-09-16T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid202"
+      },
+      {
+        "start": "2025-09-23T08:00:00",
+        "end": "2025-09-23T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid203"
+      },
+      {
+        "start": "2025-10-07T08:00:00",
+        "end": "2025-10-07T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid204"
+      },
+      {
+        "start": "2025-10-14T08:00:00",
+        "end": "2025-10-14T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid205"
+      },
+      {
+        "start": "2025-10-21T08:00:00",
+        "end": "2025-10-21T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid206"
+      },
+      {
+        "start": "2025-10-28T08:00:00",
+        "end": "2025-10-28T10:00:00",
+        "title": "Research Methods, LEC1",
+        "location": "Delayed viewing (Clashable)",
+        "description": "REIT6811_S2_STLUC_IN, LEC1, 01_Delayed\nResearch Methods\nStaff: Guo, Lei\nLocation: Delayed viewing (Clashable)",
+        "uid": "uid207"
+      }
+    ],
+    "lastUpdated": "2025-10-18T13:05:48.295Z"
+  }
+]

@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UQ Connect - Recommendations</title>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/recommendations.css" />
+    <link rel="stylesheet" href="css/user.css" />
+    <link rel="stylesheet" href="css/modals.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Special+Gothic:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .preference-card {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+      }
+
+      .preference-card p {
+        margin: 0;
+        font-size: 0.9rem;
+        color: #6466a3;
+      }
+
+      .preference-card .select-grid {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      }
+
+      .preference-card label {
+        font-weight: 600;
+      }
+
+      .preference-card select {
+        width: 100%;
+        padding: 0.6rem;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+      }
+
+      .preference-options {
+        display: grid;
+        gap: 0.5rem 1.5rem;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        font-size: 0.9rem;
+      }
+
+      .preference-option {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 0.85rem 1rem;
+        border: 1px solid #e0e3eb;
+        border-radius: 10px;
+        background: #fff;
+        cursor: pointer;
+        transition: border-color 0.2s ease, box-shadow 0.2s ease;
+      }
+
+      .preference-option:hover {
+        border-color: rgba(106, 27, 154, 0.35);
+        box-shadow: 0 8px 18px rgba(106, 27, 154, 0.12);
+      }
+
+      .preference-option input {
+        width: 18px;
+        height: 18px;
+      }
+
+      .preference-option .icon {
+        font-size: 1.05rem;
+      }
+
+      .preference-panes {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo">UQ Connect</div>
+        <nav class="nav">
+          <a href="dashboard.html">Dashboard</a>
+          <a href="events.html">Events</a>
+          <a href="calendar.html">Calendar</a>
+          <a href="recommendations.html" class="active">Recommendations</a>
+        </nav>
+        <div class="user-info">
+          <div
+            class="user-avatar"
+            id="userAvatar"
+            onclick="toggleUserDropdown()"
+          >
+            U
+          </div>
+          <span id="userWelcome">Welcome, User</span>
+          <div class="user-dropdown" id="userDropdown">
+            <a href="#" class="user-dropdown-item" onclick="showProfile()"
+              >Profile</a
+            >
+            <a href="#" class="user-dropdown-item" onclick="showSettings()"
+              >Settings</a
+            >
+            <a href="#" class="user-dropdown-item logout" onclick="logout()"
+              >Logout</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <!-- Recommendation Description -->
+      <div class="card">
+        <h2>🎯 Personalized Recommendations</h2>
+        <p>
+          Based on your course schedule and interests, we recommend the
+          following activities. These recommendations consider your time
+          availability, field of study, and personal preferences.
+        </p>
+
+        <div
+          style="
+            background-color: #f8f9fa;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-top: 1rem;
+          "
+        >
+          <h4>💡 Recommendation Algorithm</h4>
+          <ul style="margin-left: 1.5rem">
+            <li>Analyze your course schedule to find free time slots</li>
+            <li>Recommend activities related to your field of study</li>
+            <li>
+              Consider convenience of event locations relative to your frequent
+              locations
+            </li>
+            <li>Rank based on event popularity and ratings</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Preferences Editor -->
+      <div class="card">
+        <h3>Update Your Preferences</h3>
+        <p style="font-size: 0.9rem; color: #666">
+          Adjust your campus, faculty and interests to refine recommendations. Changes apply instantly.
+        </p>
+
+        <form id="preferencesForm" class="" style="display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem">
+          <div class="grid" style="gap: 1rem">
+            <div>
+              <label for="prefCampus" style="font-weight: 600; margin-bottom: 0.3rem; display: block">Primary campus</label>
+              <select id="prefCampus" style="width: 100%; padding: 0.6rem; border: 1px solid #ccc; border-radius: 6px">
+                <option value="">Select campus</option>
+                <option value="St Lucia">St Lucia</option>
+                <option value="Gatton">Gatton</option>
+                <option value="Herston">Herston</option>
+                <option value="Long Pocket">Long Pocket</option>
+                <option value="Customs House">Customs House</option>
+                <option value="Online">Online / External</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="prefFaculty" style="font-weight: 600; margin-bottom: 0.3rem; display: block">Faculty</label>
+              <select id="prefFaculty" style="width: 100%; padding: 0.6rem; border: 1px solid #ccc; border-radius: 6px">
+                <option value="">Select faculty</option>
+                <option value="Business, Economics and Law">Business, Economics and Law (BEL)</option>
+                <option value="Engineering, Architecture and Information Technology">Engineering, Architecture and Information Technology (EAIT)</option>
+                <option value="Health and Behavioural Sciences">Health and Behavioural Sciences (HaBS)</option>
+                <option value="Humanities and Social Sciences">Humanities and Social Sciences (HASS)</option>
+                <option value="Medicine">Medicine</option>
+                <option value="Science">Science</option>
+                <option value="Graduate School">Graduate School / HDR</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="accordion preference-panes" data-accordion="multiple">
+            <div class="accordion-item open">
+              <button type="button" class="accordion-trigger" onclick="toggleAccordion(this)" aria-expanded="true">
+                <span><span class="icon">📋</span> Preferred event categories</span>
+                <span class="icon accordion-arrow">▾</span>
+              </button>
+              <div class="accordion-panel open">
+                <div class="preference-options">
+                  <label class="preference-option">
+                    <input type="checkbox" name="prefCategory" value="Academic" />
+                    <span class="icon">🎓</span>
+                    <span>Academic</span>
+                  </label>
+                  <label class="preference-option">
+                    <input type="checkbox" name="prefCategory" value="Career" />
+                    <span class="icon">💼</span>
+                    <span>Career</span>
+                  </label>
+                  <label class="preference-option">
+                    <input type="checkbox" name="prefCategory" value="Workshop" />
+                    <span class="icon">🛠</span>
+                    <span>Workshop</span>
+                  </label>
+                  <label class="preference-option">
+                    <input type="checkbox" name="prefCategory" value="Social" />
+                    <span class="icon">🎭</span>
+                    <span>Social</span>
+                  </label>
+                  <label class="preference-option">
+                    <input type="checkbox" name="prefCategory" value="Wellness" />
+                    <span class="icon">☯</span>
+                    <span>Wellness</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item open">
+              <button type="button" class="accordion-trigger" onclick="toggleAccordion(this)" aria-expanded="true">
+                <span><span class="icon">⭐</span> Interests</span>
+                <span class="icon accordion-arrow">▾</span>
+              </button>
+              <div class="accordion-panel open">
+                <div class="preference-options">
+                  <label class="preference-option">
+                    <input type="checkbox" name="prefInterest" value="photography" />
+                    <span class="icon">📸</span>
+                    <span>Photography</span>
+                  </label>
+                  <label class="preference-option">
+                    <input type="checkbox" name="prefInterest" value="music" />
+                    <span class="icon">🎵</span>
+                    <span>Music & Concerts</span>
+                  </label>
+                  <label class="preference-option">
+                    <input type="checkbox" name="prefInterest" value="sports" />
+                    <span class="icon">⚽</span>
+                    <span>Sports & Fitness</span>
+                  </label>
+                  <label class="preference-option">
+                    <input type="checkbox" name="prefInterest" value="volunteering" />
+                    <span class="icon">🤝</span>
+                    <span>Volunteering</span>
+                  </label>
+                  <label class="preference-option">
+                    <input type="checkbox" name="prefInterest" value="outdoor" />
+                    <span class="icon">🌿</span>
+                    <span>Outdoor Activities</span>
+                  </label>
+                  <label class="preference-option">
+                    <input type="checkbox" name="prefInterest" value="social" />
+                    <span class="icon">🎉</span>
+                    <span>Social Events</span>
+                  </label>
+                  <label class="preference-option">
+                    <input type="checkbox" name="prefInterest" value="food" />
+                    <span class="icon">🍜</span>
+                    <span>Food & Culture</span>
+                  </label>
+                  <label class="preference-option">
+                    <input type="checkbox" name="prefInterest" value="tech" />
+                    <span class="icon">💡</span>
+                    <span>Technology & Innovation</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: flex; align-items: center; gap: 1rem">
+            <button type="submit" class="btn btn-primary">Save preferences</button>
+            <span id="preferencesStatus" style="font-size: 0.9rem; color: #666"></span>
+          </div>
+        </form>
+      </div>
+
+      <!-- Recommendations List -->
+      <div id="recommendationsList">
+        <div class="loading">Loading...</div>
+      </div>
+
+      <!-- If No Recommendations -->
+      <div id="noRecommendations" class="card hidden">
+        <h3>📝 No Recommendations Available</h3>
+        <p>
+          Currently no suitable recommended activities found for you. This might
+          be because:
+        </p>
+        <ul style="margin-left: 1.5rem; margin-top: 1rem">
+          <li>You haven't uploaded your timetable yet</li>
+          <li>No activities match your current schedule</li>
+          <li>The system is analyzing your preferences</li>
+        </ul>
+        <div style="margin-top: 1.5rem">
+          <a href="calendar.html" class="btn">Upload Timetable</a>
+          <a
+            href="events.html"
+            class="btn btn-secondary"
+            style="margin-left: 1rem"
+            >Browse All Events</a
+          >
+        </div>
+      </div>
+    </main>
+
+    <script src="js/app.js"></script>
+    <script>
+      let recommendations = [];
+
+      // Load recommendations data
+      async function loadRecommendations() {
+        try {
+          // Check if user is logged in
+          if (!requireAuth()) return;
+
+          recommendations = await getRecommendations();
+          displayRecommendations();
+        } catch (error) {
+          console.error("Failed to load recommendations:", error);
+          showAlert("error", "Failed to load recommendations");
+        }
+      }
+
+      // Display recommendations list
+      function displayRecommendations() {
+        const container = document.getElementById("recommendationsList");
+        const noRecommendations = document.getElementById("noRecommendations");
+
+        if (recommendations.length === 0) {
+          container.innerHTML = "";
+          noRecommendations.classList.remove("hidden");
+          return;
+        }
+
+        noRecommendations.classList.add("hidden");
+
+        container.innerHTML = recommendations
+          .map(
+            (rec, index) => `
+                <div class="recommendation-card">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
+                        <h3>${rec.title}</h3>
+                        <span class="confidence">Confidence: ${Math.round(
+                          rec.confidence * 100
+                        )}%</span>
+                    </div>
+                    
+                    <div class="event-meta" style="margin-bottom: 1rem;">
+                        <span class="status-badge ${rec.category.toLowerCase()}">${
+              rec.category
+            }</span>
+                        <span>📅 ${formatDate(rec.date)}</span>
+                        <span>🕐 ${formatTime(rec.time)}</span>
+                        <span>⏱️ ${formatDuration(rec.duration)}</span>
+                        <span>📍 ${rec.location}</span>
+                        <span>👥 ${rec.registered}/${rec.capacity} people</span>
+                    </div>
+                    
+                    <p class="event-description" style="margin-bottom: 1rem;">${
+                      rec.description
+                    }</p>
+                    
+                    ${
+                      rec.recommendedFor
+                        ? `

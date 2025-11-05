@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UQ Connect - Dashboard</title>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/events.css" />
+    <link rel="stylesheet" href="css/user.css" />
+    <link rel="stylesheet" href="css/modals.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Special+Gothic:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo">UQ Connect</div>
+        <nav class="nav">
+          <a href="dashboard.html" class="active">Dashboard</a>
+          <a href="events.html">Events</a>
+          <a href="calendar.html">Calendar</a>
+          <a href="recommendations.html">Recommendations</a>
+        </nav>
+        <div class="user-info">
+          <div
+            class="user-avatar"
+            id="userAvatar"
+            onclick="toggleUserDropdown()"
+          >
+            U
+          </div>
+          <span id="userWelcome">Welcome, User</span>
+          <div class="user-dropdown" id="userDropdown">
+            <a href="#" class="user-dropdown-item" onclick="showProfile()"
+              >Profile</a
+            >
+            <a href="#" class="user-dropdown-item" onclick="showSettings()"
+              >Settings</a
+            >
+            <a href="#" class="user-dropdown-item logout" onclick="logout()"
+              >Logout</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <!-- Welcome information -->
+      <div class="card">
+        <h2>Welcome Back!</h2>
+        <p>
+          This is your UQ Connect dashboard where you can view your activities,
+          calendar, and personalized recommendations.
+        </p>
+      </div>
+
+      <!-- Quick statistics -->
+      <div class="grid grid-3">
+        <div class="card">
+          <h3>📅 Today's Events</h3>
+          <div
+            style="font-size: 2rem; color: #6a1b9a; font-weight: bold"
+            id="todayEvents"
+          >
+            0
+          </div>
+          <p>events scheduled</p>
+        </div>
+        <div class="card">
+          <h3>🎯 Recommended Events</h3>
+          <div
+            style="font-size: 2rem; color: #6a1b9a; font-weight: bold"
+            id="recommendations"
+          >
+            0
+          </div>
+          <p>recommended events</p>
+        </div>
+        <div class="card">
+          <h3>📚 Total Events</h3>
+          <div
+            style="font-size: 2rem; color: #6a1b9a; font-weight: bold"
+            id="totalEvents"
+          >
+            0
+          </div>
+          <p>available events</p>
+        </div>
+      </div>
+
+      <!-- Today's events -->
+      <div class="card">
+        <h2>Today's Events</h2>
+        <div id="todayEventsList">
+          <div class="loading">Loading...</div>
+        </div>
+      </div>
+
+      <!-- Upcoming events -->
+      <div class="card">
+        <h2>Upcoming Events</h2>
+        <div id="upcomingEventsList">
+          <div class="loading">Loading...</div>
+        </div>
+      </div>
+
+      <!-- Quick actions -->
+      <div class="card">
+        <h2>Quick Actions</h2>
+        <div class="grid grid-2">
+          <div>
+            <h3>🔗 Import Calendar URL</h3>
+            <p>Paste your UQ MyTimetable (or other) subscription link</p>
+            <div style="display: flex; flex-direction: column; gap: 0.5rem">
+              <input
+                type="text"
+                id="externalCalendarUrl"
+                placeholder="https://timetable.my.uq.edu.au/..."
+                style="padding: 0.6rem 0.8rem; border: 1px solid #ccc; border-radius: 6px"
+              />
+              <button
+                class="btn"
+                onclick="importExternalCalendar()"
+                style="align-self: flex-start"
+              >
+                Import URL
+              </button>
+              <div
+                id="importStatus"
+                style="font-size: 0.9rem; color: #666"
+              ></div>
+            </div>
+          </div>
+          <div>
+            <h3>🎯 View Recommendations</h3>
+            <p>Get personalized recommendations based on your schedule</p>
+            <a href="recommendations.html" class="btn" style="margin-top: 1rem">
+              View Recommendations
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/app.js"></script>
+    <script>
+      // Load dashboard data
+      async function loadDashboardData() {
+        try {
+          // Check if user is logged in
+          if (!requireAuth()) return;
+
+          // Get all events
+          const events = await getEvents();
+          document.getElementById("totalEvents").textContent = events.length;
+
+          // Get user calendar
+          const userCalendar = await getUserCalendar();
+
+          // Get recommendations
+          const recommendations = await getRecommendations();
+          document.getElementById("recommendations").textContent =
+            recommendations.length;
+
+          // Process today's events
+          const today = new Date().toISOString().split("T")[0];
+          const todayEvents = userCalendar.filter(
+            (event) => event.start && event.start.startsWith(today)
+          );
+
+          document.getElementById("todayEvents").textContent =
+            todayEvents.length;
+          displayTodayEvents(todayEvents);
+
+          // Process upcoming events
+          const upcomingEvents = userCalendar
+            .filter(
+              (event) => event.start && new Date(event.start) > new Date()
+            )
+            .sort((a, b) => new Date(a.start) - new Date(b.start))
+            .slice(0, 5);
+
+          displayUpcomingEvents(upcomingEvents);
+        } catch (error) {
+          console.error("Failed to load dashboard data:", error);
+          showAlert("error", "Failed to load data");
+        }
+      }
+
+      // Display today's events
+      function displayTodayEvents(events) {
+        const container = document.getElementById("todayEventsList");
+
+        if (events.length === 0) {
+          container.innerHTML =
+            '<p style="text-align: center; color: #666;">No events scheduled for today</p>';
+          return;
+        }
+
+        container.innerHTML = events
+          .map(
+            (event) => `
+                <div class="event-card">
+                    <h3>${event.title}</h3>
+                    <div class="event-meta">
+                        <span>🕐 ${formatTime(event.start)} - ${formatTime(
+              event.end
+            )}</span>
+                        <span>📍 ${
+                          event.location || "Location not specified"
+                        }</span>
+                    </div>
+                    <p class="event-description">${
+                      event.description || "No description"
+                    }</p>
+                </div>
+            `
+          )
+          .join("");
+      }
+
+      // Display upcoming events
+      function displayUpcomingEvents(events) {
+        const container = document.getElementById("upcomingEventsList");
+
+        if (events.length === 0) {
+          container.innerHTML =
+            '<p style="text-align: center; color: #666;">No upcoming events</p>';
+          return;
+        }
+
+        container.innerHTML = events
+          .map(
+            (event) => `
+                <div class="event-card">
+                    <h3>${event.title}</h3>
+                    <div class="event-meta">
+                        <span>📅 ${formatDate(event.start)}</span>
+                        <span>🕐 ${formatTime(event.start)} - ${formatTime(
+              event.end
+            )}</span>
+                        <span>📍 ${
+                          event.location || "Location not specified"
+                        }</span>
+                    </div>
+                    <p class="event-description">${
+                      event.description || "No description"
+                    }</p>
+                </div>
+            `
+          )
+          .join("");
+      }
+
+      // Toggle user dropdown menu
+      function toggleUserDropdown() {
+        const dropdown = document.getElementById("userDropdown");
+        dropdown.classList.toggle("show");
+      }
+
+      // Close dropdown when clicking outside
+      document.addEventListener("click", function (event) {
+        const userInfo = document.querySelector(".user-info");
+        const dropdown = document.getElementById("userDropdown");
+
+        if (!userInfo.contains(event.target)) {
+          dropdown.classList.remove("show");
+        }
+      });
+
+      // Profile function (placeholder)
+      function showProfile() {
+        showAlert("info", "Profile feature coming soon!");
+        document.getElementById("userDropdown").classList.remove("show");
+      }
+
+      // Settings function (placeholder)
+      function showSettings() {
+        showAlert("info", "Settings feature coming soon!");
+        document.getElementById("userDropdown").classList.remove("show");
+      }
+
+      // Load data after page load
+      document.addEventListener("DOMContentLoaded", function () {
+        loadDashboardData();
+      });
+
+    </script>
+  </body>
+</html>

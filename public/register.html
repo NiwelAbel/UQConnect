@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UQ Connect - Register</title>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Special+Gothic:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo">UQ Connect</div>
+        <nav class="nav">
+          <a href="login.html">Login</a>
+          <a href="register.html" class="active">Register</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <div class="auth-container">
+        <div class="auth-card">
+          <div class="auth-header">
+            <h2>Join UQ Connect</h2>
+            <p>Create your account and start your academic journey</p>
+          </div>
+
+          <form id="registerForm" class="auth-form">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="Enter your full name"
+                />
+                <span class="input-icon">👤</span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="regEmail">Email Address</label>
+              <div class="input-wrapper">
+                <input
+                  type="email"
+                  id="regEmail"
+                  name="email"
+                  required
+                  placeholder="your.email@uq.edu.au"
+                />
+                <span class="input-icon">📧</span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="regPassword">Password</label>
+              <div class="input-wrapper">
+                <input
+                  type="password"
+                  id="regPassword"
+                  name="password"
+                  required
+                  placeholder="Enter password (at least 6 characters)"
+                  minlength="6"
+                />
+                <span class="input-icon">🔒</span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="confirmPassword">Confirm Password</label>
+              <div class="input-wrapper">
+                <input
+                  type="password"
+                  id="confirmPassword"
+                  name="confirmPassword"
+                  required
+                  placeholder="Re-enter your password"
+                />
+                <span class="input-icon">🔐</span>
+              </div>
+            </div>
+
+            <div class="form-group" style="margin-top: 1.5rem">
+              <label style="font-weight: 600; font-size: 1.05rem">Tell us about your study preferences</label>
+              <div style="margin-top: 0.5rem; display: flex; flex-direction: column; gap: 1.25rem">
+                <p style="margin: 0; font-size: 0.9rem; color: #6466a3">
+                  Select the campus, faculty and interests that describe you best. We use this to personalise events and recommendations.
+                </p>
+
+                <div class="grid" style="gap: 1rem">
+                  <div>
+                    <label for="prefCampus" style="font-weight: 600; margin-bottom: 0.3rem; display: block">Primary campus</label>
+                    <select
+                      id="prefCampus"
+                      style="width: 100%; padding: 0.65rem 0.75rem; border: 1px solid #ccc; border-radius: 8px"
+                    >
+                      <option value="">Select campus</option>
+                      <option value="St Lucia">St Lucia</option>
+                      <option value="Gatton">Gatton</option>
+                      <option value="Herston">Herston</option>
+                      <option value="Long Pocket">Long Pocket</option>
+                      <option value="Customs House">Customs House</option>
+                      <option value="Online">Online / External</option>
+                    </select>
+                  </div>
+
+                  <div>
+                    <label for="prefFaculty" style="font-weight: 600; margin-bottom: 0.3rem; display: block">Faculty</label>
+                    <select
+                      id="prefFaculty"
+                      style="width: 100%; padding: 0.65rem 0.75rem; border: 1px solid #ccc; border-radius: 8px"
+                    >
+                      <option value="">Select faculty</option>
+                      <option value="Business, Economics and Law">Business, Economics and Law (BEL)</option>
+                      <option value="Engineering, Architecture and Information Technology">Engineering, Architecture and Information Technology (EAIT)</option>
+                      <option value="Health and Behavioural Sciences">Health and Behavioural Sciences (HaBS)</option>
+                      <option value="Humanities and Social Sciences">Humanities and Social Sciences (HASS)</option>
+                      <option value="Medicine">Medicine</option>
+                      <option value="Science">Science</option>
+                      <option value="Graduate School">Graduate School / HDR</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="accordion preference-panes" data-accordion="multiple">
+                  <div class="accordion-item open">
+                    <button type="button" class="accordion-trigger" onclick="toggleAccordion(this)" aria-expanded="true">
+                      <span><span class="icon">📋</span> Preferred event categories</span>
+                      <span class="icon accordion-arrow">▾</span>
+                    </button>
+                    <div class="accordion-panel open">
+                      <div class="preference-options">
+                        <label class="preference-option">
+                          <input type="checkbox" name="prefCategory" value="Academic" />
+                          <span class="icon">🎓</span>
+                          <span>Academic</span>
+                        </label>
+                        <label class="preference-option">
+                          <input type="checkbox" name="prefCategory" value="Career" />
+                          <span class="icon">💼</span>
+                          <span>Career</span>
+                        </label>
+                        <label class="preference-option">
+                          <input type="checkbox" name="prefCategory" value="Workshop" />
+                          <span class="icon">🛠</span>
+                          <span>Workshop</span>
+                        </label>
+                        <label class="preference-option">
+                          <input type="checkbox" name="prefCategory" value="Social" />
+                          <span class="icon">🎭</span>
+                          <span>Social</span>
+                        </label>
+                        <label class="preference-option">
+                          <input type="checkbox" name="prefCategory" value="Wellness" />
+                          <span class="icon">☯</span>
+                          <span>Wellness</span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item open">
+                    <button type="button" class="accordion-trigger" onclick="toggleAccordion(this)" aria-expanded="true">
+                      <span><span class="icon">⭐</span> Interests</span>
+                      <span class="icon accordion-arrow">▾</span>
+                    </button>
+                    <div class="accordion-panel open">
+                      <div class="preference-options">
+                        <label class="preference-option">
+                          <input type="checkbox" name="prefInterest" value="photography" />
+                          <span class="icon">📸</span>
+                          <span>Photography</span>
+                        </label>
+                        <label class="preference-option">
+                          <input type="checkbox" name="prefInterest" value="music" />
+                          <span class="icon">🎵</span>
+                          <span>Music & Concerts</span>
+                        </label>
+                        <label class="preference-option">
+                          <input type="checkbox" name="prefInterest" value="sports" />
+                          <span class="icon">⚽</span>
+                          <span>Sports & Fitness</span>
+                        </label>
+                        <label class="preference-option">
+                          <input type="checkbox" name="prefInterest" value="volunteering" />
+                          <span class="icon">🤝</span>
+                          <span>Volunteering</span>
+                        </label>
+                        <label class="preference-option">
+                          <input type="checkbox" name="prefInterest" value="outdoor" />
+                          <span class="icon">🌿</span>
+                          <span>Outdoor Activities</span>
+                        </label>
+                        <label class="preference-option">
+                          <input type="checkbox" name="prefInterest" value="social" />
+                          <span class="icon">🎉</span>
+                          <span>Social Events</span>
+                        </label>
+                        <label class="preference-option">
+                          <input type="checkbox" name="prefInterest" value="food" />
+                          <span class="icon">🍜</span>
+                          <span>Food & Culture</span>
+                        </label>
+                        <label class="preference-option">
+                          <input type="checkbox" name="prefInterest" value="tech" />
+                          <span class="icon">💡</span>
+                          <span>Technology & Innovation</span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full">
+              <span class="btn-text">Create Account</span>
+              <span class="btn-loader" style="display: none"
+                >Creating account...</span
+              >
+            </button>
+          </form>
+
+          <div class="auth-footer">
+            <p>
+              Already have an account?
+              <a href="login.html" class="auth-link">Sign in now</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="auth-info">
+          <div class="info-card">
+            <h3>🚀 Why Join UQ Connect?</h3>
+            <ul class="feature-list">
+              <li>📅 Upload and manage your timetable</li>
+              <li>🎯 Get personalized activity recommendations</li>
+              <li>📚 Discover academic events and workshops</li>
+              <li>⏰ Avoid schedule conflicts automatically</li>
+              <li>🤝 Connect with fellow UQ students</li>
+              <li>📊 Track your academic activities</li>
+            </ul>
+
+            <div class="benefits-highlight">
+              <h4>✨ Free for UQ Students</h4>
+              <p>
+                All features are completely free for University of Queensland
+                students
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/app.js"></script>
+    <script>
+      // Password confirmation validation
+      document
+        .getElementById("confirmPassword")
+        .addEventListener("input", function () {
+          const password = document.getElementById("regPassword").value;
+          const confirmPassword = this.value;
+
+          if (password !== confirmPassword) {
+            this.setCustomValidity("Passwords do not match");
+          } else {
+            this.setCustomValidity("");
+          }
+        });
+
+      // Handle page load completion
+      document.addEventListener("DOMContentLoaded", function () {
+        // Wait for app.js initialization before checking login status
+        setTimeout(() => {
+          if (typeof currentUser !== "undefined" && currentUser) {
+            window.location.href = "dashboard.html";
+          }
+        }, 100);
+      });
+    </script>
+  </body>
+</html>

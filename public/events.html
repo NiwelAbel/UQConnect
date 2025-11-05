@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UQ Connect - Events</title>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/events.css" />
+    <link rel="stylesheet" href="css/user.css" />
+    <link rel="stylesheet" href="css/modals.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Special+Gothic:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo">UQ Connect</div>
+        <nav class="nav">
+          <a href="dashboard.html">Dashboard</a>
+          <a href="events.html" class="active">Events</a>
+          <a href="calendar.html">Calendar</a>
+          <a href="recommendations.html">Recommendations</a>
+        </nav>
+        <div class="user-info">
+          <div
+            class="user-avatar"
+            id="userAvatar"
+            onclick="toggleUserDropdown()"
+          >
+            U
+          </div>
+          <span id="userWelcome">Welcome, User</span>
+          <div class="user-dropdown" id="userDropdown">
+            <a href="#" class="user-dropdown-item" onclick="showProfile()"
+              >Profile</a
+            >
+            <a href="#" class="user-dropdown-item" onclick="showSettings()"
+              >Settings</a
+            >
+            <a href="#" class="user-dropdown-item logout" onclick="logout()"
+              >Logout</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <!-- Page title and filters -->
+      <div class="card">
+        <h2>UQ Events</h2>
+        <p>
+          Discover and participate in various academic activities, lectures and
+          workshops
+        </p>
+
+        <div style="margin-top: 1rem">
+          <label for="categoryFilter">Filter by Category:</label>
+          <select id="categoryFilter" onchange="filterEvents()">
+            <option value="">All Categories</option>
+            <option value="Career">Career Development</option>
+            <option value="Workshop">Workshop</option>
+            <option value="Social">Social Activities</option>
+            <option value="Academic">Academic Activities</option>
+            <option value="Wellness">Wellness Activities</option>
+          </select>
+
+          <label for="typeFilter" style="margin-left: 2rem">Event Type:</label>
+          <select id="typeFilter" onchange="filterEvents()">
+            <option value="">All Types</option>
+            <option value="In-person">In-person</option>
+            <option value="Online">Online</option>
+            <option value="Hybrid">Hybrid</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Events list -->
+      <div id="eventsList">
+        <div class="loading">Loading...</div>
+      </div>
+    </main>
+
+    <script src="js/app.js"></script>
+    <script>
+      let allEvents = [];
+      let filteredEvents = [];
+
+      // Load events data
+      async function loadEvents() {
+        try {
+          // Check if user is logged in
+          if (!requireAuth()) return;
+
+          allEvents = await getEvents();
+          filteredEvents = [...allEvents];
+          displayEvents(filteredEvents);
+        } catch (error) {
+          console.error("Failed to load events:", error);
+          showAlert("error", "Failed to load events");
+        }
+      }
+
+      // Display events list
+      function displayEvents(events) {
+        const container = document.getElementById("eventsList");
+
+        if (events.length === 0) {
+          container.innerHTML =
+            '<div class="card"><p style="text-align: center; color: #666;">No events available</p></div>';
+          return;
+        }
+
+        container.innerHTML = events
+          .map(
+            (event) => `
+                <div class="event-card">
+                    <h3>${event.title}</h3>
+                    <div class="event-meta">
+                        <span class="status-badge ${event.category.toLowerCase()}">${
+              event.category
+            }</span>
+                        <span>📅 ${formatDate(event.date)}</span>
+                        <span>🕐 ${formatTime(event.time)}</span>
+                        <span>⏱️ ${formatDuration(event.duration)}</span>
+                        <span>📍 ${event.location}</span>
+                        <span>👥 ${event.registered}/${
+              event.capacity
+            } people</span>
+                    </div>
+                    <p class="event-description">${event.description}</p>
+                    <div class="event-actions">
+                        <button class="btn btn-success" onclick="addToCalendar('${
+                          event.id
+                        }')">
+                            Add to Calendar
+                        </button>
+                        <button class="btn btn-secondary" onclick="viewEventDetails('${
+                          event.id
+                        }')">
+                            View Details
+                        </button>
+                    </div>
+                </div>
+            `
+          )
+          .join("");
+      }
+
+      // Filter events
+      function filterEvents() {
+        const categoryFilter = document.getElementById("categoryFilter").value;
+        const typeFilter = document.getElementById("typeFilter").value;
+
+        filteredEvents = allEvents.filter((event) => {
+          const categoryMatch =
+            !categoryFilter || event.category === categoryFilter;
+          const typeMatch = !typeFilter || event.type === typeFilter;
+          return categoryMatch && typeMatch;
+        });
+
+        displayEvents(filteredEvents);
+      }
+
+      // Add to calendar
+      async function addToCalendar(eventId) {
+        try {
+          const event = allEvents.find((e) => e.id === eventId);
+          if (!event) {
+            showAlert("error", "Event does not exist");
+            return;
+          }
+
+          // Here you can call API to add event to user calendar
+          // For now, just show success message
+          showAlert(
+            "success",
+            `"${event.title}" has been added to your calendar!`
+          );
+        } catch (error) {
+          showAlert("error", "Failed to add: " + error.message);
+        }
+      }
+
+      // View event details
+      function viewEventDetails(eventId) {
+        const event = allEvents.find((e) => e.id === eventId);
+        if (!event) {
+          showAlert("error", "Event does not exist");
+          return;
+        }
+
+        // Create modal to display details
+        const modal = document.createElement("div");
+        modal.style.cssText = `
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0,0,0,0.5);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 1000;
+            `;
+
+        modal.innerHTML = `
+                <div style="background: white; padding: 2rem; border-radius: 10px; max-width: 500px; width: 90%; max-height: 80%; overflow-y: auto;">
+                    <h2>${event.title}</h2>
+                    <div style="margin: 1rem 0;">
+                        <p><strong>Date:</strong>${formatDate(event.date)}</p>
+                        <p><strong>Time:</strong>${formatTime(event.time)}</p>
+                        <p><strong>Duration:</strong>${formatDuration(
+                          event.duration
+                        )}</p>
+                        <p><strong>Location:</strong>${event.location}</p>
+                        <p><strong>Category:</strong>${event.category}</p>
+                        <p><strong>Type:</strong>${event.type}</p>
+                        <p><strong>Participants:</strong>${event.registered}/${
+          event.capacity
+        }</p>
+                    </div>
+                    <h3>Event Description</h3>
+                    <p style="margin-bottom: 2rem;">${event.description}</p>
+                    <div style="text-align: center;">
+                        <button class="btn btn-success" onclick="addToCalendar('${
+                          event.id
+                        }'); this.closest('.modal').remove();">
+                            Add to Calendar
+                        </button>
+                        <button class="btn btn-secondary" onclick="this.closest('.modal').remove();" style="margin-left: 1rem;">
+                            Close
+                        </button>
+                    </div>
+                </div>
+            `;
+
+        modal.className = "modal";
+        document.body.appendChild(modal);
+
+        // Close modal when clicking background
+        modal.addEventListener("click", function (e) {
+          if (e.target === modal) {
+            modal.remove();
+          }
+        });
+      }
+
+      // Load data after page load
+      document.addEventListener("DOMContentLoaded", function () {
+        loadEvents();
+      });
+    </script>
+  </body>
+</html>

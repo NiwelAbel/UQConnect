@@ -1,0 +1,237 @@
+/* =========================================
+   Accessible Accordions
+   ========================================= */
+
+/* tokens */
+:root {
+  --acc-radius: 14px;
+  --acc-border: 1px solid color-mix(in oklab, #000 12%, #fff);
+  --acc-bg: #fff;
+  --acc-bg-alt: #f8f9fa;
+  --acc-text: #121212;
+  --acc-summary-pad: clamp(0.9rem, 1.6vw, 1.15rem);
+  --acc-panel-pad-x: clamp(1rem, 2.5vw, 1.5rem);
+  --acc-panel-pad-y: clamp(0.75rem, 1.2vw, 1rem);
+  --acc-chev-size: 1.1rem;
+  --focus-ring: 2px solid #6a1b9a;
+  --shadow-soft: 0 1px 2px rgba(0, 0, 0, 0.06), 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+
+.accordion {
+  display: grid;
+  gap: 1rem;
+  margin-block: 2rem;
+}
+
+/* individual item */
+.acc-item {
+  border: var(--acc-border);
+  border-radius: var(--acc-radius);
+  background: var(--acc-bg);
+  box-shadow: var(--shadow-soft);
+  overflow: clip;
+}
+
+/* summary */
+.acc-summary {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 0.75rem;
+  padding: var(--acc-summary-pad);
+  cursor: pointer;
+  user-select: none;
+}
+
+.acc-summary::-webkit-details-marker {
+  display: none;
+}
+
+.acc-summary__text {
+  font-weight: 700;
+  font-size: clamp(1.15rem, 1.4vw, 1.35rem);
+  line-height: 1.2;
+}
+
+.acc-summary__chev {
+  inline-size: var(--acc-chev-size);
+  block-size: var(--acc-chev-size);
+  position: relative;
+}
+
+.acc-summary__chev::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: rotate(0deg);
+  transition: transform 180ms ease;
+  border: solid currentColor;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin: auto;
+  rotate: 45deg; /* right arrow baseline */
+}
+
+.acc-item[open] .acc-summary__chev::before {
+  transform: rotate(90deg); /* point down when open */
+}
+
+/* focus visible on summary */
+.acc-summary:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: 2px;
+  border-radius: calc(var(--acc-radius) - 2px);
+}
+
+/* panel */
+.acc-panel {
+  background: var(--acc-bg-alt);
+  padding: 0 var(--acc-panel-pad-x);
+  /* height animation */
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 220ms ease;
+  border-top: var(--acc-border);
+}
+
+.acc-item[open] .acc-panel {
+  padding-block: var(--acc-panel-pad-y);
+  max-height: 1200px; /* enough to show grid content */
+}
+
+/* reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  .acc-panel {
+    transition: none;
+    max-height: none;
+  }
+}
+
+/* content grids inside panels */
+.acc-panel__grid {
+  margin-block: 0.25rem;
+}
+
+/* Features cards */
+.feature {
+  text-align: center;
+  padding: 1rem;
+}
+.feature__icon {
+  font-size: 2.25rem;
+  margin-bottom: 0.5rem;
+}
+.feature__title {
+  font-weight: 700;
+  margin: 0.25rem 0 0.5rem;
+}
+.feature__body {
+  margin: 0;
+}
+
+/* Steps */
+.step {
+  padding: 0.75rem 0.5rem;
+}
+.step__title {
+  margin: 0 0 0.25rem;
+  font-weight: 700;
+}
+.step__body {
+  margin: 0;
+}
+
+/* Tech block */
+.tech-block {
+  padding: 0.25rem 0.25rem;
+}
+.tech-block__title {
+  margin: 0 0 0.5rem;
+  font-weight: 700;
+}
+.tech-block__list {
+  margin: 0 0 0 1.25rem;
+}
+
+/* Hero card refinements */
+.hero-card {
+  text-align: center;
+  color: #fff;
+  border-radius: 16px;
+  padding: clamp(1.5rem, 3.5vw, 2.5rem);
+  box-shadow: var(--shadow-soft);
+}
+
+.hero-card--gradient {
+  background: linear-gradient(135deg, #6a1b9a, #4a148c);
+}
+
+.hero-card__title {
+  font-size: clamp(2.25rem, 5vw, 3rem);
+  margin: 0 0 0.5rem;
+}
+
+.hero-card__subtitle {
+  font-size: clamp(1.05rem, 2.2vw, 1.2rem);
+  margin: 0 0 1.25rem;
+}
+
+.hero-card__actions .btn {
+  margin-inline: 0.5rem;
+}
+
+/* Get started section */
+.get-started {
+  text-align: center;
+}
+.get-started__lead {
+  margin: 0 0 1.25rem;
+  color: #444;
+}
+.get-started__actions {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Buttons that fit your palette */
+.btn--primary-ghost {
+  background-color: #fff;
+  color: #6a1b9a;
+}
+.btn--primary-strong {
+  background-color: #6a1b9a;
+  color: #fff;
+}
+
+/* Footer tidy-up */
+.site-footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 3rem;
+}
+.site-footer__sub {
+  margin-top: 0.5rem;
+  color: #ccc;
+}
+
+/* Responsive nudges */
+@media (max-width: 900px) {
+  .grid.grid-3.acc-panel__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+@media (max-width: 640px) {
+  .grid.grid-3.acc-panel__grid {
+    grid-template-columns: 1fr;
+  }
+  .grid.grid-2.acc-panel__grid {
+    grid-template-columns: 1fr;
+  }
+}

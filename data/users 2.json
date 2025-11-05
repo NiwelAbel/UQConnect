@@ -1,0 +1,37 @@
+[
+  {
+    "id": "0bd17e63-dc91-47d9-b082-8af8f13fd13a",
+    "email": "newuser@uq.edu.au",
+    "password": "$2b$10$.U/laT4efbdEo8gX.82.IuUfK6esU/5eey7hbr3D0pDo5RNtpCQBK",
+    "name": "New User",
+    "createdAt": "2025-10-18T12:54:38.215Z"
+  },
+  {
+    "id": "e6a19aed-8a90-4170-8025-0647d61bb0e4",
+    "email": "testuser2@uq.edu.au",
+    "password": "$2b$10$2ko1ibRGV3Ekj/2qSkJXt.XUxKuPckDCOGUuCBKwtXa1nqwh7yZf.",
+    "name": "Test User 2",
+    "createdAt": "2025-10-18T12:55:44.738Z"
+  },
+  {
+    "id": "f3bb9a81-a109-4afc-b038-5a378334fe7a",
+    "email": "test@example.com",
+    "password": "$2b$10$/d7iUmWM18k5v8QwxnVwD.BDhKxd5S8PjvRQF0PfyXfyqlmaqJJvK",
+    "name": "Test User",
+    "createdAt": "2025-10-18T12:56:10.217Z"
+  },
+  {
+    "id": "d71cf992-6600-4667-9efe-884509aa94c4",
+    "email": "henrrryuan@qq.com",
+    "password": "$2b$10$E1fQeNURwFOLnCFRpbhHWeigTJviu9tGDSwDxr8SpmQKX10hVdsDW",
+    "name": "Henry",
+    "createdAt": "2025-10-18T12:58:07.075Z"
+  },
+  {
+    "id": "ae87ba07-8500-4036-9565-835beb030d1b",
+    "email": "1574426673@qq.com",
+    "password": "$2b$10$NspwpFmW4IElB5Lp7fpc5eUYR5RBeXGgs4Lkmj1HOgC7.2StlY4P2",
+    "name": "Zezhi Yuan",
+    "createdAt": "2025-10-18T13:21:55.971Z"
+  }
+]

@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>UQ Connect - Calendar</title>
+        <link rel="stylesheet" href="css/base.css" />
+        <link rel="stylesheet" href="css/header.css" />
+        <link rel="stylesheet" href="css/components.css" />
+        <link rel="stylesheet" href="css/calendar.css" />
+        <link rel="stylesheet" href="css/user.css" />
+        <link rel="stylesheet" href="css/modals.css" />
+        <link rel="stylesheet" href="css/utilities.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Special+Gothic:wght@400..700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="logo">UQ Connect</div>
+                <nav class="nav">
+                    <a href="dashboard.html">Dashboard</a>
+                    <a href="events.html">Events</a>
+                    <a href="calendar.html" class="active">Calendar</a>
+                    <a href="recommendations.html">Recommendations</a>
+                </nav>
+                <div class="user-info">
+                    <div
+                        class="user-avatar"
+                        id="userAvatar"
+                        onclick="toggleUserDropdown()"
+                    >
+                        U
+                    </div>
+                    <span id="userWelcome">Welcome, User</span>
+                    <div class="user-dropdown" id="userDropdown">
+                        <a
+                            href="#"
+                            class="user-dropdown-item"
+                            onclick="showProfile()"
+                            >Profile</a
+                        >
+                        <a
+                            href="#"
+                            class="user-dropdown-item"
+                            onclick="showSettings()"
+                            >Settings</a
+                        >
+                        <a
+                            href="#"
+                            class="user-dropdown-item logout"
+                            onclick="logout()"
+                            >Logout</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <!-- Calendar Upload -->
+            <div class="card">
+                <h2>📅 My Calendar</h2>
+                <p>
+                    Upload your timetable file and the system will automatically
+                    parse and display it in the calendar.
+                </p>
+
+                <div
+                    class="file-upload"
+                    onclick="document.getElementById('calendarFile').click()"
+                >
+                    <input
+                        type="file"
+                        id="calendarFile"
+                        accept=".ics"
+                        style="display: none"
+                    />
+                    <div>
+                        <h3>📁 Click to Upload Calendar File</h3>
+                        <p>Supports .ics format calendar files</p>
+                        <p style="color: #666; font-size: 0.9rem">
+                            Drag file here or click to select file
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Calendar Subscription Section -->
+                <hr style="margin: 2rem 0; border-color: #eee" />
+
+                <h3>📅 Import from External Calendar</h3>
+                <p>
+                    Paste the URL of your timetable subscription (e.g. from
+                    MyTimetable, Google Calendar, or Outlook) and the system
+                    will automatically fetch and display it.
+                </p>
+
+                <div
+                    class="calendar-import"
+                    style="display: flex; align-items: center; gap: 0.5rem"
+                >
+                    <input
+                        type="text"
+                        id="externalCalendarUrl"
+                        placeholder="Paste your calendar subscription URL here..."
+                        style="
+                            flex: 1;
+                            padding: 0.6rem;
+                            border: 1px solid #ccc;
+                            border-radius: 6px;
+                            font-size: 0.9rem;
+                        "
+                    />
+                    <button
+                        onclick="importExternalCalendar()"
+                        style="
+                            padding: 0.6rem 1rem;
+                            background-color: #5b2cc0;
+                            color: white;
+                            border: none;
+                            border-radius: 6px;
+                            cursor: pointer;
+                        "
+                    >
+                        Import
+                    </button>
+                </div>
+
+                <div
+                    id="importStatus"
+                    style="margin-top: 1rem; color: #666; font-size: 0.9rem"
+                ></div>
+
+                <div id="uploadStatus" style="margin-top: 1rem"></div>
+            </div>
+
+            <!-- Calendar View -->
+            <div class="card">
+                <div class="calendar-header">
+                    <h2>Calendar View</h2>
+                    <div>
+                        <button
+                            class="btn btn-secondary"
+                            onclick="previousWeek()"
+                        >
+                            ← Previous Week
+                        </button>
+                        <button
+                            class="btn btn-secondary"
+                            onclick="jumpToToday()"
+                            style="margin-left: 1rem"
+                        >
+                            Today
+                        </button>
+                        <span
+                            id="currentMonth"
+                            style="margin: 0 1rem; font-weight: bold"
+                        ></span>
+                        <button class="btn btn-secondary" onclick="nextWeek()">
+                            Next Week →
+                        </button>
+                    </div>
+                </div>
+
+                <div class="calendar">
+                    <div class="calendar-grid" id="calendarGrid">
+                        <!-- Calendar grid will be generated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Events List -->
+            <div class="card">
+                <h2>📋 My Events</h2>
+                <div id="eventsList">
+                    <div class="loading">Loading...</div>
+                </div>
+            </div>
+        </main>
+
+        <script src="js/app.js"></script>
+        <script>
+            let currentDate = new Date();
+            let userEvents = [];
+            let recommendedEvents = []; // Holds normalized recommendation events
+
+            // --- NEW: Local time formatter ---
+            // The one in app.js is not ideal for full date objects
+            const formatTimeFromDate = (dateString) => {
+                if (!dateString) return "";
+                const date = new Date(dateString);
+                return date.toLocaleTimeString([], {
+                    hour: "2-digit",
+                    minute: "2-digit",
+                });
+            };
+
+            // Load calendar data
+            async function loadCalendarData() {
+                try {
+                    // if (!requireAuth()) return; // Ignoring auth as requested
+
+                    // 1. Get user events
+                    userEvents = await getUserCalendar();
+
+                    // 2. Get recommendations
+                    let rawRecommendations = await getRecommendations();
+
+                    // 3. Normalize recommendations into event format
+                    recommendedEvents = rawRecommendations.map((rec) => {
+                        // Combine date and time to create a start ISO string
+                        const startDate = new Date(`${rec.date}T${rec.time}`);
+
+                        // Calculate end time using duration (in minutes)
+                        const endDate = new Date(
+                            startDate.getTime() + rec.duration * 60000
+                        );
+
+                        return {
+                            ...rec, // Keep original properties
+                            start: startDate.toISOString(), // Add .start
+                            end: endDate.toISOString(), // Add .end
+                        };
+                    });
+
+                    // Add dummy data if both are empty
+                    if (
+                        userEvents.length === 0 &&
+                        recommendedEvents.length === 0
+                    ) {
+                        console.log(
+                            "No events loaded, using dummy data for demo."
+                        );
+                        userEvents = [
+                            {
+                                title: "My Event",
+                                start: new Date().toISOString(),
+                                end: new Date().toISOString(),
+                                location: "Online",
+                            },
+                        ];
+                        // Add dummy recommendation
+                        let recDate = new Date();
+                        recDate.setHours(recDate.getHours() + 2);
+                        recommendedEvents = [
+                            {
+                                title: "Study Group (Rec)",
+                                start: recDate.toISOString(),
+                                end: recDate.toISOString(),
+                                location: "Library",
+                                id: "rec1",
+                            },
+                        ];
+                    }
+
+                    displayCalendar();
+                    displayEventsList(); // This will still show the old list view
+                } catch (error) {
+                    console.error("Failed to load calendar data:", error);
+                    showAlert("error", "Failed to load calendar data");
+                }
+            }
+
+            // --- MODIFIED: Complete rewrite of displayCalendar ---
+            function displayCalendar() {
+                const calendarGrid = document.getElementById("calendarGrid");
+                calendarGrid.innerHTML = ""; // Clear old grid
+
+                const startDate = new Date(currentDate);
+                startDate.setDate(startDate.getDate() - startDate.getDay()); // Get Sunday
+
+                // --- Set header to show week range ---
+                const endDate = new Date(startDate);
+                endDate.setDate(startDate.getDate() + 6); // Get Saturday
+                document.getElementById(
+                    "currentMonth"
+                ).textContent = `${startDate.toLocaleDateString()} - ${endDate.toLocaleDateString()}`;
+
+                // 1. --- Generate Day Headers (Row 1) ---
+                const weekDays = [
+                    "Sun",
+                    "Mon",
+                    "Tue",
+                    "Wed",
+                    "Thu",
+                    "Fri",
+                    "Sat",
+                ];
+
+                // Add corner "Time" cell
+                const timeHeader = document.createElement("div");
+                timeHeader.className = "calendar-header-cell";
+                timeHeader.textContent = "Time";
+                timeHeader.style.sticky = "left"; // Make it sticky
+                calendarGrid.appendChild(timeHeader);
+
+                // Add 7 day headers
+                for (let i = 0; i < 7; i++) {
+                    const date = new Date(startDate);
+                    date.setDate(startDate.getDate() + i);
+                    const dayHeader = document.createElement("div");
+                    dayHeader.className = "calendar-header-cell";
+                    dayHeader.innerHTML = `${weekDays[i]}<br>${date.getDate()}`;
+                    calendarGrid.appendChild(dayHeader);
+                }
+
+                // 2. --- Generate Time Rows (7 AM to 8 PM) ---
+                const today = new Date();
+                for (let hour = 7; hour <= 20; hour++) {
+                    // Add first cell (Time)
+                    const timeCell = document.createElement("div");
+                    timeCell.className = "calendar-time-cell";
+                    timeCell.textContent = `${
+                        hour % 12 === 0 ? 12 : hour % 12
+                    }:00 ${hour < 12 ? "AM" : "PM"}`;
+                    calendarGrid.appendChild(timeCell);
+
+                    // Add 7 time slot cells for this hour
+                    for (let day = 0; day < 7; day++) {
+                        const date = new Date(startDate);
+                        date.setDate(startDate.getDate() + day);
+
+                        const dayDiv = document.createElement("div");
+                        dayDiv.className = "calendar-day";
+
+                        // Add style if today
+                        if (date.toDateString() === today.toDateString()) {
+                            dayDiv.classList.add("today");
+                        }
+
+                        // --- Find BOTH user and recommended events ---
+
+                        // Find user events
+                        const dayUserEvents = userEvents.filter((event) => {
+                            const eventDate = new Date(event.start);
+                            return (
+                                eventDate.toDateString() ===
+                                    date.toDateString() &&
+                                eventDate.getHours() === hour
+                            );
+                        });
+
+                        // Find recommended events
+                        const dayRecommendedEvents = recommendedEvents.filter(
+                            (event) => {
+                                const eventDate = new Date(event.start);
+                                return (
+                                    eventDate.toDateString() ===
+                                        date.toDateString() &&
+                                    eventDate.getHours() === hour
+                                );
+                            }
+                        );
+
+                        // Add user events (original style)
+                        dayUserEvents.forEach((event) => {
+                            const eventDiv = document.createElement("div");
+                            eventDiv.className = "calendar-event"; // <-- Original class
+                            eventDiv.textContent = event.title;
+                            eventDiv.title = `${
+                                event.title
+                            }\n${formatTimeFromDate(
+                                event.start
+                            )} - ${formatTimeFromDate(event.end)}\n${
+                                event.location || "Location not specified"
+                            }`;
+                            dayDiv.appendChild(eventDiv);
+                        });
+
+                        // Add recommended events (new style)
+                        dayRecommendedEvents.forEach((event) => {
+                            const eventDiv = document.createElement("div");
+                            eventDiv.className = "calendar-event recommended"; // <-- NEW class
+                            eventDiv.textContent = `⭐ ${event.title}`; // Add star
+
+                            // NEW: Add onclick to show the modal
+                            eventDiv.setAttribute(
+                                "onclick",
+                                `showRecommendationModal('${event.id}')`
+                            );
+
+                            eventDiv.title = `(Recommendation) ${
+                                event.title
+                            }\n${formatTimeFromDate(
+                                event.start
+                            )} - ${formatTimeFromDate(event.end)}\n${
+                                event.location || "Location not specified"
+                            }`;
+                            dayDiv.appendChild(eventDiv);
+                        });
+
+                        calendarGrid.appendChild(dayDiv);
+                    }
+                }
+            }
+
+            // Display events list (Modified to use new time formatter)
+            function displayEventsList() {
+                const container = document.getElementById("eventsList");
+
+                // Combine both lists for the "My Events" text list
+                const allEvents = [...userEvents, ...recommendedEvents];
+
+                if (allEvents.length === 0) {
+                    container.innerHTML =
+                        '<p style="text-align: center; color: #666;">No events available, please upload your calendar file</p>';
+                    return;
+                }
+
+                const sortedEvents = allEvents.sort(
+                    (a, b) => new Date(a.start) - new Date(b.start)
+                );
+
+                container.innerHTML = sortedEvents
+                    .map(
+                        (event) => `
+                <div class="event-card">
+                    <h3>${event.title} ${
+                            event.id &&
+                            !userEvents.find((e) => e.id === event.id)
+                                ? "⭐"
+                                : ""
+                        }</h3>
+                    <div class="event-meta">
+                        <span>📅 ${formatDate(event.start)}</span>
+                        <span>🕐 ${formatTimeFromDate(
+                            event.start
+                        )} - ${formatTimeFromDate(event.end)}</span>
+                        <span>📍 ${
+                            event.location || "Location not specified"
+                        }</span>
+                        ${
+                            event.category
+                                ? `<span class="status-badge ${event.category.toLowerCase()}">${
+                                      event.category
+                                  }</span>`
+                                : ""
+                        }
+                    </div>
+                    <p class="event-description">${
+                        event.description || "No description"
+                    }</p>
+                </div>
+            `
+                    )
+                    .join("");
+            }
+
+            // --- Jump to Today ---
+            function jumpToToday() {
+                currentDate = new Date();
+                displayCalendar();
+            }
+
+            // --- Week navigation ---
+            function previousWeek() {
+                currentDate.setDate(currentDate.getDate() - 7);
+                displayCalendar();
+            }
+
+            function nextWeek() {
+                currentDate.setDate(currentDate.getDate() + 7);
+                displayCalendar();
+            }
+
+            // File upload handling (unchanged)
+            document
+                .getElementById("calendarFile")
+                .addEventListener("change", function (e) {
+                    const file = e.target.files[0];
+                    if (file) {
+                        const statusDiv =
+                            document.getElementById("uploadStatus");
+                        statusDiv.innerHTML =
+                            '<div class="loading">Uploading...</div>';
+
+                        uploadCalendar(file)
+                            .then((result) => {
+                                statusDiv.innerHTML = `
+                        <div class="alert alert-success">
+                            Upload successful! Parsed ${result.eventsCount} events
+                        </div>
+                    `;
+                                loadCalendarData();
+                            })
+                            .catch((error) => {
+                                statusDiv.innerHTML = `
+                        <div class="alert alert-error">
+                            Upload failed: ${error.message}
+                        </div>
+                    `;
+                            });
+                    }
+                });
+
+            // Drag and drop upload (unchanged)
+            const fileUpload = document.querySelector(".file-upload");
+
+            fileUpload.addEventListener("dragover", function (e) {
+                e.preventDefault();
+                this.classList.add("dragover");
+            });
+
+            fileUpload.addEventListener("dragleave", function (e) {
+                e.preventDefault();
+                this.classList.remove("dragover");
+            });
+
+            fileUpload.addEventListener("drop", function (e) {
+                e.preventDefault();
+                this.classList.remove("dragover");
+
+                const files = e.dataTransfer.files;
+                if (files.length > 0) {
+                    const file = files[0];
+                    if (file.name.endsWith(".ics")) {
+                        document.getElementById("calendarFile").files = files;
+                        document
+                            .getElementById("calendarFile")
+                            .dispatchEvent(new Event("change"));
+                    } else {
+                        showAlert("error", "Please select a .ics format file");
+                    }
+                }
+            });
+
+            // Load data after page load
+            document.addEventListener("DOMContentLoaded", function () {
+                loadCalendarData();
+            });
+            // --- NEW: Show recommendation modal (similar to recommendations.html) ---
+            function showRecommendationModal(eventId) {
+                const event = recommendedEvents.find((e) => e.id === eventId);
+                if (!event) {
+                    showAlert(
+                        "error",
+                        "Could not find recommendation details."
+                    );
+                    return;
+                }
+
+                // Create modal
+                const modal = document.createElement("div");
+                modal.className = "modal"; // Use class from modals.css
+
+                // Borrow layout from recommendations.html
+                modal.innerHTML = `
+          <div class="modal-content" style="max-width: 600px;">
+              <h2>${event.title}</h2>
+              
+              <div style="margin: 1rem 0;">
+                  <h3>📅 Event Information</h3>
+                  <p><strong>Date:</strong> ${formatDate(event.date)}</p>
+                  <p><strong>Time:</strong> ${formatTime(event.time)}</p>
+                  <p><strong>Duration:</strong> ${formatDuration(
+                      event.duration
+                  )}</p>
+                  <p><strong>Location:</strong> ${event.location}</p>
+                  <p><strong>Category:</strong> <span class="status-badge ${event.category.toLowerCase()}">${
+                    event.category
+                }</span></p>
+              </div>
+              
+              <h3>📝 Event Description</h3>
+              <p style="margin-bottom: 1rem;">${event.description}</p>
+              
+              ${
+                  event.recommendedFor
+                      ? `
+                  <h3>🎯 Recommendation Reason</h3>
+                  <div style="background-color: #f8f9fa; padding: 1rem; border-radius: 5px; margin-bottom: 1rem;">
+                      <p><strong>Recommended Time Slot:</strong> ${formatTimeFromDate(
+                          event.recommendedFor.start
+                      )} - ${formatTimeFromDate(event.recommendedFor.end)}</p>
+                      <p><strong>Reason:</strong> This event fits into a ${formatDuration(
+                          event.recommendedFor.duration
+                      )} free slot in your schedule.</p>
+                  </div>
+              `
+                      : ""
+              }
+              
+              <div style="text-align: center; display: flex; gap: 0.5rem; justify-content: center;">
+                  <button class="btn btn-success" onclick="acceptRecommendationFromCalendar('${
+                      event.id
+                  }'); this.closest('.modal').remove();">
+                      ✅ Accept Recommendation
+                  </button>
+                  <button class="btn btn-danger" onclick="declineRecommendationFromCalendar('${
+                      event.id
+                  }'); this.closest('.modal').remove();">
+                      ❌ Not Interested
+                  </button>
+                  <button class="btn btn-secondary" onclick="this.closest('.modal').remove();">
+                      Close
+                  </button>
+              </div>
+          </div>
+        `;
+
+                // Add to page
+                document.body.appendChild(modal);
+
+                // Close modal when clicking background
+                modal.addEventListener("click", function (e) {
+                    if (e.target === modal) {
+                        modal.remove();
+                    }
+                });
+            }
+
+            // --- NEW: Handle accepting recommendation from calendar ---
+            async function acceptRecommendationFromCalendar(eventId) {
+                try {
+                    // Use the global apiRequest from app.js
+                    await apiRequest(`/recommendations/${eventId}/accept`, {
+                        method: "POST",
+                    });
+                    showAlert(
+                        "success",
+                        "Event has been added to your calendar!"
+                    );
+
+                    // Reload all calendar data
+                    loadCalendarData();
+                } catch (error) {
+                    showAlert("error", "Failed to add: " + error.message);
+                }
+            }
+
+            // --- NEW: Handle declining recommendation from calendar ---
+            function declineRecommendationFromCalendar(eventId) {
+                const index = recommendedEvents.findIndex(
+                    (e) => e.id === eventId
+                );
+
+                if (index > -1) {
+                    // Remove from the local list
+                    recommendedEvents.splice(index, 1);
+
+                    // Refresh the calendar display
+                    displayCalendar();
+
+                    showAlert("info", "Marked as not interested");
+                }
+            }
+        </script>
+    </body>
+</html>

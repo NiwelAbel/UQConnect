@@ -1,0 +1,102 @@
+/* UQ Connect - Calendar Styles */
+
+.calendar {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    /* Make the grid scrollable on small screens */
+    overflow-x: auto;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.calendar-grid {
+    display: grid;
+    /* MODIFIED: 8 columns, with rigid min-width */
+    grid-template-columns: 80px repeat(7, minmax(0, 1fr));
+    gap: 1px;
+    background-color: #ddd;
+    border-radius: 5px;
+    /* overflow: hidden; */ /* Removing this to allow sticky headers to work */
+}
+
+.calendar-day {
+    background: white;
+    padding: 0.5rem;
+    /* MODIFIED: Shorter height for hourly slots */
+    min-height: 60px;
+    border: 1px solid #eee;
+    /* MODIFIED: stack events */
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.calendar-day.other-month {
+    background-color: #f8f9fa;
+    color: #999;
+}
+
+.calendar-day.today {
+    background-color: #e3f2fd;
+    font-weight: bold;
+}
+
+/* NEW: Style for the day headers */
+.calendar-header-cell {
+    background-color: #6A1B9A;
+    color: white;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    /* Keep header sticky */
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* NEW: Style for the time cells in the first column */
+.calendar-time-cell {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.9rem;
+    /* Keep time sticky */
+    position: sticky;
+    left: 0;
+    z-index: 5;
+    border: 1px solid #eee;
+}
+
+.calendar-event {
+    background-color: #6A1B9A;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    margin: 0; /* MODIFIED: was 0.25rem 0 */
+    border-radius: 3px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    
+    /* NEW: Add these 3 properties for truncation */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* NEW: Style for recommended events */
+.calendar-event.recommended {
+  background-color: #28a745;
+  border-color: #1e7e34;
+}
+
+.calendar-event.recommended:hover {
+  background-color: #1e7e34;
+}

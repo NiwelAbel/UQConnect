@@ -1,0 +1,2015 @@
+BEGIN:VCALENDAR
+PRODID:-//Allocate//iCal4j 1.0//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Australia/Brisbane
+LAST-MODIFIED:20250410T142247Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Australia/Brisbane
+X-LIC-LOCATION:Australia/Brisbane
+BEGIN:STANDARD
+TZNAME:AEST
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1000
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251127T100000
+DTEND;TZID=Australia/Brisbane:20251127T130000
+SUMMARY:Financial Statement Analysis\, SMR
+LOCATION:32-215 - Gordon Greenwood Building\, Collaborative Room
+DESCRIPTION:ACCT7106_S3_STLUC_IN_TP8\, SMR\, 01-P3\nFinancial Statement Analysis\nStaff: Zhang\, Yong\nLocation: 32-215 - Gordon Greenwood Building\, Collaborative Room
+UID:uid0
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251204T100000
+DTEND;TZID=Australia/Brisbane:20251204T130000
+SUMMARY:Financial Statement Analysis\, SMR
+LOCATION:32-215 - Gordon Greenwood Building\, Collaborative Room
+DESCRIPTION:ACCT7106_S3_STLUC_IN_TP8\, SMR\, 01-P3\nFinancial Statement Analysis\nStaff: Zhang\, Yong\nLocation: 32-215 - Gordon Greenwood Building\, Collaborative Room
+UID:uid1
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251211T100000
+DTEND;TZID=Australia/Brisbane:20251211T130000
+SUMMARY:Financial Statement Analysis\, SMR
+LOCATION:32-215 - Gordon Greenwood Building\, Collaborative Room
+DESCRIPTION:ACCT7106_S3_STLUC_IN_TP8\, SMR\, 01-P3\nFinancial Statement Analysis\nStaff: Zhang\, Yong\nLocation: 32-215 - Gordon Greenwood Building\, Collaborative Room
+UID:uid2
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251218T100000
+DTEND;TZID=Australia/Brisbane:20251218T130000
+SUMMARY:Financial Statement Analysis\, SMR
+LOCATION:32-215 - Gordon Greenwood Building\, Collaborative Room
+DESCRIPTION:ACCT7106_S3_STLUC_IN_TP8\, SMR\, 01-P3\nFinancial Statement Analysis\nStaff: Zhang\, Yong\nLocation: 32-215 - Gordon Greenwood Building\, Collaborative Room
+UID:uid3
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251128T100000
+DTEND;TZID=Australia/Brisbane:20251128T130000
+SUMMARY:Financial Statement Analysis\, SMR
+LOCATION:32-215 - Gordon Greenwood Building\, Collaborative Room
+DESCRIPTION:ACCT7106_S3_STLUC_IN_TP8\, SMR\, 01-P4\nFinancial Statement Analysis\nStaff: Zhang\, Yong\nLocation: 32-215 - Gordon Greenwood Building\, Collaborative Room
+UID:uid4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251124T100000
+DTEND;TZID=Australia/Brisbane:20251124T130000
+SUMMARY:Financial Statement Analysis\, SMR
+LOCATION:32-215 - Gordon Greenwood Building\, Collaborative Room
+DESCRIPTION:ACCT7106_S3_STLUC_IN_TP8\, SMR\, 01-P1\nFinancial Statement Analysis\nStaff: Zhang\, Yong\nLocation: 32-215 - Gordon Greenwood Building\, Collaborative Room
+UID:uid5
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251201T100000
+DTEND;TZID=Australia/Brisbane:20251201T130000
+SUMMARY:Financial Statement Analysis\, SMR
+LOCATION:32-215 - Gordon Greenwood Building\, Collaborative Room
+DESCRIPTION:ACCT7106_S3_STLUC_IN_TP8\, SMR\, 01-P1\nFinancial Statement Analysis\nStaff: Zhang\, Yong\nLocation: 32-215 - Gordon Greenwood Building\, Collaborative Room
+UID:uid6
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251208T100000
+DTEND;TZID=Australia/Brisbane:20251208T130000
+SUMMARY:Financial Statement Analysis\, SMR
+LOCATION:32-215 - Gordon Greenwood Building\, Collaborative Room
+DESCRIPTION:ACCT7106_S3_STLUC_IN_TP8\, SMR\, 01-P1\nFinancial Statement Analysis\nStaff: Zhang\, Yong\nLocation: 32-215 - Gordon Greenwood Building\, Collaborative Room
+UID:uid7
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251215T100000
+DTEND;TZID=Australia/Brisbane:20251215T130000
+SUMMARY:Financial Statement Analysis\, SMR
+LOCATION:32-215 - Gordon Greenwood Building\, Collaborative Room
+DESCRIPTION:ACCT7106_S3_STLUC_IN_TP8\, SMR\, 01-P1\nFinancial Statement Analysis\nStaff: Zhang\, Yong\nLocation: 32-215 - Gordon Greenwood Building\, Collaborative Room
+UID:uid8
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251125T100000
+DTEND;TZID=Australia/Brisbane:20251125T130000
+SUMMARY:Financial Statement Analysis\, SMR
+LOCATION:32-215 - Gordon Greenwood Building\, Collaborative Room
+DESCRIPTION:ACCT7106_S3_STLUC_IN_TP8\, SMR\, 01-P2\nFinancial Statement Analysis\nStaff: Zhang\, Yong\nLocation: 32-215 - Gordon Greenwood Building\, Collaborative Room
+UID:uid9
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251202T100000
+DTEND;TZID=Australia/Brisbane:20251202T130000
+SUMMARY:Financial Statement Analysis\, SMR
+LOCATION:32-215 - Gordon Greenwood Building\, Collaborative Room
+DESCRIPTION:ACCT7106_S3_STLUC_IN_TP8\, SMR\, 01-P2\nFinancial Statement Analysis\nStaff: Zhang\, Yong\nLocation: 32-215 - Gordon Greenwood Building\, Collaborative Room
+UID:uid10
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251209T100000
+DTEND;TZID=Australia/Brisbane:20251209T130000
+SUMMARY:Financial Statement Analysis\, SMR
+LOCATION:32-215 - Gordon Greenwood Building\, Collaborative Room
+DESCRIPTION:ACCT7106_S3_STLUC_IN_TP8\, SMR\, 01-P2\nFinancial Statement Analysis\nStaff: Zhang\, Yong\nLocation: 32-215 - Gordon Greenwood Building\, Collaborative Room
+UID:uid11
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251216T100000
+DTEND;TZID=Australia/Brisbane:20251216T130000
+SUMMARY:Financial Statement Analysis\, SMR
+LOCATION:32-215 - Gordon Greenwood Building\, Collaborative Room
+DESCRIPTION:ACCT7106_S3_STLUC_IN_TP8\, SMR\, 01-P2\nFinancial Statement Analysis\nStaff: Zhang\, Yong\nLocation: 32-215 - Gordon Greenwood Building\, Collaborative Room
+UID:uid12
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250728T170000
+DTEND;TZID=Australia/Brisbane:20250728T190000
+SUMMARY:Introduction to Software Innovation\, SMR1
+LOCATION:50-T203 - Hawken Engineering Building\, Learning Theatre
+DESCRIPTION:COMP7110_S2_STLUC_IN\, SMR1\, 01\nIntroduction to Software Innovation\nStaff: Miller\, Tim\nLocation: 50-T203 - Hawken Engineering Building\, Learning Theatre
+UID:uid13
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250804T170000
+DTEND;TZID=Australia/Brisbane:20250804T190000
+SUMMARY:Introduction to Software Innovation\, SMR1
+LOCATION:50-T203 - Hawken Engineering Building\, Learning Theatre
+DESCRIPTION:COMP7110_S2_STLUC_IN\, SMR1\, 01\nIntroduction to Software Innovation\nStaff: Miller\, Tim\nLocation: 50-T203 - Hawken Engineering Building\, Learning Theatre
+UID:uid14
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250811T170000
+DTEND;TZID=Australia/Brisbane:20250811T190000
+SUMMARY:Introduction to Software Innovation\, SMR1
+LOCATION:50-T203 - Hawken Engineering Building\, Learning Theatre
+DESCRIPTION:COMP7110_S2_STLUC_IN\, SMR1\, 01\nIntroduction to Software Innovation\nStaff: Miller\, Tim\nLocation: 50-T203 - Hawken Engineering Building\, Learning Theatre
+UID:uid15
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250818T170000
+DTEND;TZID=Australia/Brisbane:20250818T190000
+SUMMARY:Introduction to Software Innovation\, SMR1
+LOCATION:50-T203 - Hawken Engineering Building\, Learning Theatre
+DESCRIPTION:COMP7110_S2_STLUC_IN\, SMR1\, 01\nIntroduction to Software Innovation\nStaff: Miller\, Tim\nLocation: 50-T203 - Hawken Engineering Building\, Learning Theatre
+UID:uid16
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250825T170000
+DTEND;TZID=Australia/Brisbane:20250825T190000
+SUMMARY:Introduction to Software Innovation\, SMR1
+LOCATION:50-T203 - Hawken Engineering Building\, Learning Theatre
+DESCRIPTION:COMP7110_S2_STLUC_IN\, SMR1\, 01\nIntroduction to Software Innovation\nStaff: Miller\, Tim\nLocation: 50-T203 - Hawken Engineering Building\, Learning Theatre
+UID:uid17
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250901T170000
+DTEND;TZID=Australia/Brisbane:20250901T190000
+SUMMARY:Introduction to Software Innovation\, SMR1
+LOCATION:50-T203 - Hawken Engineering Building\, Learning Theatre
+DESCRIPTION:COMP7110_S2_STLUC_IN\, SMR1\, 01\nIntroduction to Software Innovation\nStaff: Miller\, Tim\nLocation: 50-T203 - Hawken Engineering Building\, Learning Theatre
+UID:uid18
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250908T170000
+DTEND;TZID=Australia/Brisbane:20250908T190000
+SUMMARY:Introduction to Software Innovation\, SMR1
+LOCATION:50-T203 - Hawken Engineering Building\, Learning Theatre
+DESCRIPTION:COMP7110_S2_STLUC_IN\, SMR1\, 01\nIntroduction to Software Innovation\nStaff: Miller\, Tim\nLocation: 50-T203 - Hawken Engineering Building\, Learning Theatre
+UID:uid19
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250915T170000
+DTEND;TZID=Australia/Brisbane:20250915T190000
+SUMMARY:Introduction to Software Innovation\, SMR1
+LOCATION:50-T203 - Hawken Engineering Building\, Learning Theatre
+DESCRIPTION:COMP7110_S2_STLUC_IN\, SMR1\, 01\nIntroduction to Software Innovation\nStaff: Miller\, Tim\nLocation: 50-T203 - Hawken Engineering Building\, Learning Theatre
+UID:uid20
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250922T170000
+DTEND;TZID=Australia/Brisbane:20250922T190000
+SUMMARY:Introduction to Software Innovation\, SMR1
+LOCATION:50-T203 - Hawken Engineering Building\, Learning Theatre
+DESCRIPTION:COMP7110_S2_STLUC_IN\, SMR1\, 01\nIntroduction to Software Innovation\nStaff: Miller\, Tim\nLocation: 50-T203 - Hawken Engineering Building\, Learning Theatre
+UID:uid21
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251013T170000
+DTEND;TZID=Australia/Brisbane:20251013T190000
+SUMMARY:Introduction to Software Innovation\, SMR1
+LOCATION:50-T203 - Hawken Engineering Building\, Learning Theatre
+DESCRIPTION:COMP7110_S2_STLUC_IN\, SMR1\, 01\nIntroduction to Software Innovation\nStaff: Miller\, Tim\nLocation: 50-T203 - Hawken Engineering Building\, Learning Theatre
+UID:uid22
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251020T170000
+DTEND;TZID=Australia/Brisbane:20251020T190000
+SUMMARY:Introduction to Software Innovation\, SMR1
+LOCATION:50-T203 - Hawken Engineering Building\, Learning Theatre
+DESCRIPTION:COMP7110_S2_STLUC_IN\, SMR1\, 01\nIntroduction to Software Innovation\nStaff: Miller\, Tim\nLocation: 50-T203 - Hawken Engineering Building\, Learning Theatre
+UID:uid23
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251027T170000
+DTEND;TZID=Australia/Brisbane:20251027T190000
+SUMMARY:Introduction to Software Innovation\, SMR1
+LOCATION:50-T203 - Hawken Engineering Building\, Learning Theatre
+DESCRIPTION:COMP7110_S2_STLUC_IN\, SMR1\, 01\nIntroduction to Software Innovation\nStaff: Miller\, Tim\nLocation: 50-T203 - Hawken Engineering Building\, Learning Theatre
+UID:uid24
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250730T080000
+DTEND;TZID=Australia/Brisbane:20250730T110000
+SUMMARY:Introduction to Software Innovation\, STU1
+LOCATION:46-442/443 - Andrew N. Liveris Building\, Combined Collaborative Room
+DESCRIPTION:COMP7110_S2_STLUC_IN\, STU1\, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building\, Combined Collaborative Room
+UID:uid25
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250806T080000
+DTEND;TZID=Australia/Brisbane:20250806T110000
+SUMMARY:Introduction to Software Innovation\, STU1
+LOCATION:46-442/443 - Andrew N. Liveris Building\, Combined Collaborative Room
+DESCRIPTION:COMP7110_S2_STLUC_IN\, STU1\, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building\, Combined Collaborative Room
+UID:uid26
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250820T080000
+DTEND;TZID=Australia/Brisbane:20250820T110000
+SUMMARY:Introduction to Software Innovation\, STU1
+LOCATION:46-442/443 - Andrew N. Liveris Building\, Combined Collaborative Room
+DESCRIPTION:COMP7110_S2_STLUC_IN\, STU1\, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building\, Combined Collaborative Room
+UID:uid27
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250827T080000
+DTEND;TZID=Australia/Brisbane:20250827T110000
+SUMMARY:Introduction to Software Innovation\, STU1
+LOCATION:46-442/443 - Andrew N. Liveris Building\, Combined Collaborative Room
+DESCRIPTION:COMP7110_S2_STLUC_IN\, STU1\, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building\, Combined Collaborative Room
+UID:uid28
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250903T080000
+DTEND;TZID=Australia/Brisbane:20250903T110000
+SUMMARY:Introduction to Software Innovation\, STU1
+LOCATION:46-442/443 - Andrew N. Liveris Building\, Combined Collaborative Room
+DESCRIPTION:COMP7110_S2_STLUC_IN\, STU1\, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building\, Combined Collaborative Room
+UID:uid29
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250910T080000
+DTEND;TZID=Australia/Brisbane:20250910T110000
+SUMMARY:Introduction to Software Innovation\, STU1
+LOCATION:46-442/443 - Andrew N. Liveris Building\, Combined Collaborative Room
+DESCRIPTION:COMP7110_S2_STLUC_IN\, STU1\, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building\, Combined Collaborative Room
+UID:uid30
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250917T080000
+DTEND;TZID=Australia/Brisbane:20250917T110000
+SUMMARY:Introduction to Software Innovation\, STU1
+LOCATION:46-442/443 - Andrew N. Liveris Building\, Combined Collaborative Room
+DESCRIPTION:COMP7110_S2_STLUC_IN\, STU1\, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building\, Combined Collaborative Room
+UID:uid31
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250924T080000
+DTEND;TZID=Australia/Brisbane:20250924T110000
+SUMMARY:Introduction to Software Innovation\, STU1
+LOCATION:46-442/443 - Andrew N. Liveris Building\, Combined Collaborative Room
+DESCRIPTION:COMP7110_S2_STLUC_IN\, STU1\, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building\, Combined Collaborative Room
+UID:uid32
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251008T080000
+DTEND;TZID=Australia/Brisbane:20251008T110000
+SUMMARY:Introduction to Software Innovation\, STU1
+LOCATION:46-442/443 - Andrew N. Liveris Building\, Combined Collaborative Room
+DESCRIPTION:COMP7110_S2_STLUC_IN\, STU1\, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building\, Combined Collaborative Room
+UID:uid33
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251015T080000
+DTEND;TZID=Australia/Brisbane:20251015T110000
+SUMMARY:Introduction to Software Innovation\, STU1
+LOCATION:46-442/443 - Andrew N. Liveris Building\, Combined Collaborative Room
+DESCRIPTION:COMP7110_S2_STLUC_IN\, STU1\, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building\, Combined Collaborative Room
+UID:uid34
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251022T080000
+DTEND;TZID=Australia/Brisbane:20251022T110000
+SUMMARY:Introduction to Software Innovation\, STU1
+LOCATION:46-442/443 - Andrew N. Liveris Building\, Combined Collaborative Room
+DESCRIPTION:COMP7110_S2_STLUC_IN\, STU1\, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building\, Combined Collaborative Room
+UID:uid35
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251029T080000
+DTEND;TZID=Australia/Brisbane:20251029T110000
+SUMMARY:Introduction to Software Innovation\, STU1
+LOCATION:46-442/443 - Andrew N. Liveris Building\, Combined Collaborative Room
+DESCRIPTION:COMP7110_S2_STLUC_IN\, STU1\, 02\nIntroduction to Software Innovation\nStaff: -\nLocation: 46-442/443 - Andrew N. Liveris Building\, Combined Collaborative Room
+UID:uid36
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250227T160000
+DTEND;TZID=Australia/Brisbane:20250227T180000
+SUMMARY:Introduction to Programming\, CON1
+LOCATION:47A-241 - Sir James Foots Building\, Collaborative Room
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, CON1\, 02\nIntroduction to Programming\nStaff: -\nLocation: 47A-241 - Sir James Foots Building\, Collaborative Room
+UID:uid37
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250306T160000
+DTEND;TZID=Australia/Brisbane:20250306T180000
+SUMMARY:Introduction to Programming\, CON1
+LOCATION:47A-241 - Sir James Foots Building\, Collaborative Room
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, CON1\, 02\nIntroduction to Programming\nStaff: -\nLocation: 47A-241 - Sir James Foots Building\, Collaborative Room
+UID:uid38
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250313T160000
+DTEND;TZID=Australia/Brisbane:20250313T180000
+SUMMARY:Introduction to Programming\, CON1
+LOCATION:47A-241 - Sir James Foots Building\, Collaborative Room
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, CON1\, 02\nIntroduction to Programming\nStaff: -\nLocation: 47A-241 - Sir James Foots Building\, Collaborative Room
+UID:uid39
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250320T160000
+DTEND;TZID=Australia/Brisbane:20250320T180000
+SUMMARY:Introduction to Programming\, CON1
+LOCATION:47A-241 - Sir James Foots Building\, Collaborative Room
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, CON1\, 02\nIntroduction to Programming\nStaff: -\nLocation: 47A-241 - Sir James Foots Building\, Collaborative Room
+UID:uid40
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250327T160000
+DTEND;TZID=Australia/Brisbane:20250327T180000
+SUMMARY:Introduction to Programming\, CON1
+LOCATION:47A-241 - Sir James Foots Building\, Collaborative Room
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, CON1\, 02\nIntroduction to Programming\nStaff: -\nLocation: 47A-241 - Sir James Foots Building\, Collaborative Room
+UID:uid41
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250403T160000
+DTEND;TZID=Australia/Brisbane:20250403T180000
+SUMMARY:Introduction to Programming\, CON1
+LOCATION:47A-241 - Sir James Foots Building\, Collaborative Room
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, CON1\, 02\nIntroduction to Programming\nStaff: -\nLocation: 47A-241 - Sir James Foots Building\, Collaborative Room
+UID:uid42
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250410T160000
+DTEND;TZID=Australia/Brisbane:20250410T180000
+SUMMARY:Introduction to Programming\, CON1
+LOCATION:47A-241 - Sir James Foots Building\, Collaborative Room
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, CON1\, 02\nIntroduction to Programming\nStaff: -\nLocation: 47A-241 - Sir James Foots Building\, Collaborative Room
+UID:uid43
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250417T160000
+DTEND;TZID=Australia/Brisbane:20250417T180000
+SUMMARY:Introduction to Programming\, CON1
+LOCATION:47A-241 - Sir James Foots Building\, Collaborative Room
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, CON1\, 02\nIntroduction to Programming\nStaff: -\nLocation: 47A-241 - Sir James Foots Building\, Collaborative Room
+UID:uid44
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250501T160000
+DTEND;TZID=Australia/Brisbane:20250501T180000
+SUMMARY:Introduction to Programming\, CON1
+LOCATION:47A-241 - Sir James Foots Building\, Collaborative Room
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, CON1\, 02\nIntroduction to Programming\nStaff: -\nLocation: 47A-241 - Sir James Foots Building\, Collaborative Room
+UID:uid45
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250508T160000
+DTEND;TZID=Australia/Brisbane:20250508T180000
+SUMMARY:Introduction to Programming\, CON1
+LOCATION:47A-241 - Sir James Foots Building\, Collaborative Room
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, CON1\, 02\nIntroduction to Programming\nStaff: -\nLocation: 47A-241 - Sir James Foots Building\, Collaborative Room
+UID:uid46
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250515T160000
+DTEND;TZID=Australia/Brisbane:20250515T180000
+SUMMARY:Introduction to Programming\, CON1
+LOCATION:47A-241 - Sir James Foots Building\, Collaborative Room
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, CON1\, 02\nIntroduction to Programming\nStaff: -\nLocation: 47A-241 - Sir James Foots Building\, Collaborative Room
+UID:uid47
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250522T160000
+DTEND;TZID=Australia/Brisbane:20250522T180000
+SUMMARY:Introduction to Programming\, CON1
+LOCATION:47A-241 - Sir James Foots Building\, Collaborative Room
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, CON1\, 02\nIntroduction to Programming\nStaff: -\nLocation: 47A-241 - Sir James Foots Building\, Collaborative Room
+UID:uid48
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250529T160000
+DTEND;TZID=Australia/Brisbane:20250529T180000
+SUMMARY:Introduction to Programming\, CON1
+LOCATION:47A-241 - Sir James Foots Building\, Collaborative Room
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, CON1\, 02\nIntroduction to Programming\nStaff: -\nLocation: 47A-241 - Sir James Foots Building\, Collaborative Room
+UID:uid49
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250224T100000
+DTEND;TZID=Australia/Brisbane:20250224T120000
+SUMMARY:Introduction to Programming\, LEC1
+LOCATION:42-216 - Prentice Building\, Learning Theatre
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, LEC1\, 01\nIntroduction to Programming\nStaff: Janani\, Azin\nLocation: 42-216 - Prentice Building\, Learning Theatre
+UID:uid50
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250303T100000
+DTEND;TZID=Australia/Brisbane:20250303T120000
+SUMMARY:Introduction to Programming\, LEC1
+LOCATION:42-216 - Prentice Building\, Learning Theatre
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, LEC1\, 01\nIntroduction to Programming\nStaff: Janani\, Azin\nLocation: 42-216 - Prentice Building\, Learning Theatre
+UID:uid51
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250310T100000
+DTEND;TZID=Australia/Brisbane:20250310T120000
+SUMMARY:Introduction to Programming\, LEC1
+LOCATION:42-216 - Prentice Building\, Learning Theatre
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, LEC1\, 01\nIntroduction to Programming\nStaff: Janani\, Azin\nLocation: 42-216 - Prentice Building\, Learning Theatre
+UID:uid52
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250317T100000
+DTEND;TZID=Australia/Brisbane:20250317T120000
+SUMMARY:Introduction to Programming\, LEC1
+LOCATION:42-216 - Prentice Building\, Learning Theatre
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, LEC1\, 01\nIntroduction to Programming\nStaff: Janani\, Azin\nLocation: 42-216 - Prentice Building\, Learning Theatre
+UID:uid53
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250324T100000
+DTEND;TZID=Australia/Brisbane:20250324T120000
+SUMMARY:Introduction to Programming\, LEC1
+LOCATION:42-216 - Prentice Building\, Learning Theatre
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, LEC1\, 01\nIntroduction to Programming\nStaff: Janani\, Azin\nLocation: 42-216 - Prentice Building\, Learning Theatre
+UID:uid54
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250331T100000
+DTEND;TZID=Australia/Brisbane:20250331T120000
+SUMMARY:Introduction to Programming\, LEC1
+LOCATION:42-216 - Prentice Building\, Learning Theatre
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, LEC1\, 01\nIntroduction to Programming\nStaff: Janani\, Azin\nLocation: 42-216 - Prentice Building\, Learning Theatre
+UID:uid55
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250407T100000
+DTEND;TZID=Australia/Brisbane:20250407T120000
+SUMMARY:Introduction to Programming\, LEC1
+LOCATION:42-216 - Prentice Building\, Learning Theatre
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, LEC1\, 01\nIntroduction to Programming\nStaff: Janani\, Azin\nLocation: 42-216 - Prentice Building\, Learning Theatre
+UID:uid56
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250414T100000
+DTEND;TZID=Australia/Brisbane:20250414T120000
+SUMMARY:Introduction to Programming\, LEC1
+LOCATION:42-216 - Prentice Building\, Learning Theatre
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, LEC1\, 01\nIntroduction to Programming\nStaff: Janani\, Azin\nLocation: 42-216 - Prentice Building\, Learning Theatre
+UID:uid57
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250428T100000
+DTEND;TZID=Australia/Brisbane:20250428T120000
+SUMMARY:Introduction to Programming\, LEC1
+LOCATION:42-216 - Prentice Building\, Learning Theatre
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, LEC1\, 01\nIntroduction to Programming\nStaff: Janani\, Azin\nLocation: 42-216 - Prentice Building\, Learning Theatre
+UID:uid58
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250512T100000
+DTEND;TZID=Australia/Brisbane:20250512T120000
+SUMMARY:Introduction to Programming\, LEC1
+LOCATION:42-216 - Prentice Building\, Learning Theatre
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, LEC1\, 01\nIntroduction to Programming\nStaff: Janani\, Azin\nLocation: 42-216 - Prentice Building\, Learning Theatre
+UID:uid59
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250519T100000
+DTEND;TZID=Australia/Brisbane:20250519T120000
+SUMMARY:Introduction to Programming\, LEC1
+LOCATION:42-216 - Prentice Building\, Learning Theatre
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, LEC1\, 01\nIntroduction to Programming\nStaff: Janani\, Azin\nLocation: 42-216 - Prentice Building\, Learning Theatre
+UID:uid60
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250526T100000
+DTEND;TZID=Australia/Brisbane:20250526T120000
+SUMMARY:Introduction to Programming\, LEC1
+LOCATION:42-216 - Prentice Building\, Learning Theatre
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, LEC1\, 01\nIntroduction to Programming\nStaff: Janani\, Azin\nLocation: 42-216 - Prentice Building\, Learning Theatre
+UID:uid61
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250304T080000
+DTEND;TZID=Australia/Brisbane:20250304T100000
+SUMMARY:Introduction to Programming\, PRA1
+LOCATION:47A-249 - Sir James Foots Building\, Collaborative Room
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, PRA1\, 02\nIntroduction to Programming\nStaff: -\nLocation: 47A-249 - Sir James Foots Building\, Collaborative Room
+UID:uid62
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250311T080000
+DTEND;TZID=Australia/Brisbane:20250311T100000
+SUMMARY:Introduction to Programming\, PRA1
+LOCATION:47A-249 - Sir James Foots Building\, Collaborative Room
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, PRA1\, 02\nIntroduction to Programming\nStaff: -\nLocation: 47A-249 - Sir James Foots Building\, Collaborative Room
+UID:uid63
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250318T080000
+DTEND;TZID=Australia/Brisbane:20250318T100000
+SUMMARY:Introduction to Programming\, PRA1
+LOCATION:47A-249 - Sir James Foots Building\, Collaborative Room
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, PRA1\, 02\nIntroduction to Programming\nStaff: -\nLocation: 47A-249 - Sir James Foots Building\, Collaborative Room
+UID:uid64
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250325T080000
+DTEND;TZID=Australia/Brisbane:20250325T100000
+SUMMARY:Introduction to Programming\, PRA1
+LOCATION:47A-249 - Sir James Foots Building\, Collaborative Room
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, PRA1\, 02\nIntroduction to Programming\nStaff: -\nLocation: 47A-249 - Sir James Foots Building\, Collaborative Room
+UID:uid65
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250401T080000
+DTEND;TZID=Australia/Brisbane:20250401T100000
+SUMMARY:Introduction to Programming\, PRA1
+LOCATION:47A-249 - Sir James Foots Building\, Collaborative Room
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, PRA1\, 02\nIntroduction to Programming\nStaff: -\nLocation: 47A-249 - Sir James Foots Building\, Collaborative Room
+UID:uid66
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250408T080000
+DTEND;TZID=Australia/Brisbane:20250408T100000
+SUMMARY:Introduction to Programming\, PRA1
+LOCATION:47A-249 - Sir James Foots Building\, Collaborative Room
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, PRA1\, 02\nIntroduction to Programming\nStaff: -\nLocation: 47A-249 - Sir James Foots Building\, Collaborative Room
+UID:uid67
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250415T080000
+DTEND;TZID=Australia/Brisbane:20250415T100000
+SUMMARY:Introduction to Programming\, PRA1
+LOCATION:47A-249 - Sir James Foots Building\, Collaborative Room
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, PRA1\, 02\nIntroduction to Programming\nStaff: -\nLocation: 47A-249 - Sir James Foots Building\, Collaborative Room
+UID:uid68
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250429T080000
+DTEND;TZID=Australia/Brisbane:20250429T100000
+SUMMARY:Introduction to Programming\, PRA1
+LOCATION:47A-249 - Sir James Foots Building\, Collaborative Room
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, PRA1\, 02\nIntroduction to Programming\nStaff: -\nLocation: 47A-249 - Sir James Foots Building\, Collaborative Room
+UID:uid69
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250506T080000
+DTEND;TZID=Australia/Brisbane:20250506T100000
+SUMMARY:Introduction to Programming\, PRA1
+LOCATION:47A-249 - Sir James Foots Building\, Collaborative Room
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, PRA1\, 02\nIntroduction to Programming\nStaff: -\nLocation: 47A-249 - Sir James Foots Building\, Collaborative Room
+UID:uid70
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250513T080000
+DTEND;TZID=Australia/Brisbane:20250513T100000
+SUMMARY:Introduction to Programming\, PRA1
+LOCATION:47A-249 - Sir James Foots Building\, Collaborative Room
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, PRA1\, 02\nIntroduction to Programming\nStaff: -\nLocation: 47A-249 - Sir James Foots Building\, Collaborative Room
+UID:uid71
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250520T080000
+DTEND;TZID=Australia/Brisbane:20250520T100000
+SUMMARY:Introduction to Programming\, PRA1
+LOCATION:47A-249 - Sir James Foots Building\, Collaborative Room
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, PRA1\, 02\nIntroduction to Programming\nStaff: -\nLocation: 47A-249 - Sir James Foots Building\, Collaborative Room
+UID:uid72
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250527T080000
+DTEND;TZID=Australia/Brisbane:20250527T100000
+SUMMARY:Introduction to Programming\, PRA1
+LOCATION:47A-249 - Sir James Foots Building\, Collaborative Room
+DESCRIPTION:CSSE7030_S1_STLUC_IN\, PRA1\, 02\nIntroduction to Programming\nStaff: -\nLocation: 47A-249 - Sir James Foots Building\, Collaborative Room
+UID:uid73
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250228T150000
+DTEND;TZID=Australia/Brisbane:20250228T180000
+SUMMARY:Introduction to Web Design\, CON1
+LOCATION:49-316A - Advanced Engineering Building\, Computer Lab
+DESCRIPTION:DECO7140_S1_STLUC_IN\, CON1\, 03\nIntroduction to Web Design\nStaff: Baghaei\, Nell (28/2-11/4\, 2/5-30/5)\, Worthy\, Peter (28/2-11/4\, 2/5-30/5)\nLocation: 49-316A - Advanced Engineering Building\, Computer Lab
+UID:uid74
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250307T150000
+DTEND;TZID=Australia/Brisbane:20250307T180000
+SUMMARY:Introduction to Web Design\, CON1
+LOCATION:49-316A - Advanced Engineering Building\, Computer Lab
+DESCRIPTION:DECO7140_S1_STLUC_IN\, CON1\, 03\nIntroduction to Web Design\nStaff: Baghaei\, Nell (28/2-11/4\, 2/5-30/5)\, Worthy\, Peter (28/2-11/4\, 2/5-30/5)\nLocation: 49-316A - Advanced Engineering Building\, Computer Lab
+UID:uid75
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250314T150000
+DTEND;TZID=Australia/Brisbane:20250314T180000
+SUMMARY:Introduction to Web Design\, CON1
+LOCATION:49-316A - Advanced Engineering Building\, Computer Lab
+DESCRIPTION:DECO7140_S1_STLUC_IN\, CON1\, 03\nIntroduction to Web Design\nStaff: Baghaei\, Nell (28/2-11/4\, 2/5-30/5)\, Worthy\, Peter (28/2-11/4\, 2/5-30/5)\nLocation: 49-316A - Advanced Engineering Building\, Computer Lab
+UID:uid76
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250321T150000
+DTEND;TZID=Australia/Brisbane:20250321T180000
+SUMMARY:Introduction to Web Design\, CON1
+LOCATION:49-316A - Advanced Engineering Building\, Computer Lab
+DESCRIPTION:DECO7140_S1_STLUC_IN\, CON1\, 03\nIntroduction to Web Design\nStaff: Baghaei\, Nell (28/2-11/4\, 2/5-30/5)\, Worthy\, Peter (28/2-11/4\, 2/5-30/5)\nLocation: 49-316A - Advanced Engineering Building\, Computer Lab
+UID:uid77
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250328T150000
+DTEND;TZID=Australia/Brisbane:20250328T180000
+SUMMARY:Introduction to Web Design\, CON1
+LOCATION:49-316A - Advanced Engineering Building\, Computer Lab
+DESCRIPTION:DECO7140_S1_STLUC_IN\, CON1\, 03\nIntroduction to Web Design\nStaff: Baghaei\, Nell (28/2-11/4\, 2/5-30/5)\, Worthy\, Peter (28/2-11/4\, 2/5-30/5)\nLocation: 49-316A - Advanced Engineering Building\, Computer Lab
+UID:uid78
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250404T150000
+DTEND;TZID=Australia/Brisbane:20250404T180000
+SUMMARY:Introduction to Web Design\, CON1
+LOCATION:49-316A - Advanced Engineering Building\, Computer Lab
+DESCRIPTION:DECO7140_S1_STLUC_IN\, CON1\, 03\nIntroduction to Web Design\nStaff: Baghaei\, Nell (28/2-11/4\, 2/5-30/5)\, Worthy\, Peter (28/2-11/4\, 2/5-30/5)\nLocation: 49-316A - Advanced Engineering Building\, Computer Lab
+UID:uid79
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250411T150000
+DTEND;TZID=Australia/Brisbane:20250411T180000
+SUMMARY:Introduction to Web Design\, CON1
+LOCATION:49-316A - Advanced Engineering Building\, Computer Lab
+DESCRIPTION:DECO7140_S1_STLUC_IN\, CON1\, 03\nIntroduction to Web Design\nStaff: Baghaei\, Nell (28/2-11/4\, 2/5-30/5)\, Worthy\, Peter (28/2-11/4\, 2/5-30/5)\nLocation: 49-316A - Advanced Engineering Building\, Computer Lab
+UID:uid80
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250502T150000
+DTEND;TZID=Australia/Brisbane:20250502T180000
+SUMMARY:Introduction to Web Design\, CON1
+LOCATION:49-316A - Advanced Engineering Building\, Computer Lab
+DESCRIPTION:DECO7140_S1_STLUC_IN\, CON1\, 03\nIntroduction to Web Design\nStaff: Baghaei\, Nell (28/2-11/4\, 2/5-30/5)\, Worthy\, Peter (28/2-11/4\, 2/5-30/5)\nLocation: 49-316A - Advanced Engineering Building\, Computer Lab
+UID:uid81
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250509T150000
+DTEND;TZID=Australia/Brisbane:20250509T180000
+SUMMARY:Introduction to Web Design\, CON1
+LOCATION:49-316A - Advanced Engineering Building\, Computer Lab
+DESCRIPTION:DECO7140_S1_STLUC_IN\, CON1\, 03\nIntroduction to Web Design\nStaff: Baghaei\, Nell (28/2-11/4\, 2/5-30/5)\, Worthy\, Peter (28/2-11/4\, 2/5-30/5)\nLocation: 49-316A - Advanced Engineering Building\, Computer Lab
+UID:uid82
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250516T150000
+DTEND;TZID=Australia/Brisbane:20250516T180000
+SUMMARY:Introduction to Web Design\, CON1
+LOCATION:49-316A - Advanced Engineering Building\, Computer Lab
+DESCRIPTION:DECO7140_S1_STLUC_IN\, CON1\, 03\nIntroduction to Web Design\nStaff: Baghaei\, Nell (28/2-11/4\, 2/5-30/5)\, Worthy\, Peter (28/2-11/4\, 2/5-30/5)\nLocation: 49-316A - Advanced Engineering Building\, Computer Lab
+UID:uid83
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250523T150000
+DTEND;TZID=Australia/Brisbane:20250523T180000
+SUMMARY:Introduction to Web Design\, CON1
+LOCATION:49-316A - Advanced Engineering Building\, Computer Lab
+DESCRIPTION:DECO7140_S1_STLUC_IN\, CON1\, 03\nIntroduction to Web Design\nStaff: Baghaei\, Nell (28/2-11/4\, 2/5-30/5)\, Worthy\, Peter (28/2-11/4\, 2/5-30/5)\nLocation: 49-316A - Advanced Engineering Building\, Computer Lab
+UID:uid84
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250530T150000
+DTEND;TZID=Australia/Brisbane:20250530T180000
+SUMMARY:Introduction to Web Design\, CON1
+LOCATION:49-316A - Advanced Engineering Building\, Computer Lab
+DESCRIPTION:DECO7140_S1_STLUC_IN\, CON1\, 03\nIntroduction to Web Design\nStaff: Baghaei\, Nell (28/2-11/4\, 2/5-30/5)\, Worthy\, Peter (28/2-11/4\, 2/5-30/5)\nLocation: 49-316A - Advanced Engineering Building\, Computer Lab
+UID:uid85
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250226T150000
+DTEND;TZID=Australia/Brisbane:20250226T160000
+SUMMARY:Introduction to Web Design\, LEC1
+LOCATION:07-222 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7140_S1_STLUC_IN\, LEC1\, 01\nIntroduction to Web Design\nStaff: Baghaei\, Nell (26/2-16/4\, 30/4-28/5)\, Worthy\, Peter (26/2-16/4\, 30/4-28/5)\nLocation: 07-222 - Parnell Building\, Learning Theatre
+UID:uid86
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250305T150000
+DTEND;TZID=Australia/Brisbane:20250305T160000
+SUMMARY:Introduction to Web Design\, LEC1
+LOCATION:07-222 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7140_S1_STLUC_IN\, LEC1\, 01\nIntroduction to Web Design\nStaff: Baghaei\, Nell (26/2-16/4\, 30/4-28/5)\, Worthy\, Peter (26/2-16/4\, 30/4-28/5)\nLocation: 07-222 - Parnell Building\, Learning Theatre
+UID:uid87
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250312T150000
+DTEND;TZID=Australia/Brisbane:20250312T160000
+SUMMARY:Introduction to Web Design\, LEC1
+LOCATION:07-222 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7140_S1_STLUC_IN\, LEC1\, 01\nIntroduction to Web Design\nStaff: Baghaei\, Nell (26/2-16/4\, 30/4-28/5)\, Worthy\, Peter (26/2-16/4\, 30/4-28/5)\nLocation: 07-222 - Parnell Building\, Learning Theatre
+UID:uid88
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250319T150000
+DTEND;TZID=Australia/Brisbane:20250319T160000
+SUMMARY:Introduction to Web Design\, LEC1
+LOCATION:07-222 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7140_S1_STLUC_IN\, LEC1\, 01\nIntroduction to Web Design\nStaff: Baghaei\, Nell (26/2-16/4\, 30/4-28/5)\, Worthy\, Peter (26/2-16/4\, 30/4-28/5)\nLocation: 07-222 - Parnell Building\, Learning Theatre
+UID:uid89
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250326T150000
+DTEND;TZID=Australia/Brisbane:20250326T160000
+SUMMARY:Introduction to Web Design\, LEC1
+LOCATION:07-222 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7140_S1_STLUC_IN\, LEC1\, 01\nIntroduction to Web Design\nStaff: Baghaei\, Nell (26/2-16/4\, 30/4-28/5)\, Worthy\, Peter (26/2-16/4\, 30/4-28/5)\nLocation: 07-222 - Parnell Building\, Learning Theatre
+UID:uid90
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250402T150000
+DTEND;TZID=Australia/Brisbane:20250402T160000
+SUMMARY:Introduction to Web Design\, LEC1
+LOCATION:07-222 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7140_S1_STLUC_IN\, LEC1\, 01\nIntroduction to Web Design\nStaff: Baghaei\, Nell (26/2-16/4\, 30/4-28/5)\, Worthy\, Peter (26/2-16/4\, 30/4-28/5)\nLocation: 07-222 - Parnell Building\, Learning Theatre
+UID:uid91
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250409T150000
+DTEND;TZID=Australia/Brisbane:20250409T160000
+SUMMARY:Introduction to Web Design\, LEC1
+LOCATION:07-222 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7140_S1_STLUC_IN\, LEC1\, 01\nIntroduction to Web Design\nStaff: Baghaei\, Nell (26/2-16/4\, 30/4-28/5)\, Worthy\, Peter (26/2-16/4\, 30/4-28/5)\nLocation: 07-222 - Parnell Building\, Learning Theatre
+UID:uid92
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250416T150000
+DTEND;TZID=Australia/Brisbane:20250416T160000
+SUMMARY:Introduction to Web Design\, LEC1
+LOCATION:07-222 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7140_S1_STLUC_IN\, LEC1\, 01\nIntroduction to Web Design\nStaff: Baghaei\, Nell (26/2-16/4\, 30/4-28/5)\, Worthy\, Peter (26/2-16/4\, 30/4-28/5)\nLocation: 07-222 - Parnell Building\, Learning Theatre
+UID:uid93
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250430T150000
+DTEND;TZID=Australia/Brisbane:20250430T160000
+SUMMARY:Introduction to Web Design\, LEC1
+LOCATION:07-222 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7140_S1_STLUC_IN\, LEC1\, 01\nIntroduction to Web Design\nStaff: Baghaei\, Nell (26/2-16/4\, 30/4-28/5)\, Worthy\, Peter (26/2-16/4\, 30/4-28/5)\nLocation: 07-222 - Parnell Building\, Learning Theatre
+UID:uid94
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250507T150000
+DTEND;TZID=Australia/Brisbane:20250507T160000
+SUMMARY:Introduction to Web Design\, LEC1
+LOCATION:07-222 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7140_S1_STLUC_IN\, LEC1\, 01\nIntroduction to Web Design\nStaff: Baghaei\, Nell (26/2-16/4\, 30/4-28/5)\, Worthy\, Peter (26/2-16/4\, 30/4-28/5)\nLocation: 07-222 - Parnell Building\, Learning Theatre
+UID:uid95
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250514T150000
+DTEND;TZID=Australia/Brisbane:20250514T160000
+SUMMARY:Introduction to Web Design\, LEC1
+LOCATION:07-222 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7140_S1_STLUC_IN\, LEC1\, 01\nIntroduction to Web Design\nStaff: Baghaei\, Nell (26/2-16/4\, 30/4-28/5)\, Worthy\, Peter (26/2-16/4\, 30/4-28/5)\nLocation: 07-222 - Parnell Building\, Learning Theatre
+UID:uid96
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250521T150000
+DTEND;TZID=Australia/Brisbane:20250521T160000
+SUMMARY:Introduction to Web Design\, LEC1
+LOCATION:07-222 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7140_S1_STLUC_IN\, LEC1\, 01\nIntroduction to Web Design\nStaff: Baghaei\, Nell (26/2-16/4\, 30/4-28/5)\, Worthy\, Peter (26/2-16/4\, 30/4-28/5)\nLocation: 07-222 - Parnell Building\, Learning Theatre
+UID:uid97
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250528T150000
+DTEND;TZID=Australia/Brisbane:20250528T160000
+SUMMARY:Introduction to Web Design\, LEC1
+LOCATION:07-222 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7140_S1_STLUC_IN\, LEC1\, 01\nIntroduction to Web Design\nStaff: Baghaei\, Nell (26/2-16/4\, 30/4-28/5)\, Worthy\, Peter (26/2-16/4\, 30/4-28/5)\nLocation: 07-222 - Parnell Building\, Learning Theatre
+UID:uid98
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250731T120000
+DTEND;TZID=Australia/Brisbane:20250731T140000
+SUMMARY:Human-Computer Interaction\, LEC1
+LOCATION:07-234 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7250_S2_STLUC_IN\, LEC1\, 01\nHuman-Computer Interaction\nStaff: Baghaei\, Nell\nLocation: 07-234 - Parnell Building\, Learning Theatre
+UID:uid99
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250807T120000
+DTEND;TZID=Australia/Brisbane:20250807T140000
+SUMMARY:Human-Computer Interaction\, LEC1
+LOCATION:07-234 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7250_S2_STLUC_IN\, LEC1\, 01\nHuman-Computer Interaction\nStaff: Baghaei\, Nell\nLocation: 07-234 - Parnell Building\, Learning Theatre
+UID:uid100
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250814T120000
+DTEND;TZID=Australia/Brisbane:20250814T140000
+SUMMARY:Human-Computer Interaction\, LEC1
+LOCATION:07-234 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7250_S2_STLUC_IN\, LEC1\, 01\nHuman-Computer Interaction\nStaff: Baghaei\, Nell\nLocation: 07-234 - Parnell Building\, Learning Theatre
+UID:uid101
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250821T120000
+DTEND;TZID=Australia/Brisbane:20250821T140000
+SUMMARY:Human-Computer Interaction\, LEC1
+LOCATION:07-234 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7250_S2_STLUC_IN\, LEC1\, 01\nHuman-Computer Interaction\nStaff: Baghaei\, Nell\nLocation: 07-234 - Parnell Building\, Learning Theatre
+UID:uid102
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250828T120000
+DTEND;TZID=Australia/Brisbane:20250828T140000
+SUMMARY:Human-Computer Interaction\, LEC1
+LOCATION:07-234 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7250_S2_STLUC_IN\, LEC1\, 01\nHuman-Computer Interaction\nStaff: Baghaei\, Nell\nLocation: 07-234 - Parnell Building\, Learning Theatre
+UID:uid103
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250904T120000
+DTEND;TZID=Australia/Brisbane:20250904T140000
+SUMMARY:Human-Computer Interaction\, LEC1
+LOCATION:07-234 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7250_S2_STLUC_IN\, LEC1\, 01\nHuman-Computer Interaction\nStaff: Baghaei\, Nell\nLocation: 07-234 - Parnell Building\, Learning Theatre
+UID:uid104
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250911T120000
+DTEND;TZID=Australia/Brisbane:20250911T140000
+SUMMARY:Human-Computer Interaction\, LEC1
+LOCATION:07-234 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7250_S2_STLUC_IN\, LEC1\, 01\nHuman-Computer Interaction\nStaff: Baghaei\, Nell\nLocation: 07-234 - Parnell Building\, Learning Theatre
+UID:uid105
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250918T120000
+DTEND;TZID=Australia/Brisbane:20250918T140000
+SUMMARY:Human-Computer Interaction\, LEC1
+LOCATION:07-234 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7250_S2_STLUC_IN\, LEC1\, 01\nHuman-Computer Interaction\nStaff: Baghaei\, Nell\nLocation: 07-234 - Parnell Building\, Learning Theatre
+UID:uid106
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250925T120000
+DTEND;TZID=Australia/Brisbane:20250925T140000
+SUMMARY:Human-Computer Interaction\, LEC1
+LOCATION:07-234 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7250_S2_STLUC_IN\, LEC1\, 01\nHuman-Computer Interaction\nStaff: Baghaei\, Nell\nLocation: 07-234 - Parnell Building\, Learning Theatre
+UID:uid107
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251009T120000
+DTEND;TZID=Australia/Brisbane:20251009T140000
+SUMMARY:Human-Computer Interaction\, LEC1
+LOCATION:07-234 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7250_S2_STLUC_IN\, LEC1\, 01\nHuman-Computer Interaction\nStaff: Baghaei\, Nell\nLocation: 07-234 - Parnell Building\, Learning Theatre
+UID:uid108
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251016T120000
+DTEND;TZID=Australia/Brisbane:20251016T140000
+SUMMARY:Human-Computer Interaction\, LEC1
+LOCATION:07-234 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7250_S2_STLUC_IN\, LEC1\, 01\nHuman-Computer Interaction\nStaff: Baghaei\, Nell\nLocation: 07-234 - Parnell Building\, Learning Theatre
+UID:uid109
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251023T120000
+DTEND;TZID=Australia/Brisbane:20251023T140000
+SUMMARY:Human-Computer Interaction\, LEC1
+LOCATION:07-234 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7250_S2_STLUC_IN\, LEC1\, 01\nHuman-Computer Interaction\nStaff: Baghaei\, Nell\nLocation: 07-234 - Parnell Building\, Learning Theatre
+UID:uid110
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251030T120000
+DTEND;TZID=Australia/Brisbane:20251030T140000
+SUMMARY:Human-Computer Interaction\, LEC1
+LOCATION:07-234 - Parnell Building\, Learning Theatre
+DESCRIPTION:DECO7250_S2_STLUC_IN\, LEC1\, 01\nHuman-Computer Interaction\nStaff: Baghaei\, Nell\nLocation: 07-234 - Parnell Building\, Learning Theatre
+UID:uid111
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250801T120000
+DTEND;TZID=Australia/Brisbane:20250801T140000
+SUMMARY:Human-Computer Interaction\, STU1
+LOCATION:02-D114 - Duhig Tower\, Collaborative Room
+DESCRIPTION:DECO7250_S2_STLUC_IN\, STU1\, 04\nHuman-Computer Interaction\nStaff: -\nLocation: 02-D114 - Duhig Tower\, Collaborative Room
+UID:uid112
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250808T120000
+DTEND;TZID=Australia/Brisbane:20250808T140000
+SUMMARY:Human-Computer Interaction\, STU1
+LOCATION:02-D114 - Duhig Tower\, Collaborative Room
+DESCRIPTION:DECO7250_S2_STLUC_IN\, STU1\, 04\nHuman-Computer Interaction\nStaff: -\nLocation: 02-D114 - Duhig Tower\, Collaborative Room
+UID:uid113
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250815T120000
+DTEND;TZID=Australia/Brisbane:20250815T140000
+SUMMARY:Human-Computer Interaction\, STU1
+LOCATION:02-D114 - Duhig Tower\, Collaborative Room
+DESCRIPTION:DECO7250_S2_STLUC_IN\, STU1\, 04\nHuman-Computer Interaction\nStaff: -\nLocation: 02-D114 - Duhig Tower\, Collaborative Room
+UID:uid114
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250822T120000
+DTEND;TZID=Australia/Brisbane:20250822T140000
+SUMMARY:Human-Computer Interaction\, STU1
+LOCATION:02-D114 - Duhig Tower\, Collaborative Room
+DESCRIPTION:DECO7250_S2_STLUC_IN\, STU1\, 04\nHuman-Computer Interaction\nStaff: -\nLocation: 02-D114 - Duhig Tower\, Collaborative Room
+UID:uid115
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250829T120000
+DTEND;TZID=Australia/Brisbane:20250829T140000
+SUMMARY:Human-Computer Interaction\, STU1
+LOCATION:02-D114 - Duhig Tower\, Collaborative Room
+DESCRIPTION:DECO7250_S2_STLUC_IN\, STU1\, 04\nHuman-Computer Interaction\nStaff: -\nLocation: 02-D114 - Duhig Tower\, Collaborative Room
+UID:uid116
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250905T120000
+DTEND;TZID=Australia/Brisbane:20250905T140000
+SUMMARY:Human-Computer Interaction\, STU1
+LOCATION:02-D114 - Duhig Tower\, Collaborative Room
+DESCRIPTION:DECO7250_S2_STLUC_IN\, STU1\, 04\nHuman-Computer Interaction\nStaff: -\nLocation: 02-D114 - Duhig Tower\, Collaborative Room
+UID:uid117
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250912T120000
+DTEND;TZID=Australia/Brisbane:20250912T140000
+SUMMARY:Human-Computer Interaction\, STU1
+LOCATION:02-D114 - Duhig Tower\, Collaborative Room
+DESCRIPTION:DECO7250_S2_STLUC_IN\, STU1\, 04\nHuman-Computer Interaction\nStaff: -\nLocation: 02-D114 - Duhig Tower\, Collaborative Room
+UID:uid118
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250919T120000
+DTEND;TZID=Australia/Brisbane:20250919T140000
+SUMMARY:Human-Computer Interaction\, STU1
+LOCATION:02-D114 - Duhig Tower\, Collaborative Room
+DESCRIPTION:DECO7250_S2_STLUC_IN\, STU1\, 04\nHuman-Computer Interaction\nStaff: -\nLocation: 02-D114 - Duhig Tower\, Collaborative Room
+UID:uid119
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250926T120000
+DTEND;TZID=Australia/Brisbane:20250926T140000
+SUMMARY:Human-Computer Interaction\, STU1
+LOCATION:02-D114 - Duhig Tower\, Collaborative Room
+DESCRIPTION:DECO7250_S2_STLUC_IN\, STU1\, 04\nHuman-Computer Interaction\nStaff: -\nLocation: 02-D114 - Duhig Tower\, Collaborative Room
+UID:uid120
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251010T120000
+DTEND;TZID=Australia/Brisbane:20251010T140000
+SUMMARY:Human-Computer Interaction\, STU1
+LOCATION:02-D114 - Duhig Tower\, Collaborative Room
+DESCRIPTION:DECO7250_S2_STLUC_IN\, STU1\, 04\nHuman-Computer Interaction\nStaff: -\nLocation: 02-D114 - Duhig Tower\, Collaborative Room
+UID:uid121
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251017T120000
+DTEND;TZID=Australia/Brisbane:20251017T140000
+SUMMARY:Human-Computer Interaction\, STU1
+LOCATION:02-D114 - Duhig Tower\, Collaborative Room
+DESCRIPTION:DECO7250_S2_STLUC_IN\, STU1\, 04\nHuman-Computer Interaction\nStaff: -\nLocation: 02-D114 - Duhig Tower\, Collaborative Room
+UID:uid122
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251024T120000
+DTEND;TZID=Australia/Brisbane:20251024T140000
+SUMMARY:Human-Computer Interaction\, STU1
+LOCATION:02-D114 - Duhig Tower\, Collaborative Room
+DESCRIPTION:DECO7250_S2_STLUC_IN\, STU1\, 04\nHuman-Computer Interaction\nStaff: -\nLocation: 02-D114 - Duhig Tower\, Collaborative Room
+UID:uid123
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251031T120000
+DTEND;TZID=Australia/Brisbane:20251031T140000
+SUMMARY:Human-Computer Interaction\, STU1
+LOCATION:02-D114 - Duhig Tower\, Collaborative Room
+DESCRIPTION:DECO7250_S2_STLUC_IN\, STU1\, 04\nHuman-Computer Interaction\nStaff: -\nLocation: 02-D114 - Duhig Tower\, Collaborative Room
+UID:uid124
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250806T120000
+DTEND;TZID=Australia/Brisbane:20250806T140000
+SUMMARY:Introduction to Information Systems\, APP1
+LOCATION:14-217 - Sir Llew Edwards Building\, Collaborative Room
+DESCRIPTION:INFS7900_S2_STLUC_IN\, APP1\, 01\nIntroduction to Information Systems\nStaff: -\nLocation: 14-217 - Sir Llew Edwards Building\, Collaborative Room
+UID:uid125
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250820T120000
+DTEND;TZID=Australia/Brisbane:20250820T140000
+SUMMARY:Introduction to Information Systems\, APP1
+LOCATION:14-217 - Sir Llew Edwards Building\, Collaborative Room
+DESCRIPTION:INFS7900_S2_STLUC_IN\, APP1\, 01\nIntroduction to Information Systems\nStaff: -\nLocation: 14-217 - Sir Llew Edwards Building\, Collaborative Room
+UID:uid126
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250827T120000
+DTEND;TZID=Australia/Brisbane:20250827T140000
+SUMMARY:Introduction to Information Systems\, APP1
+LOCATION:14-217 - Sir Llew Edwards Building\, Collaborative Room
+DESCRIPTION:INFS7900_S2_STLUC_IN\, APP1\, 01\nIntroduction to Information Systems\nStaff: -\nLocation: 14-217 - Sir Llew Edwards Building\, Collaborative Room
+UID:uid127
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250903T120000
+DTEND;TZID=Australia/Brisbane:20250903T140000
+SUMMARY:Introduction to Information Systems\, APP1
+LOCATION:14-217 - Sir Llew Edwards Building\, Collaborative Room
+DESCRIPTION:INFS7900_S2_STLUC_IN\, APP1\, 01\nIntroduction to Information Systems\nStaff: -\nLocation: 14-217 - Sir Llew Edwards Building\, Collaborative Room
+UID:uid128
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250910T120000
+DTEND;TZID=Australia/Brisbane:20250910T140000
+SUMMARY:Introduction to Information Systems\, APP1
+LOCATION:14-217 - Sir Llew Edwards Building\, Collaborative Room
+DESCRIPTION:INFS7900_S2_STLUC_IN\, APP1\, 01\nIntroduction to Information Systems\nStaff: -\nLocation: 14-217 - Sir Llew Edwards Building\, Collaborative Room
+UID:uid129
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250917T120000
+DTEND;TZID=Australia/Brisbane:20250917T140000
+SUMMARY:Introduction to Information Systems\, APP1
+LOCATION:14-217 - Sir Llew Edwards Building\, Collaborative Room
+DESCRIPTION:INFS7900_S2_STLUC_IN\, APP1\, 01\nIntroduction to Information Systems\nStaff: -\nLocation: 14-217 - Sir Llew Edwards Building\, Collaborative Room
+UID:uid130
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250924T120000
+DTEND;TZID=Australia/Brisbane:20250924T140000
+SUMMARY:Introduction to Information Systems\, APP1
+LOCATION:14-217 - Sir Llew Edwards Building\, Collaborative Room
+DESCRIPTION:INFS7900_S2_STLUC_IN\, APP1\, 01\nIntroduction to Information Systems\nStaff: -\nLocation: 14-217 - Sir Llew Edwards Building\, Collaborative Room
+UID:uid131
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251008T120000
+DTEND;TZID=Australia/Brisbane:20251008T140000
+SUMMARY:Introduction to Information Systems\, APP1
+LOCATION:14-217 - Sir Llew Edwards Building\, Collaborative Room
+DESCRIPTION:INFS7900_S2_STLUC_IN\, APP1\, 01\nIntroduction to Information Systems\nStaff: -\nLocation: 14-217 - Sir Llew Edwards Building\, Collaborative Room
+UID:uid132
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251015T120000
+DTEND;TZID=Australia/Brisbane:20251015T140000
+SUMMARY:Introduction to Information Systems\, APP1
+LOCATION:14-217 - Sir Llew Edwards Building\, Collaborative Room
+DESCRIPTION:INFS7900_S2_STLUC_IN\, APP1\, 01\nIntroduction to Information Systems\nStaff: -\nLocation: 14-217 - Sir Llew Edwards Building\, Collaborative Room
+UID:uid133
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251022T120000
+DTEND;TZID=Australia/Brisbane:20251022T140000
+SUMMARY:Introduction to Information Systems\, APP1
+LOCATION:14-217 - Sir Llew Edwards Building\, Collaborative Room
+DESCRIPTION:INFS7900_S2_STLUC_IN\, APP1\, 01\nIntroduction to Information Systems\nStaff: -\nLocation: 14-217 - Sir Llew Edwards Building\, Collaborative Room
+UID:uid134
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251029T120000
+DTEND;TZID=Australia/Brisbane:20251029T140000
+SUMMARY:Introduction to Information Systems\, APP1
+LOCATION:14-217 - Sir Llew Edwards Building\, Collaborative Room
+DESCRIPTION:INFS7900_S2_STLUC_IN\, APP1\, 01\nIntroduction to Information Systems\nStaff: -\nLocation: 14-217 - Sir Llew Edwards Building\, Collaborative Room
+UID:uid135
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250728T140000
+DTEND;TZID=Australia/Brisbane:20250728T160000
+SUMMARY:Introduction to Information Systems\, LEC1
+LOCATION:Delayed viewing (Clashable)
+DESCRIPTION:INFS7900_S2_STLUC_IN\, LEC1\, 01_Delayed\nIntroduction to Information Systems\nStaff: Abdul Awal\, Md (28/7-22/9\, 13/10-27/10)\, Chapman\, Archie (28/7-22/9\, 13/10-27/10)\nLocation: Delayed viewing (Clashable)
+UID:uid136
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250804T140000
+DTEND;TZID=Australia/Brisbane:20250804T160000
+SUMMARY:Introduction to Information Systems\, LEC1
+LOCATION:Delayed viewing (Clashable)
+DESCRIPTION:INFS7900_S2_STLUC_IN\, LEC1\, 01_Delayed\nIntroduction to Information Systems\nStaff: Abdul Awal\, Md (28/7-22/9\, 13/10-27/10)\, Chapman\, Archie (28/7-22/9\, 13/10-27/10)\nLocation: Delayed viewing (Clashable)
+UID:uid137
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250811T140000
+DTEND;TZID=Australia/Brisbane:20250811T160000
+SUMMARY:Introduction to Information Systems\, LEC1
+LOCATION:Delayed viewing (Clashable)
+DESCRIPTION:INFS7900_S2_STLUC_IN\, LEC1\, 01_Delayed\nIntroduction to Information Systems\nStaff: Abdul Awal\, Md (28/7-22/9\, 13/10-27/10)\, Chapman\, Archie (28/7-22/9\, 13/10-27/10)\nLocation: Delayed viewing (Clashable)
+UID:uid138
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250818T140000
+DTEND;TZID=Australia/Brisbane:20250818T160000
+SUMMARY:Introduction to Information Systems\, LEC1
+LOCATION:Delayed viewing (Clashable)
+DESCRIPTION:INFS7900_S2_STLUC_IN\, LEC1\, 01_Delayed\nIntroduction to Information Systems\nStaff: Abdul Awal\, Md (28/7-22/9\, 13/10-27/10)\, Chapman\, Archie (28/7-22/9\, 13/10-27/10)\nLocation: Delayed viewing (Clashable)
+UID:uid139
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250825T140000
+DTEND;TZID=Australia/Brisbane:20250825T160000
+SUMMARY:Introduction to Information Systems\, LEC1
+LOCATION:Delayed viewing (Clashable)
+DESCRIPTION:INFS7900_S2_STLUC_IN\, LEC1\, 01_Delayed\nIntroduction to Information Systems\nStaff: Abdul Awal\, Md (28/7-22/9\, 13/10-27/10)\, Chapman\, Archie (28/7-22/9\, 13/10-27/10)\nLocation: Delayed viewing (Clashable)
+UID:uid140
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250901T140000
+DTEND;TZID=Australia/Brisbane:20250901T160000
+SUMMARY:Introduction to Information Systems\, LEC1
+LOCATION:Delayed viewing (Clashable)
+DESCRIPTION:INFS7900_S2_STLUC_IN\, LEC1\, 01_Delayed\nIntroduction to Information Systems\nStaff: Abdul Awal\, Md (28/7-22/9\, 13/10-27/10)\, Chapman\, Archie (28/7-22/9\, 13/10-27/10)\nLocation: Delayed viewing (Clashable)
+UID:uid141
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250908T140000
+DTEND;TZID=Australia/Brisbane:20250908T160000
+SUMMARY:Introduction to Information Systems\, LEC1
+LOCATION:Delayed viewing (Clashable)
+DESCRIPTION:INFS7900_S2_STLUC_IN\, LEC1\, 01_Delayed\nIntroduction to Information Systems\nStaff: Abdul Awal\, Md (28/7-22/9\, 13/10-27/10)\, Chapman\, Archie (28/7-22/9\, 13/10-27/10)\nLocation: Delayed viewing (Clashable)
+UID:uid142
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250915T140000
+DTEND;TZID=Australia/Brisbane:20250915T160000
+SUMMARY:Introduction to Information Systems\, LEC1
+LOCATION:Delayed viewing (Clashable)
+DESCRIPTION:INFS7900_S2_STLUC_IN\, LEC1\, 01_Delayed\nIntroduction to Information Systems\nStaff: Abdul Awal\, Md (28/7-22/9\, 13/10-27/10)\, Chapman\, Archie (28/7-22/9\, 13/10-27/10)\nLocation: Delayed viewing (Clashable)
+UID:uid143
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250922T140000
+DTEND;TZID=Australia/Brisbane:20250922T160000
+SUMMARY:Introduction to Information Systems\, LEC1
+LOCATION:Delayed viewing (Clashable)
+DESCRIPTION:INFS7900_S2_STLUC_IN\, LEC1\, 01_Delayed\nIntroduction to Information Systems\nStaff: Abdul Awal\, Md (28/7-22/9\, 13/10-27/10)\, Chapman\, Archie (28/7-22/9\, 13/10-27/10)\nLocation: Delayed viewing (Clashable)
+UID:uid144
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251013T140000
+DTEND;TZID=Australia/Brisbane:20251013T160000
+SUMMARY:Introduction to Information Systems\, LEC1
+LOCATION:Delayed viewing (Clashable)
+DESCRIPTION:INFS7900_S2_STLUC_IN\, LEC1\, 01_Delayed\nIntroduction to Information Systems\nStaff: Abdul Awal\, Md (28/7-22/9\, 13/10-27/10)\, Chapman\, Archie (28/7-22/9\, 13/10-27/10)\nLocation: Delayed viewing (Clashable)
+UID:uid145
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251020T140000
+DTEND;TZID=Australia/Brisbane:20251020T160000
+SUMMARY:Introduction to Information Systems\, LEC1
+LOCATION:Delayed viewing (Clashable)
+DESCRIPTION:INFS7900_S2_STLUC_IN\, LEC1\, 01_Delayed\nIntroduction to Information Systems\nStaff: Abdul Awal\, Md (28/7-22/9\, 13/10-27/10)\, Chapman\, Archie (28/7-22/9\, 13/10-27/10)\nLocation: Delayed viewing (Clashable)
+UID:uid146
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20251027T140000
+DTEND;TZID=Australia/Brisbane:20251027T160000
+SUMMARY:Introduction to Information Systems\, LEC1
+LOCATION:Delayed viewing (Clashable)
+DESCRIPTION:INFS7900_S2_STLUC_IN\, LEC1\, 01_Delayed\nIntroduction to Information Systems\nStaff: Abdul Awal\, Md (28/7-22/9\, 13/10-27/10)\, Chapman\, Archie (28/7-22/9\, 13/10-27/10)\nLocation: Delayed viewing (Clashable)
+UID:uid147
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250224T120000
+DTEND;TZID=Australia/Brisbane:20250224T130000
+SUMMARY:Discrete Mathematics\, LEC1
+LOCATION:49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC1\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+UID:uid148
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250303T120000
+DTEND;TZID=Australia/Brisbane:20250303T130000
+SUMMARY:Discrete Mathematics\, LEC1
+LOCATION:49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC1\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+UID:uid149
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250310T120000
+DTEND;TZID=Australia/Brisbane:20250310T130000
+SUMMARY:Discrete Mathematics\, LEC1
+LOCATION:49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC1\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+UID:uid150
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250317T120000
+DTEND;TZID=Australia/Brisbane:20250317T130000
+SUMMARY:Discrete Mathematics\, LEC1
+LOCATION:49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC1\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+UID:uid151
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250324T120000
+DTEND;TZID=Australia/Brisbane:20250324T130000
+SUMMARY:Discrete Mathematics\, LEC1
+LOCATION:49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC1\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+UID:uid152
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250331T120000
+DTEND;TZID=Australia/Brisbane:20250331T130000
+SUMMARY:Discrete Mathematics\, LEC1
+LOCATION:49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC1\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+UID:uid153
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250407T120000
+DTEND;TZID=Australia/Brisbane:20250407T130000
+SUMMARY:Discrete Mathematics\, LEC1
+LOCATION:49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC1\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+UID:uid154
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250414T120000
+DTEND;TZID=Australia/Brisbane:20250414T130000
+SUMMARY:Discrete Mathematics\, LEC1
+LOCATION:49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC1\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+UID:uid155
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250428T120000
+DTEND;TZID=Australia/Brisbane:20250428T130000
+SUMMARY:Discrete Mathematics\, LEC1
+LOCATION:49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC1\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+UID:uid156
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250512T120000
+DTEND;TZID=Australia/Brisbane:20250512T130000
+SUMMARY:Discrete Mathematics\, LEC1
+LOCATION:49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC1\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+UID:uid157
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250519T120000
+DTEND;TZID=Australia/Brisbane:20250519T130000
+SUMMARY:Discrete Mathematics\, LEC1
+LOCATION:49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC1\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+UID:uid158
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250526T120000
+DTEND;TZID=Australia/Brisbane:20250526T130000
+SUMMARY:Discrete Mathematics\, LEC1
+LOCATION:49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC1\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+UID:uid159
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250227T120000
+DTEND;TZID=Australia/Brisbane:20250227T130000
+SUMMARY:Discrete Mathematics\, LEC2
+LOCATION:49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC2\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+UID:uid160
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250306T120000
+DTEND;TZID=Australia/Brisbane:20250306T130000
+SUMMARY:Discrete Mathematics\, LEC2
+LOCATION:49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC2\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+UID:uid161
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250313T120000
+DTEND;TZID=Australia/Brisbane:20250313T130000
+SUMMARY:Discrete Mathematics\, LEC2
+LOCATION:49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC2\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+UID:uid162
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250320T120000
+DTEND;TZID=Australia/Brisbane:20250320T130000
+SUMMARY:Discrete Mathematics\, LEC2
+LOCATION:49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC2\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+UID:uid163
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250327T120000
+DTEND;TZID=Australia/Brisbane:20250327T130000
+SUMMARY:Discrete Mathematics\, LEC2
+LOCATION:49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC2\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+UID:uid164
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250403T120000
+DTEND;TZID=Australia/Brisbane:20250403T130000
+SUMMARY:Discrete Mathematics\, LEC2
+LOCATION:49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC2\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+UID:uid165
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250410T120000
+DTEND;TZID=Australia/Brisbane:20250410T130000
+SUMMARY:Discrete Mathematics\, LEC2
+LOCATION:49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC2\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+UID:uid166
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250417T120000
+DTEND;TZID=Australia/Brisbane:20250417T130000
+SUMMARY:Discrete Mathematics\, LEC2
+LOCATION:49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC2\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+UID:uid167
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250501T120000
+DTEND;TZID=Australia/Brisbane:20250501T130000
+SUMMARY:Discrete Mathematics\, LEC2
+LOCATION:49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC2\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+UID:uid168
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250508T120000
+DTEND;TZID=Australia/Brisbane:20250508T130000
+SUMMARY:Discrete Mathematics\, LEC2
+LOCATION:49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC2\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+UID:uid169
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250515T120000
+DTEND;TZID=Australia/Brisbane:20250515T130000
+SUMMARY:Discrete Mathematics\, LEC2
+LOCATION:49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC2\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+UID:uid170
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250522T120000
+DTEND;TZID=Australia/Brisbane:20250522T130000
+SUMMARY:Discrete Mathematics\, LEC2
+LOCATION:49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC2\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+UID:uid171
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250529T120000
+DTEND;TZID=Australia/Brisbane:20250529T130000
+SUMMARY:Discrete Mathematics\, LEC2
+LOCATION:49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC2\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 49-200 - Advanced Engineering Building\, Learning Theatre (GHD Auditorium)
+UID:uid172
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250228T110000
+DTEND;TZID=Australia/Brisbane:20250228T120000
+SUMMARY:Discrete Mathematics\, LEC3
+LOCATION:27A-220 - UQ Centre\, Learning Theatre
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC3\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 27A-220 - UQ Centre\, Learning Theatre
+UID:uid173
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250307T110000
+DTEND;TZID=Australia/Brisbane:20250307T120000
+SUMMARY:Discrete Mathematics\, LEC3
+LOCATION:27A-220 - UQ Centre\, Learning Theatre
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC3\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 27A-220 - UQ Centre\, Learning Theatre
+UID:uid174
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250314T110000
+DTEND;TZID=Australia/Brisbane:20250314T120000
+SUMMARY:Discrete Mathematics\, LEC3
+LOCATION:27A-220 - UQ Centre\, Learning Theatre
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC3\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 27A-220 - UQ Centre\, Learning Theatre
+UID:uid175
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250321T110000
+DTEND;TZID=Australia/Brisbane:20250321T120000
+SUMMARY:Discrete Mathematics\, LEC3
+LOCATION:27A-220 - UQ Centre\, Learning Theatre
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC3\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 27A-220 - UQ Centre\, Learning Theatre
+UID:uid176
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250328T110000
+DTEND;TZID=Australia/Brisbane:20250328T120000
+SUMMARY:Discrete Mathematics\, LEC3
+LOCATION:27A-220 - UQ Centre\, Learning Theatre
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC3\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 27A-220 - UQ Centre\, Learning Theatre
+UID:uid177
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250404T110000
+DTEND;TZID=Australia/Brisbane:20250404T120000
+SUMMARY:Discrete Mathematics\, LEC3
+LOCATION:27A-220 - UQ Centre\, Learning Theatre
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC3\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 27A-220 - UQ Centre\, Learning Theatre
+UID:uid178
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250411T110000
+DTEND;TZID=Australia/Brisbane:20250411T120000
+SUMMARY:Discrete Mathematics\, LEC3
+LOCATION:27A-220 - UQ Centre\, Learning Theatre
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC3\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 27A-220 - UQ Centre\, Learning Theatre
+UID:uid179
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250502T110000
+DTEND;TZID=Australia/Brisbane:20250502T120000
+SUMMARY:Discrete Mathematics\, LEC3
+LOCATION:27A-220 - UQ Centre\, Learning Theatre
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC3\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 27A-220 - UQ Centre\, Learning Theatre
+UID:uid180
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250509T110000
+DTEND;TZID=Australia/Brisbane:20250509T120000
+SUMMARY:Discrete Mathematics\, LEC3
+LOCATION:27A-220 - UQ Centre\, Learning Theatre
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC3\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 27A-220 - UQ Centre\, Learning Theatre
+UID:uid181
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250516T110000
+DTEND;TZID=Australia/Brisbane:20250516T120000
+SUMMARY:Discrete Mathematics\, LEC3
+LOCATION:27A-220 - UQ Centre\, Learning Theatre
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC3\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 27A-220 - UQ Centre\, Learning Theatre
+UID:uid182
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250523T110000
+DTEND;TZID=Australia/Brisbane:20250523T120000
+SUMMARY:Discrete Mathematics\, LEC3
+LOCATION:27A-220 - UQ Centre\, Learning Theatre
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC3\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 27A-220 - UQ Centre\, Learning Theatre
+UID:uid183
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250530T110000
+DTEND;TZID=Australia/Brisbane:20250530T120000
+SUMMARY:Discrete Mathematics\, LEC3
+LOCATION:27A-220 - UQ Centre\, Learning Theatre
+DESCRIPTION:MATH7861_S1_STLUC_IN\, LEC3\, 01\nDiscrete Mathematics\nStaff: Davies\, Sara\nLocation: 27A-220 - UQ Centre\, Learning Theatre
+UID:uid184
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250304T120000
+DTEND;TZID=Australia/Brisbane:20250304T130000
+SUMMARY:Discrete Mathematics\, PRA1
+LOCATION:07-220 - Parnell Building\, Collaborative Room
+DESCRIPTION:MATH7861_S1_STLUC_IN\, PRA1\, 01\nDiscrete Mathematics\nStaff: -\nLocation: 07-220 - Parnell Building\, Collaborative Room
+UID:uid185
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250311T120000
+DTEND;TZID=Australia/Brisbane:20250311T130000
+SUMMARY:Discrete Mathematics\, PRA1
+LOCATION:07-220 - Parnell Building\, Collaborative Room
+DESCRIPTION:MATH7861_S1_STLUC_IN\, PRA1\, 01\nDiscrete Mathematics\nStaff: -\nLocation: 07-220 - Parnell Building\, Collaborative Room
+UID:uid186
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250318T120000
+DTEND;TZID=Australia/Brisbane:20250318T130000
+SUMMARY:Discrete Mathematics\, PRA1
+LOCATION:07-220 - Parnell Building\, Collaborative Room
+DESCRIPTION:MATH7861_S1_STLUC_IN\, PRA1\, 01\nDiscrete Mathematics\nStaff: -\nLocation: 07-220 - Parnell Building\, Collaborative Room
+UID:uid187
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250325T120000
+DTEND;TZID=Australia/Brisbane:20250325T130000
+SUMMARY:Discrete Mathematics\, PRA1
+LOCATION:07-220 - Parnell Building\, Collaborative Room
+DESCRIPTION:MATH7861_S1_STLUC_IN\, PRA1\, 01\nDiscrete Mathematics\nStaff: -\nLocation: 07-220 - Parnell Building\, Collaborative Room
+UID:uid188
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250401T120000
+DTEND;TZID=Australia/Brisbane:20250401T130000
+SUMMARY:Discrete Mathematics\, PRA1
+LOCATION:07-220 - Parnell Building\, Collaborative Room
+DESCRIPTION:MATH7861_S1_STLUC_IN\, PRA1\, 01\nDiscrete Mathematics\nStaff: -\nLocation: 07-220 - Parnell Building\, Collaborative Room
+UID:uid189
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250408T120000
+DTEND;TZID=Australia/Brisbane:20250408T130000
+SUMMARY:Discrete Mathematics\, PRA1
+LOCATION:07-220 - Parnell Building\, Collaborative Room
+DESCRIPTION:MATH7861_S1_STLUC_IN\, PRA1\, 01\nDiscrete Mathematics\nStaff: -\nLocation: 07-220 - Parnell Building\, Collaborative Room
+UID:uid190
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250415T120000
+DTEND;TZID=Australia/Brisbane:20250415T130000
+SUMMARY:Discrete Mathematics\, PRA1
+LOCATION:07-220 - Parnell Building\, Collaborative Room
+DESCRIPTION:MATH7861_S1_STLUC_IN\, PRA1\, 01\nDiscrete Mathematics\nStaff: -\nLocation: 07-220 - Parnell Building\, Collaborative Room
+UID:uid191
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250429T120000
+DTEND;TZID=Australia/Brisbane:20250429T130000
+SUMMARY:Discrete Mathematics\, PRA1
+LOCATION:07-220 - Parnell Building\, Collaborative Room
+DESCRIPTION:MATH7861_S1_STLUC_IN\, PRA1\, 01\nDiscrete Mathematics\nStaff: -\nLocation: 07-220 - Parnell Building\, Collaborative Room
+UID:uid192
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250506T120000
+DTEND;TZID=Australia/Brisbane:20250506T130000
+SUMMARY:Discrete Mathematics\, PRA1
+LOCATION:07-220 - Parnell Building\, Collaborative Room
+DESCRIPTION:MATH7861_S1_STLUC_IN\, PRA1\, 01\nDiscrete Mathematics\nStaff: -\nLocation: 07-220 - Parnell Building\, Collaborative Room
+UID:uid193
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250513T120000
+DTEND;TZID=Australia/Brisbane:20250513T130000
+SUMMARY:Discrete Mathematics\, PRA1
+LOCATION:07-220 - Parnell Building\, Collaborative Room
+DESCRIPTION:MATH7861_S1_STLUC_IN\, PRA1\, 01\nDiscrete Mathematics\nStaff: -\nLocation: 07-220 - Parnell Building\, Collaborative Room
+UID:uid194
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250520T120000
+DTEND;TZID=Australia/Brisbane:20250520T130000
+SUMMARY:Discrete Mathematics\, PRA1
+LOCATION:07-220 - Parnell Building\, Collaborative Room
+DESCRIPTION:MATH7861_S1_STLUC_IN\, PRA1\, 01\nDiscrete Mathematics\nStaff: -\nLocation: 07-220 - Parnell Building\, Collaborative Room
+UID:uid195
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250527T120000
+DTEND;TZID=Australia/Brisbane:20250527T130000
+SUMMARY:Discrete Mathematics\, PRA1
+LOCATION:07-220 - Parnell Building\, Collaborative Room
+DESCRIPTION:MATH7861_S1_STLUC_IN\, PRA1\, 01\nDiscrete Mathematics\nStaff: -\nLocation: 07-220 - Parnell Building\, Collaborative Room
+UID:uid196
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250306T080000
+DTEND;TZID=Australia/Brisbane:20250306T100000
+SUMMARY:Research Methods\, CON1
+LOCATION:35-212 - Chamberlain Building\, Collaborative Room
+DESCRIPTION:REIT6811_S1_STLUC_IN\, CON1\, 04\nResearch Methods\nStaff: -\nLocation: 35-212 - Chamberlain Building\, Collaborative Room
+UID:uid197
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250313T080000
+DTEND;TZID=Australia/Brisbane:20250313T100000
+SUMMARY:Research Methods\, CON1
+LOCATION:35-212 - Chamberlain Building\, Collaborative Room
+DESCRIPTION:REIT6811_S1_STLUC_IN\, CON1\, 04\nResearch Methods\nStaff: -\nLocation: 35-212 - Chamberlain Building\, Collaborative Room
+UID:uid198
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250320T080000
+DTEND;TZID=Australia/Brisbane:20250320T100000
+SUMMARY:Research Methods\, CON1
+LOCATION:35-212 - Chamberlain Building\, Collaborative Room
+DESCRIPTION:REIT6811_S1_STLUC_IN\, CON1\, 04\nResearch Methods\nStaff: -\nLocation: 35-212 - Chamberlain Building\, Collaborative Room
+UID:uid199
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250327T080000
+DTEND;TZID=Australia/Brisbane:20250327T100000
+SUMMARY:Research Methods\, CON1
+LOCATION:35-212 - Chamberlain Building\, Collaborative Room
+DESCRIPTION:REIT6811_S1_STLUC_IN\, CON1\, 04\nResearch Methods\nStaff: -\nLocation: 35-212 - Chamberlain Building\, Collaborative Room
+UID:uid200
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250403T080000
+DTEND;TZID=Australia/Brisbane:20250403T100000
+SUMMARY:Research Methods\, CON1
+LOCATION:35-212 - Chamberlain Building\, Collaborative Room
+DESCRIPTION:REIT6811_S1_STLUC_IN\, CON1\, 04\nResearch Methods\nStaff: -\nLocation: 35-212 - Chamberlain Building\, Collaborative Room
+UID:uid201
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250410T080000
+DTEND;TZID=Australia/Brisbane:20250410T100000
+SUMMARY:Research Methods\, CON1
+LOCATION:35-212 - Chamberlain Building\, Collaborative Room
+DESCRIPTION:REIT6811_S1_STLUC_IN\, CON1\, 04\nResearch Methods\nStaff: -\nLocation: 35-212 - Chamberlain Building\, Collaborative Room
+UID:uid202
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250417T080000
+DTEND;TZID=Australia/Brisbane:20250417T100000
+SUMMARY:Research Methods\, CON1
+LOCATION:35-212 - Chamberlain Building\, Collaborative Room
+DESCRIPTION:REIT6811_S1_STLUC_IN\, CON1\, 04\nResearch Methods\nStaff: -\nLocation: 35-212 - Chamberlain Building\, Collaborative Room
+UID:uid203
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250501T080000
+DTEND;TZID=Australia/Brisbane:20250501T100000
+SUMMARY:Research Methods\, CON1
+LOCATION:35-212 - Chamberlain Building\, Collaborative Room
+DESCRIPTION:REIT6811_S1_STLUC_IN\, CON1\, 04\nResearch Methods\nStaff: -\nLocation: 35-212 - Chamberlain Building\, Collaborative Room
+UID:uid204
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250508T080000
+DTEND;TZID=Australia/Brisbane:20250508T100000
+SUMMARY:Research Methods\, CON1
+LOCATION:35-212 - Chamberlain Building\, Collaborative Room
+DESCRIPTION:REIT6811_S1_STLUC_IN\, CON1\, 04\nResearch Methods\nStaff: -\nLocation: 35-212 - Chamberlain Building\, Collaborative Room
+UID:uid205
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250515T080000
+DTEND;TZID=Australia/Brisbane:20250515T100000
+SUMMARY:Research Methods\, CON1
+LOCATION:35-212 - Chamberlain Building\, Collaborative Room
+DESCRIPTION:REIT6811_S1_STLUC_IN\, CON1\, 04\nResearch Methods\nStaff: -\nLocation: 35-212 - Chamberlain Building\, Collaborative Room
+UID:uid206
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250522T080000
+DTEND;TZID=Australia/Brisbane:20250522T100000
+SUMMARY:Research Methods\, CON1
+LOCATION:35-212 - Chamberlain Building\, Collaborative Room
+DESCRIPTION:REIT6811_S1_STLUC_IN\, CON1\, 04\nResearch Methods\nStaff: -\nLocation: 35-212 - Chamberlain Building\, Collaborative Room
+UID:uid207
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250529T080000
+DTEND;TZID=Australia/Brisbane:20250529T100000
+SUMMARY:Research Methods\, CON1
+LOCATION:35-212 - Chamberlain Building\, Collaborative Room
+DESCRIPTION:REIT6811_S1_STLUC_IN\, CON1\, 04\nResearch Methods\nStaff: -\nLocation: 35-212 - Chamberlain Building\, Collaborative Room
+UID:uid208
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250226T120000
+DTEND;TZID=Australia/Brisbane:20250226T140000
+SUMMARY:Research Methods\, LEC1
+LOCATION:Delayed viewing (Clashable)
+DESCRIPTION:REIT6811_S1_STLUC_IN\, LEC1\, 01_Delayed\nResearch Methods\nStaff: Bialkowski\, Alina (26/2)\, Tourell\, Monique (26/2)\, Wiles\, Janet (26/2)\, Bialkowski\, Alina (5/3-16/4\, 30/4-28/5)\, Tourell\, Monique (5/3-16/4\, 30/4-28/5)\, Wiles\, Janet (5/3-16/4\, 30/4-28/5)\nLocation: Delayed viewing (Clashable)
+UID:uid209
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250305T120000
+DTEND;TZID=Australia/Brisbane:20250305T140000
+SUMMARY:Research Methods\, LEC1
+LOCATION:Delayed viewing (Clashable)
+DESCRIPTION:REIT6811_S1_STLUC_IN\, LEC1\, 01_Delayed\nResearch Methods\nStaff: Bialkowski\, Alina (26/2)\, Tourell\, Monique (26/2)\, Wiles\, Janet (26/2)\, Bialkowski\, Alina (5/3-16/4\, 30/4-28/5)\, Tourell\, Monique (5/3-16/4\, 30/4-28/5)\, Wiles\, Janet (5/3-16/4\, 30/4-28/5)\nLocation: Delayed viewing (Clashable)
+UID:uid210
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250312T120000
+DTEND;TZID=Australia/Brisbane:20250312T140000
+SUMMARY:Research Methods\, LEC1
+LOCATION:Delayed viewing (Clashable)
+DESCRIPTION:REIT6811_S1_STLUC_IN\, LEC1\, 01_Delayed\nResearch Methods\nStaff: Bialkowski\, Alina (26/2)\, Tourell\, Monique (26/2)\, Wiles\, Janet (26/2)\, Bialkowski\, Alina (5/3-16/4\, 30/4-28/5)\, Tourell\, Monique (5/3-16/4\, 30/4-28/5)\, Wiles\, Janet (5/3-16/4\, 30/4-28/5)\nLocation: Delayed viewing (Clashable)
+UID:uid211
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250319T120000
+DTEND;TZID=Australia/Brisbane:20250319T140000
+SUMMARY:Research Methods\, LEC1
+LOCATION:Delayed viewing (Clashable)
+DESCRIPTION:REIT6811_S1_STLUC_IN\, LEC1\, 01_Delayed\nResearch Methods\nStaff: Bialkowski\, Alina (26/2)\, Tourell\, Monique (26/2)\, Wiles\, Janet (26/2)\, Bialkowski\, Alina (5/3-16/4\, 30/4-28/5)\, Tourell\, Monique (5/3-16/4\, 30/4-28/5)\, Wiles\, Janet (5/3-16/4\, 30/4-28/5)\nLocation: Delayed viewing (Clashable)
+UID:uid212
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250326T120000
+DTEND;TZID=Australia/Brisbane:20250326T140000
+SUMMARY:Research Methods\, LEC1
+LOCATION:Delayed viewing (Clashable)
+DESCRIPTION:REIT6811_S1_STLUC_IN\, LEC1\, 01_Delayed\nResearch Methods\nStaff: Bialkowski\, Alina (26/2)\, Tourell\, Monique (26/2)\, Wiles\, Janet (26/2)\, Bialkowski\, Alina (5/3-16/4\, 30/4-28/5)\, Tourell\, Monique (5/3-16/4\, 30/4-28/5)\, Wiles\, Janet (5/3-16/4\, 30/4-28/5)\nLocation: Delayed viewing (Clashable)
+UID:uid213
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250402T120000
+DTEND;TZID=Australia/Brisbane:20250402T140000
+SUMMARY:Research Methods\, LEC1
+LOCATION:Delayed viewing (Clashable)
+DESCRIPTION:REIT6811_S1_STLUC_IN\, LEC1\, 01_Delayed\nResearch Methods\nStaff: Bialkowski\, Alina (26/2)\, Tourell\, Monique (26/2)\, Wiles\, Janet (26/2)\, Bialkowski\, Alina (5/3-16/4\, 30/4-28/5)\, Tourell\, Monique (5/3-16/4\, 30/4-28/5)\, Wiles\, Janet (5/3-16/4\, 30/4-28/5)\nLocation: Delayed viewing (Clashable)
+UID:uid214
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250409T120000
+DTEND;TZID=Australia/Brisbane:20250409T140000
+SUMMARY:Research Methods\, LEC1
+LOCATION:Delayed viewing (Clashable)
+DESCRIPTION:REIT6811_S1_STLUC_IN\, LEC1\, 01_Delayed\nResearch Methods\nStaff: Bialkowski\, Alina (26/2)\, Tourell\, Monique (26/2)\, Wiles\, Janet (26/2)\, Bialkowski\, Alina (5/3-16/4\, 30/4-28/5)\, Tourell\, Monique (5/3-16/4\, 30/4-28/5)\, Wiles\, Janet (5/3-16/4\, 30/4-28/5)\nLocation: Delayed viewing (Clashable)
+UID:uid215
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250416T120000
+DTEND;TZID=Australia/Brisbane:20250416T140000
+SUMMARY:Research Methods\, LEC1
+LOCATION:Delayed viewing (Clashable)
+DESCRIPTION:REIT6811_S1_STLUC_IN\, LEC1\, 01_Delayed\nResearch Methods\nStaff: Bialkowski\, Alina (26/2)\, Tourell\, Monique (26/2)\, Wiles\, Janet (26/2)\, Bialkowski\, Alina (5/3-16/4\, 30/4-28/5)\, Tourell\, Monique (5/3-16/4\, 30/4-28/5)\, Wiles\, Janet (5/3-16/4\, 30/4-28/5)\nLocation: Delayed viewing (Clashable)
+UID:uid216
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250430T120000
+DTEND;TZID=Australia/Brisbane:20250430T140000
+SUMMARY:Research Methods\, LEC1
+LOCATION:Delayed viewing (Clashable)
+DESCRIPTION:REIT6811_S1_STLUC_IN\, LEC1\, 01_Delayed\nResearch Methods\nStaff: Bialkowski\, Alina (26/2)\, Tourell\, Monique (26/2)\, Wiles\, Janet (26/2)\, Bialkowski\, Alina (5/3-16/4\, 30/4-28/5)\, Tourell\, Monique (5/3-16/4\, 30/4-28/5)\, Wiles\, Janet (5/3-16/4\, 30/4-28/5)\nLocation: Delayed viewing (Clashable)
+UID:uid217
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250507T120000
+DTEND;TZID=Australia/Brisbane:20250507T140000
+SUMMARY:Research Methods\, LEC1
+LOCATION:Delayed viewing (Clashable)
+DESCRIPTION:REIT6811_S1_STLUC_IN\, LEC1\, 01_Delayed\nResearch Methods\nStaff: Bialkowski\, Alina (26/2)\, Tourell\, Monique (26/2)\, Wiles\, Janet (26/2)\, Bialkowski\, Alina (5/3-16/4\, 30/4-28/5)\, Tourell\, Monique (5/3-16/4\, 30/4-28/5)\, Wiles\, Janet (5/3-16/4\, 30/4-28/5)\nLocation: Delayed viewing (Clashable)
+UID:uid218
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250514T120000
+DTEND;TZID=Australia/Brisbane:20250514T140000
+SUMMARY:Research Methods\, LEC1
+LOCATION:Delayed viewing (Clashable)
+DESCRIPTION:REIT6811_S1_STLUC_IN\, LEC1\, 01_Delayed\nResearch Methods\nStaff: Bialkowski\, Alina (26/2)\, Tourell\, Monique (26/2)\, Wiles\, Janet (26/2)\, Bialkowski\, Alina (5/3-16/4\, 30/4-28/5)\, Tourell\, Monique (5/3-16/4\, 30/4-28/5)\, Wiles\, Janet (5/3-16/4\, 30/4-28/5)\nLocation: Delayed viewing (Clashable)
+UID:uid219
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250521T120000
+DTEND;TZID=Australia/Brisbane:20250521T140000
+SUMMARY:Research Methods\, LEC1
+LOCATION:Delayed viewing (Clashable)
+DESCRIPTION:REIT6811_S1_STLUC_IN\, LEC1\, 01_Delayed\nResearch Methods\nStaff: Bialkowski\, Alina (26/2)\, Tourell\, Monique (26/2)\, Wiles\, Janet (26/2)\, Bialkowski\, Alina (5/3-16/4\, 30/4-28/5)\, Tourell\, Monique (5/3-16/4\, 30/4-28/5)\, Wiles\, Janet (5/3-16/4\, 30/4-28/5)\nLocation: Delayed viewing (Clashable)
+UID:uid220
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251104T023707Z
+DTSTART;TZID=Australia/Brisbane:20250528T120000
+DTEND;TZID=Australia/Brisbane:20250528T140000
+SUMMARY:Research Methods\, LEC1
+LOCATION:Delayed viewing (Clashable)
+DESCRIPTION:REIT6811_S1_STLUC_IN\, LEC1\, 01_Delayed\nResearch Methods\nStaff: Bialkowski\, Alina (26/2)\, Tourell\, Monique (26/2)\, Wiles\, Janet (26/2)\, Bialkowski\, Alina (5/3-16/4\, 30/4-28/5)\, Tourell\, Monique (5/3-16/4\, 30/4-28/5)\, Wiles\, Janet (5/3-16/4\, 30/4-28/5)\nLocation: Delayed viewing (Clashable)
+UID:uid221
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+/* UQ Connect - Recommendation Styles */
+
+/* Recommendation Cards */
+.recommendation-card {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border-left: 4px solid #6A1B9A;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0 10px 10px 0;
+}
+
+.recommendation-card h4 {
+    color: #6A1B9A;
+    margin-bottom: 0.5rem;
+}
+
+.recommendation-card .confidence {
+    background-color: #6A1B9A;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}

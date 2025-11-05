@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UQ Connect - Home</title>
+
+    <!-- Your existing styles -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/accordion.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Special+Gothic:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo">UQ Connect</div>
+        <nav class="nav" aria-label="Primary">
+          <a href="login.html">Login</a>
+          <a href="register.html">Register</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <!-- Welcome Banner -->
+      <section
+        class="card hero-card hero-card--gradient"
+        aria-labelledby="site-title"
+      >
+        <h1 id="site-title" class="hero-card__title">UQ Connect</h1>
+        <p class="hero-card__subtitle">
+          Connecting University of Queensland students, discovering academic
+          opportunities
+        </p>
+        <div class="hero-card__actions">
+          <a href="register.html" class="btn btn--primary-ghost"
+            >Register Now</a
+          >
+          <a href="login.html" class="btn btn-secondary">Login</a>
+        </div>
+      </section>
+
+      <!-- Accordion Group -->
+      <section
+        class="accordion"
+        aria-label="UQ Connect information"
+        data-accordion="single"
+      >
+        <!-- Features -->
+        <details class="acc-item" id="acc-features">
+          <summary class="acc-summary">
+            <span class="acc-summary__text">Features</span>
+            <span class="acc-summary__chev" aria-hidden="true"></span>
+          </summary>
+          <div class="acc-panel">
+            <div class="grid grid-3 acc-panel__grid">
+              <div class="feature">
+                <div class="feature__icon" aria-hidden="true">📅</div>
+                <h3 class="feature__title">Smart Calendar</h3>
+                <p class="feature__body">
+                  Upload your timetable and sync to personal calendar for easy
+                  time management
+                </p>
+              </div>
+              <div class="feature">
+                <div class="feature__icon" aria-hidden="true">🎯</div>
+                <h3 class="feature__title">Personalized Recommendations</h3>
+                <p class="feature__body">
+                  Get intelligent recommendations for activities and
+                  opportunities based on your schedule and interests
+                </p>
+              </div>
+              <div class="feature">
+                <div class="feature__icon" aria-hidden="true">📚</div>
+                <h3 class="feature__title">Academic Events</h3>
+                <p class="feature__body">
+                  Discover and participate in various academic lectures,
+                  workshops, and career development activities
+                </p>
+              </div>
+              <div class="feature">
+                <div class="feature__icon" aria-hidden="true">🤝</div>
+                <h3 class="feature__title">Social Connection</h3>
+                <p class="feature__body">
+                  Connect with other UQ students and share academic experiences
+                  and resources
+                </p>
+              </div>
+              <div class="feature">
+                <div class="feature__icon" aria-hidden="true">📱</div>
+                <h3 class="feature__title">Easy to Use</h3>
+                <p class="feature__body">
+                  Built with simple HTML/CSS/JS technology, no complex learning
+                  required
+                </p>
+              </div>
+              <div class="feature">
+                <div class="feature__icon" aria-hidden="true">🔒</div>
+                <h3 class="feature__title">Secure &amp; Reliable</h3>
+                <p class="feature__body">
+                  Protect your privacy and data security with reliable academic
+                  services
+                </p>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <!-- How to Use -->
+        <details class="acc-item" id="acc-howto">
+          <summary class="acc-summary">
+            <span class="acc-summary__text">How it Works</span>
+            <span class="acc-summary__chev" aria-hidden="true"></span>
+          </summary>
+          <div class="acc-panel">
+            <div class="grid grid-2 acc-panel__grid">
+              <div class="step">
+                <h3 class="step__title">Steo #1: Register Account</h3>
+                <p class="step__body">
+                  Register with your UQ email to get started quickly
+                </p>
+              </div>
+              <div class="step">
+                <h3 class="step__title">Step #2: Upload Timetable</h3>
+                <p class="step__body">
+                  Upload your .ics format timetable file for automatic parsing
+                </p>
+              </div>
+              <div class="step">
+                <h3 class="step__title">Step #3: Get Recommendations</h3>
+                <p class="step__body">
+                  Receive personalized activity recommendations based on your
+                  schedule
+                </p>
+              </div>
+              <div class="step">
+                <h3 class="step__title">Step #4: articipate in Events</h3>
+                <p class="step__body">
+                  Browse and participate in various academic activities to
+                  expand your network
+                </p>
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <!-- Technical Features -->
+        <details class="acc-item" id="acc-tech">
+          <summary class="acc-summary">
+            <span class="acc-summary__text">Technical Features</span>
+            <span class="acc-summary__chev" aria-hidden="true"></span>
+          </summary>
+          <div class="acc-panel">
+            <article class="tech-block">
+              <h3 class="tech-block__title">
+                Why Choose Simple Technology Stack?
+              </h3>
+              <ul class="tech-block__list">
+                <li>
+                  <strong>Low Learning Cost:</strong> Team members are familiar
+                  with HTML, CSS, JavaScript
+                </li>
+                <li>
+                  <strong>Fast Development:</strong> No complex configuration,
+                  quick feature implementation
+                </li>
+                <li>
+                  <strong>Easy Maintenance:</strong> Clear code structure, easy
+                  to understand and modify
+                </li>
+                <li>
+                  <strong>Good Compatibility:</strong> Supports all modern
+                  browsers
+                </li>
+                <li>
+                  <strong>Easy Deployment:</strong> Static files, easy to deploy
+                  and host
+                </li>
+              </ul>
+            </article>
+          </div>
+        </details>
+      </section>
+
+      <!-- Get Started -->
+      <section class="card get-started">
+        <h2>🎉Get Started</h2>
+        <p class="get-started__lead">
+          Join UQ Connect and start your academic journey!
+        </p>
+        <div class="get-started__actions">
+          <a href="register.html" class="btn btn--primary-strong"
+            >Register Now</a
+          >
+          <a href="login.html" class="btn btn-secondary"
+            >Already have an account? Login</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="container">
+        <p>
+          &copy; 2025 UQ Connect. Built for University of Queensland students.
+        </p>
+        <p class="site-footer__sub">
+          Built with simple HTML/CSS/JavaScript technology
+        </p>
+      </div>
+    </footer>
+
+    <!-- Your existing app script -->
+    <script src="js/app.js"></script>
+
+    <!-- New: accordion script (you said you'll link yourself)
+    <script src="js/accordion.js"></script>
+    -->
+
+    <script>
+      // Handle page load completion
+      document.addEventListener("DOMContentLoaded", function () {
+        // If already logged in, redirect to dashboard
+        try {
+          if (typeof currentUser !== "undefined" && currentUser) {
+            window.location.href = "dashboard.html";
+          }
+        } catch (e) {
+          // fail silently, because of course we do
+        }
+      });
+    </script>
+    <script src="js/accordion.js"></script>
+  </body>
+</html>
